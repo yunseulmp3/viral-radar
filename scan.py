@@ -45,31 +45,50 @@ LOOKBACK_DAYS = 21
 # 상위 몇 곡을 리포트에 실을지
 TOP_N = 12
 
-# 후보로 인정할 최소 채널 수 (1채널짜리는 노이즈)
+# 후보로 인정할 최소 (가중) 채널 수
 MIN_CHANNELS = 2
 
-# 검색어. 형이 나중에 씬 태그를 추가하고 싶으면 여기만 고치면 된다.
+# 제목에 한글이 없으면 버린다.
+# 1차 실행에서 인도/힌디 'aesthetic lyrics status' 영상이 상위를 전부 먹었다.
+# regionCode/relevanceLanguage 는 힌트일 뿐 필터가 아니라서 안 걸러진다.
+REQUIRE_HANGUL = True
+
+# 콘텐츠 팜 판정:
+# 우리 표본 안에서 한 채널이 이 개수 이상의 서로 다른 곡을 올렸으면
+# '가사 영상 공장'이다. 팬이 아니라 양산 채널이므로 표를 주지 않는다.
+#
+# 이게 이 도구의 핵심 방어선이다. "서로 다른 채널 수"라는 지표는
+# 팜 채널들이 공짜로 위조할 수 있고, 1차 실행이 정확히 그렇게 뚫렸다.
+FARM_SONGS_HARD = 6      # 이상이면 채널 자체를 무효표 처리
+FARM_SONGS_SOFT = 3      # 이상이면 반 표만 인정
+
+# 검색어. 형이 씬 태그를 추가하고 싶으면 여기만 고치면 된다.
 # 각 검색은 YouTube 할당량 100유닛. 하루 10,000유닛이니 여유 충분.
 QUERIES = [
-    "가사",
-    "lyrics 가사",
-    "가사 비디오",
-    "1시간 가사",
-    "슬로우 리버브 가사",
-    "sped up 가사",
-    "노래 추천 가사",
-    "사운드클라우드 가사",
-    "언더 힙합 가사",
-    "하이퍼팝 가사",
-    "이모랩 가사",
-    "플럭 가사",
+    "가사 노래",
+    "신곡 가사",
+    "가사 한국 노래",
+    "1시간 반복 노래",
+    "가사 힙합 한국",
+    "사운드클라우드 한국 랩",
+    "언더그라운드 랩 가사",
+    "인디 노래 가사",
+    "노래 요즘 유행",
+    "쇼츠 노래 뭐야",
+    "틱톡 유행 노래 한국",
+    "가사해석 노래",
 ]
 
-# 이 단어가 제목에 있으면 곡이 아니라 다른 콘텐츠일 확률이 높다
+# 이 단어가 제목에 있으면 곡 자체가 아니라 파생/무관 콘텐츠다
 JUNK_PATTERNS = [
+    # 파생 콘텐츠
     "커버", "cover", "리액션", "reaction", "플레이리스트", "playlist",
-    "메들리", "노래방", "인스티즈", "챌린지", "안무", "댄스", "dance practice",
-    "teaser", "티저", "mv reaction", "노래모음", "모음", "컴필",
+    "메들리", "노래방", "챌린지", "안무", "댄스", "dance practice",
+    "teaser", "티저", "노래모음", "모음", "컴필", "mashup", "매쉬업",
+    "instrumental", "inst.", "mr 제거", "가이드보컬", "vocal cover",
+    # 1차 실행에서 상위를 점령한 해외 양산 포맷
+    "whatsapp", "status", "aesthetic", "shayari", "hindi", "punjabi",
+    "bollywood", "lofi mix", "full song", "ringtone", "dj remix",
 ]
 
 # 이 정도 구독자면 대형/기획사 채널로 본다
@@ -275,42 +294,114 @@ def fetch_shazam_kr():
 
 # ---------------------------------------------------------------- 집계 + 점수
 
+HANGUL_RE = re.compile(r"[가-힣]")
+
+
+def has_hangul(s):
+    return bool(HANGUL_RE.search(s or ""))
+
+
+def detect_farms(parsed):
+    """
+    콘텐츠 팜 판정.
+
+    가사 영상 공장 채널은 하루에 수십 곡을 찍어낸다. 그런 채널이 여럿
+    겹치면 우리 눈에는 '서로 다른 채널이 동시에 올렸다'로 보이지만,
+    실제로는 유행과 아무 상관이 없다. 1차 실행이 이걸로 뚫렸다.
+
+    한 채널이 표본 안에서 올린 '서로 다른 곡'의 수로 판정하고,
+    채널마다 표의 무게를 다르게 준다.
+    """
+    per_channel = {}
+    for p in parsed:
+        per_channel.setdefault(p["channelId"], set()).add(p["key"])
+
+    weights = {}
+    for cid, keys in per_channel.items():
+        n = len(keys)
+        if n >= FARM_SONGS_HARD:
+            weights[cid] = 0.0          # 무효표
+        elif n >= FARM_SONGS_SOFT:
+            weights[cid] = 0.5          # 반 표
+        else:
+            weights[cid] = 1.0          # 온전한 한 표
+    return weights, per_channel
+
+
 def aggregate(vids, subs):
-    songs = {}
+    """
+    1차: 제목 파싱 + 정크/한글 필터
+    2차: 아티스트-곡명 순서 교정
+    3차: 곡 단위 묶기 (팜 채널 가중 반영)
+    """
+    # ---- 1차 --------------------------------------------------------
+    parsed = []
     for v in vids:
         if is_junk(v["title"]):
             continue
         artist, title = parse_title(v["title"])
         if not artist or not title:
             continue
-        k = norm_key(artist, title)
-        if not k or len(k) < 4:
+        # 한글 판정은 '원본 제목' 기준.
+        # 파싱된 아티스트/곡명만 보면 'nephillm - ny2mia [가사]' 같은
+        # 영문 표기 한국 곡이 통째로 날아간다. 원본에는 '가사'가 남아 있다.
+        if REQUIRE_HANGUL and not has_hangul(v["title"]):
             continue
+        parsed.append({**v, "artist": artist, "title": title})
+
+    # ---- 2차: 순서 교정 ---------------------------------------------
+    # "Worry - LONOWN" 처럼 곡명이 앞에 오는 경우가 있다.
+    # 표본 전체에서 각 문자열이 앞자리(아티스트 위치)에 얼마나 자주
+    # 등장했는지 세어, 뒷자리 쪽이 더 '아티스트다우면' 뒤집는다.
+    front = {}
+    for p in parsed:
+        n = _n(p["artist"])
+        if n:
+            front[n] = front.get(n, 0) + 1
+
+    for p in parsed:
+        a, t = _n(p["artist"]), _n(p["title"])
+        if front.get(t, 0) > front.get(a, 0):
+            p["artist"], p["title"] = p["title"], p["artist"]
+        p["key"] = norm_key(p["artist"], p["title"])
+
+    parsed = [p for p in parsed if p["key"] and len(p["key"]) >= 4]
+
+    # ---- 팜 채널 가중치 ---------------------------------------------
+    weights, per_channel = detect_farms(parsed)
+
+    # ---- 3차: 곡 단위 묶기 ------------------------------------------
+    songs = {}
+    for p in parsed:
+        k = p["key"]
         s = songs.setdefault(k, {
             "key": k,
-            "artist_votes": {},
-            "title_votes": {},
+            "pair_votes": {},
             "channels": set(),
+            "weighted_channels": 0.0,
             "videos": [],
             "views": 0,
             "max_subs": 0,
         })
-        # 표기가 갈리면 가장 많이 쓰인 쪽을 대표로 (한글 표기 우선)
-        s["artist_votes"][artist] = s["artist_votes"].get(artist, 0) + 1
-        s["title_votes"][title] = s["title_votes"].get(title, 0) + 1
-        s["channels"].add(v["channelId"])
-        s["videos"].append(v)
-        s["views"] += v.get("views", 0)
-        s["max_subs"] = max(s["max_subs"], subs.get(v["channelId"], 0))
-
-    def pick(votes):
-        # 득표수 우선, 동률이면 한글이 있는 표기 우선
-        return max(votes.items(),
-                   key=lambda kv: (kv[1], bool(re.search(r"[가-힣]", kv[0])), -len(kv[0])))[0]
+        # 아티스트와 곡명은 반드시 '쌍'으로 투표한다.
+        # 따로 뽑으면 A곡의 아티스트 + B곡의 제목이 조합되는 사고가 난다.
+        pair = (p["artist"], p["title"])
+        s["pair_votes"][pair] = s["pair_votes"].get(pair, 0) + 1
+        s["channels"].add(p["channelId"])
+        s["videos"].append(p)
+        s["views"] += p.get("views", 0)
+        s["max_subs"] = max(s["max_subs"], subs.get(p["channelId"], 0))
 
     for s in songs.values():
-        s["artist"] = pick(s["artist_votes"])
-        s["title"] = pick(s["title_votes"])
+        # 득표 우선, 동률이면 한글 표기 우선
+        best_pair = max(
+            s["pair_votes"].items(),
+            key=lambda kv: (kv[1], has_hangul(kv[0][0]) + has_hangul(kv[0][1]))
+        )[0]
+        s["artist"], s["title"] = best_pair
+        s["weighted_channels"] = sum(weights.get(c, 1.0) for c in s["channels"])
+        s["farm_channels"] = sum(1 for c in s["channels"] if weights.get(c, 1.0) == 0.0)
+
     return songs
 
 
@@ -321,7 +412,8 @@ def score_songs(songs, prev, shazam_keys, today):
     """
     results = []
     for k, s in songs.items():
-        n_ch = len(s["channels"])
+        # 팜 채널을 걷어낸 '실질 채널 수'로 판정한다
+        n_ch = s.get("weighted_channels", len(s["channels"]))
         if n_ch < MIN_CHANNELS:
             continue
 
@@ -330,7 +422,9 @@ def score_songs(songs, prev, shazam_keys, today):
         prev_views = p.get("views", 0)
         first_seen = p.get("first_seen", today)
 
-        new_ch = len(s["channels"] - prev_ch)
+        # 신규 채널도 같은 비율로 환산 (팜이 새로 붙은 건 신호가 아니다)
+        raw_total = max(1, len(s["channels"]))
+        new_ch = len(s["channels"] - prev_ch) * (n_ch / raw_total)
         view_delta = max(0, s["views"] - prev_views)
 
         # 진입 며칠차
@@ -366,8 +460,10 @@ def score_songs(songs, prev, shazam_keys, today):
             "artist": s["artist"],
             "title": s["title"],
             "score": round(score, 2),
-            "channels": n_ch,
-            "new_channels": new_ch,
+            "channels": round(n_ch, 1),
+            "raw_channels": len(s["channels"]),
+            "farm_channels": s.get("farm_channels", 0),
+            "new_channels": round(new_ch, 1),
             "views": s["views"],
             "view_delta": view_delta,
             "max_subs": s["max_subs"],
@@ -430,7 +526,10 @@ def write_report(results, today, first_run, n_vids, n_songs):
             L.append("")
             L.append(f"- 점수 **{r['score']}** · 진입 {r['days']}일차 "
                      f"(최초 포착 {r['first_seen']})")
-            L.append(f"- 서로 다른 채널 **{r['channels']}개** (어제 대비 +{r['new_channels']})")
+            ch_line = f"- 실질 채널 **{r['channels']}개** (어제 대비 +{r['new_channels']})"
+            if r.get("farm_channels"):
+                ch_line += f" · 원시 {r['raw_channels']}개 중 양산채널 {r['farm_channels']}개 제외"
+            L.append(ch_line)
             L.append(f"- 누적 조회 {fmt_num(r['views'])} (오늘 +{fmt_num(r['view_delta'])})")
             L.append(f"- 최대 채널 규모 {fmt_num(r['max_subs'])} 구독")
             if r["on_shazam"]:
