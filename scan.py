@@ -62,21 +62,30 @@ REQUIRE_HANGUL = True
 FARM_SONGS_HARD = 6      # 이상이면 채널 자체를 무효표 처리
 FARM_SONGS_SOFT = 3      # 이상이면 반 표만 인정
 
-# 검색어. 형이 씬 태그를 추가하고 싶으면 여기만 고치면 된다.
-# 각 검색은 YouTube 할당량 100유닛. 하루 10,000유닛이니 여유 충분.
+# 검색어.
+#
+# 2차 실행 교훈: 1차 실패의 원인은 검색어가 아니라 필터였다.
+# '가사', '1시간 가사' 같은 검색어는 가사 영상 생태계를 제대로 긁어오고
+# 있었고, 인도계 양산물이 딸려온 게 문제였을 뿐이다. 그런데 필터를
+# 고치면서 검색어까지 갈아엎었더니 이번엔 리액션/뉴스/쇼츠만 긁혀와서
+# '같은 곡을 여러 채널이 올린다'는 패턴 자체가 표본에서 사라졌다.
+#
+# 한글 필터 + 팜 방어가 생겼으니 수확량 높은 검색어를 되살린다.
 QUERIES = [
-    "가사 노래",
-    "신곡 가사",
-    "가사 한국 노래",
-    "1시간 반복 노래",
-    "가사 힙합 한국",
-    "사운드클라우드 한국 랩",
+    # 가사 영상 생태계 (수확량 높음 — 1차에서 검증됨)
+    "가사",
+    "가사 lyrics",
+    "가사 비디오",
+    "1시간 가사",
+    "1시간 반복",
+    "슬로우 리버브 가사",
+    "sped up 가사",
+    "가사해석",
+    # 언더 씬 조준
+    "사운드클라우드 한국",
     "언더그라운드 랩 가사",
     "인디 노래 가사",
-    "노래 요즘 유행",
     "쇼츠 노래 뭐야",
-    "틱톡 유행 노래 한국",
-    "가사해석 노래",
 ]
 
 # 이 단어가 제목에 있으면 곡 자체가 아니라 파생/무관 콘텐츠다
@@ -162,8 +171,14 @@ def parse_title(raw):
 
     artist, title = parts[0], parts[1]
 
-    # 아티스트 자리에 장식만 남은 경우(예: "가사 - 곡명") 걸러냄
-    if len(artist) > 40 or len(title) > 60:
+    # 아티스트 자리에 문장 조각이 들어오는 사고 방지.
+    # 예: "한 편의 영화같은 제니 신곡 - JENNIE" → 앞부분은 아티스트가 아니다.
+    if len(artist) > 30 or len(title) > 60:
+        return None, None
+    if len(artist.split()) > 4:
+        return None, None
+    if re.search(r"(같은|신곡|노래|커버곡|모음|추천|리뷰|해석|후기|반응|영화|드라마)\s*$",
+                 artist):
         return None, None
     if not artist or not title:
         return None, None
@@ -206,6 +221,7 @@ def collect_candidates(key):
         "%Y-%m-%dT%H:%M:%SZ"
     )
     seen = {}
+    stats = {}
     for q in QUERIES:
         data = yt(
             "search", key,
@@ -214,6 +230,7 @@ def collect_candidates(key):
             publishedAfter=after, maxResults=50,
         )
         items = data.get("items", [])
+        stats[q] = len(items)
         log(f"  검색 '{q}' → {len(items)}건")
         for it in items:
             vid = (it.get("id") or {}).get("videoId")
@@ -227,7 +244,7 @@ def collect_candidates(key):
                 "channelTitle": html.unescape(sn.get("channelTitle", "")),
                 "publishedAt": sn.get("publishedAt", ""),
             }
-    return list(seen.values())
+    return list(seen.values()), stats
 
 
 def enrich_videos(key, vids):
@@ -335,17 +352,21 @@ def aggregate(vids, subs):
     3차: 곡 단위 묶기 (팜 채널 가중 반영)
     """
     # ---- 1차 --------------------------------------------------------
+    drops = {"junk": 0, "nohangul": 0, "unparsed": 0}
     parsed = []
     for v in vids:
         if is_junk(v["title"]):
-            continue
-        artist, title = parse_title(v["title"])
-        if not artist or not title:
+            drops["junk"] += 1
             continue
         # 한글 판정은 '원본 제목' 기준.
         # 파싱된 아티스트/곡명만 보면 'nephillm - ny2mia [가사]' 같은
         # 영문 표기 한국 곡이 통째로 날아간다. 원본에는 '가사'가 남아 있다.
         if REQUIRE_HANGUL and not has_hangul(v["title"]):
+            drops["nohangul"] += 1
+            continue
+        artist, title = parse_title(v["title"])
+        if not artist or not title:
+            drops["unparsed"] += 1
             continue
         parsed.append({**v, "artist": artist, "title": title})
 
@@ -402,7 +423,7 @@ def aggregate(vids, subs):
         s["weighted_channels"] = sum(weights.get(c, 1.0) for c in s["channels"])
         s["farm_channels"] = sum(1 for c in s["channels"] if weights.get(c, 1.0) == 0.0)
 
-    return songs
+    return songs, drops
 
 
 def score_songs(songs, prev, shazam_keys, today):
@@ -414,8 +435,6 @@ def score_songs(songs, prev, shazam_keys, today):
     for k, s in songs.items():
         # 팜 채널을 걷어낸 '실질 채널 수'로 판정한다
         n_ch = s.get("weighted_channels", len(s["channels"]))
-        if n_ch < MIN_CHANNELS:
-            continue
 
         p = prev.get(k, {})
         prev_ch = set(p.get("channels", []))
@@ -470,6 +489,7 @@ def score_songs(songs, prev, shazam_keys, today):
             "days": days,
             "first_seen": first_seen,
             "on_shazam": on_shazam,
+            "passes": n_ch >= MIN_CHANNELS,
             "best_video": f"https://youtu.be/{best['videoId']}",
             "best_title": best["title"],
             "channel_names": sorted({v["channelTitle"] for v in s["videos"]})[:6],
@@ -489,15 +509,18 @@ def fmt_num(n):
     return f"{n:,}"
 
 
-def write_report(results, today, first_run, n_vids, n_songs):
+def write_report(results, today, first_run, n_vids, n_songs, diag=None):
     os.makedirs(REPORT_DIR, exist_ok=True)
     path = f"{REPORT_DIR}/{today}.md"
-    top = results[:TOP_N]
+    passing = [r for r in results if r.get("passes")]
+    watch = [r for r in results if not r.get("passes")]
+    watch.sort(key=lambda r: r["view_delta"], reverse=True)
+    top = passing[:TOP_N]
 
     L = []
     L.append(f"# 바이럴 레이더 — {today}")
     L.append("")
-    L.append(f"수집 영상 {n_vids}건 · 곡 후보 {n_songs}곡 · 채널 2개 이상 {len(results)}곡")
+    L.append(f"수집 영상 {n_vids}건 · 곡 후보 {n_songs}곡 · 실질 채널 {MIN_CHANNELS}개 이상 {len(passing)}곡")
     L.append("")
 
     if first_run:
@@ -536,6 +559,45 @@ def write_report(results, today, first_run, n_vids, n_songs):
                 L.append("- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**")
             L.append(f"- 채널: {', '.join(r['channel_names'])}")
             L.append(f"- 대표 영상: [{r['best_title']}]({r['best_video']})")
+            L.append("")
+
+    # ── 관찰 목록: 아직 채널 1개지만 움직임이 있는 곡 ──────────────
+    if watch:
+        L.append("---")
+        L.append("")
+        L.append("## 관찰 중 (아직 채널 1개)")
+        L.append("")
+        L.append("_여기서 채널이 하나 더 붙으면 위 표로 올라온다._")
+        L.append("")
+        for r in watch[:15]:
+            L.append(f"- **{r['artist']} – {r['title']}** · "
+                     f"{r['days']}일차 · 조회 {fmt_num(r['views'])} · "
+                     f"[영상]({r['best_video']})")
+        L.append("")
+
+    # ── 진단: 검색어가 뭘 긁어오는지 눈으로 보기 위한 구역 ──────────
+    if diag:
+        L.append("---")
+        L.append("")
+        L.append("## 진단 (검색어 조정용)")
+        L.append("")
+        L.append("| 검색어 | 수확 |")
+        L.append("|--------|------|")
+        for q, c in (diag.get("queries") or {}).items():
+            L.append(f"| `{q}` | {c} |")
+        L.append("")
+        drops = diag.get("drops") or {}
+        if drops:
+            L.append(f"걸러낸 영상 — 정크 {drops.get('junk',0)} · "
+                     f"한글없음 {drops.get('nohangul',0)} · "
+                     f"파싱실패 {drops.get('unparsed',0)}")
+            L.append("")
+        samples = diag.get("samples") or []
+        if samples:
+            L.append("실제로 긁혀온 제목 표본 20개:")
+            L.append("")
+            for t in samples[:20]:
+                L.append(f"- {t}")
             L.append("")
 
     L.append("---")
@@ -610,7 +672,7 @@ def main():
     log(f"이전 상태: {len(prev)}곡 {'(첫 실행)' if first_run else ''}")
 
     log("1) 유튜브 후보 수집")
-    vids = collect_candidates(key)
+    vids, qstats = collect_candidates(key)
     log(f"   → 영상 {len(vids)}건")
     if not vids:
         log("수집 0건. 종료.")
@@ -625,7 +687,7 @@ def main():
     log(f"   → {len(shazam)}곡 확보")
 
     log("4) 곡 단위 집계")
-    songs = aggregate(vids, subs)
+    songs, scan_drops = aggregate(vids, subs)
     log(f"   → {len(songs)}곡")
 
     log("5) 점수 계산")
@@ -633,7 +695,12 @@ def main():
     log(f"   → 채널 {MIN_CHANNELS}개 이상 {len(results)}곡")
 
     log("6) 리포트 작성")
-    path = write_report(results, today, first_run, len(vids), len(songs))
+    diag = {
+        "queries": qstats,
+        "drops": scan_drops,
+        "samples": [v["title"] for v in vids[:20]],
+    }
+    path = write_report(results, today, first_run, len(vids), len(songs), diag)
     write_latest(path)
     save_state(songs, prev, today)
     log(f"완료 → {path}")
