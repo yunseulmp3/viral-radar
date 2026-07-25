@@ -33,10 +33,21 @@ jobs:
         run: |
           git config user.name  "viral-radar"
           git config user.email "actions@github.com"
-          git add reports state LATEST.md
+          git add -A reports state LATEST.md 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "변경 없음 — 커밋 생략"
-          else
-            git commit -m "레이더 $(TZ=Asia/Seoul date +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "레이더 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+          # 저장소가 그 사이 앞서 나갔어도 실패하지 않게 한 번 맞춰본다
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "푸시 성공"
+              exit 0
+            fi
+            echo "푸시 재시도 $i"
+            sleep 5
+          done
+          echo "푸시 실패 — 리포트는 로그에 남아 있음"
+          exit 1
