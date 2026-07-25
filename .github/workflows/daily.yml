@@ -1,0 +1,42 @@
+name: 바이럴 레이더 (매일)
+
+on:
+  schedule:
+    # 21:00 UTC = 06:00 KST (다음날 아침)
+    - cron: "0 21 * * *"
+  workflow_dispatch:        # 버튼 눌러서 수동 실행도 가능
+
+permissions:
+  contents: write           # 결과 파일을 저장소에 다시 커밋하기 위해 필요
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v4
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 라이브러리 설치
+        run: pip install -r requirements.txt
+
+      - name: 스캔 실행
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scan.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  "viral-radar"
+          git config user.email "actions@github.com"
+          git add reports state LATEST.md
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "레이더 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+            git push
+          fi
