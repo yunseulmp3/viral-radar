@@ -72,21 +72,19 @@ FARM_SONGS_SOFT = 3      # 이상이면 반 표만 인정
 #
 # 한글 필터 + 팜 방어가 생겼으니 수확량 높은 검색어를 되살린다.
 QUERIES = [
-    # 가사 영상 생태계 (수확량 높음 — 1차에서 검증됨)
+    # 넓은 그물 — 곡 '후보 이름'을 뽑는 용도. 정밀도는 2단에서 확보한다.
     "가사",
     "가사 lyrics",
-    "가사 비디오",
     "1시간 가사",
-    "1시간 반복",
     "슬로우 리버브 가사",
     "sped up 가사",
-    "가사해석",
-    # 언더 씬 조준
-    "사운드클라우드 한국",
-    "언더그라운드 랩 가사",
     "인디 노래 가사",
-    "쇼츠 노래 뭐야",
 ]
+
+# 2단 검증에서 이름으로 다시 찾아볼 후보 곡 수 (조회수 상위부터)
+VERIFY_N = 40
+# 곡 하나당 확인할 영상 수
+VERIFY_MAX = 25
 
 # 이 단어가 제목에 있으면 곡 자체가 아니라 파생/무관 콘텐츠다
 JUNK_PATTERNS = [
@@ -98,6 +96,11 @@ JUNK_PATTERNS = [
     # 1차 실행에서 상위를 점령한 해외 양산 포맷
     "whatsapp", "status", "aesthetic", "shayari", "hindi", "punjabi",
     "bollywood", "lofi mix", "full song", "ringtone", "dj remix",
+    "black screen", "bhojpuri", "telugu", "tamil", "lyrics loom",
+    # 3차 실행에서 드러난 '가사'라는 단어만 들어간 잡담 영상
+    "반응", "실수", "비밀", "레전드", "썰", "리뷰", "브이로그", "직캠",
+    "교차편집", "무대", "연습", "몰카", "tmi", "멍청이", "가사 없는",
+    "가사 못", "외우", "애교", "율동", "shorts #", "#shorts",
 ]
 
 # 이 정도 구독자면 대형/기획사 채널로 본다
@@ -276,6 +279,64 @@ def enrich_channels(key, vids):
             else:
                 subs[it["id"]] = int(st.get("subscriberCount", 0) or 0)
     return subs
+
+
+# ---------------------------------------------------------------- 2단 검증
+
+def verify_candidates(key, songs, existing_ids):
+    """
+    2단: 곡 이름으로 다시 검색해서 '그 곡을 올린 채널'을 제대로 센다.
+
+    3차 실행에서 드러난 문제:
+    넓은 검색어로 최근 영상 400여 건을 긁으면 곡이 400개 나온다.
+    곡당 채널이 1개씩이라 '여러 채널이 같은 곡을 올린다'는 신호가
+    구조적으로 잡힐 수가 없다. 그물이 넓고 얕아서 뭉침이 안 보인다.
+
+    그래서 1단은 '곡 이름 뽑기'로만 쓰고,
+    여기서 곡마다 이름으로 직접 다시 검색해 깊게 판다.
+    """
+    after = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime(
+        "%Y-%m-%dT%H:%M:%SZ"
+    )
+    ranked = sorted(songs.values(), key=lambda s: s["views"], reverse=True)[:VERIFY_N]
+
+    found = []
+    for s in ranked:
+        q = f"{s['artist']} {s['title']}"
+        data = yt(
+            "search", key,
+            part="snippet", q=q, type="video", order="relevance",
+            regionCode="KR", relevanceLanguage="ko",
+            publishedAfter=after, maxResults=VERIFY_MAX,
+        )
+        items = data.get("items", [])
+        hit = 0
+        for it in items:
+            vid = (it.get("id") or {}).get("videoId")
+            sn = it.get("snippet") or {}
+            if not vid or vid in existing_ids:
+                continue
+            title = html.unescape(sn.get("title", ""))
+            if is_junk(title):
+                continue
+            a, t = parse_title(title)
+            if not a or not t:
+                continue
+            # 같은 곡인지 확인 — 곡명 정규화가 일치해야 인정
+            if norm_key(a, t) != s["key"]:
+                continue
+            existing_ids.add(vid)
+            hit += 1
+            found.append({
+                "videoId": vid,
+                "title": title,
+                "channelId": sn.get("channelId", ""),
+                "channelTitle": html.unescape(sn.get("channelTitle", "")),
+                "publishedAt": sn.get("publishedAt", ""),
+            })
+        log(f"  검증 '{q[:34]}' → +{hit}건")
+
+    return found
 
 
 # ---------------------------------------------------------------- Shazam 퇴장 필터
@@ -588,6 +649,8 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
         L.append("")
         drops = diag.get("drops") or {}
         if drops:
+            L.append(f"2단 검증으로 추가 확보한 영상: {diag.get('verified',0)}건")
+            L.append("")
             L.append(f"걸러낸 영상 — 정크 {drops.get('junk',0)} · "
                      f"한글없음 {drops.get('nohangul',0)} · "
                      f"파싱실패 {drops.get('unparsed',0)}")
@@ -682,22 +745,36 @@ def main():
     vids = enrich_videos(key, vids)
     subs = enrich_channels(key, vids)
 
-    log("3) Shazam 한국 200 (퇴장 필터)")
+    log("3) 1단 집계 (곡 이름 뽑기)")
+    songs1, _ = aggregate(vids, subs)
+    log(f"   → 후보 {len(songs1)}곡")
+
+    log("4) 2단 검증 (곡마다 이름으로 재검색)")
+    extra = verify_candidates(key, songs1, {v["videoId"] for v in vids})
+    log(f"   → 추가 영상 {len(extra)}건")
+    if extra:
+        extra = enrich_videos(key, extra)
+        subs.update(enrich_channels(key, extra))
+        vids = vids + extra
+
+    log("5) Shazam 한국 200 (퇴장 필터)")
     shazam = fetch_shazam_kr()
     log(f"   → {len(shazam)}곡 확보")
 
-    log("4) 곡 단위 집계")
+    log("6) 최종 집계")
     songs, scan_drops = aggregate(vids, subs)
     log(f"   → {len(songs)}곡")
 
-    log("5) 점수 계산")
+    log("7) 점수 계산")
     results = score_songs(songs, prev, shazam, today)
-    log(f"   → 채널 {MIN_CHANNELS}개 이상 {len(results)}곡")
+    passing = sum(1 for r in results if r.get("passes"))
+    log(f"   → 실질 채널 {MIN_CHANNELS}개 이상 {passing}곡")
 
-    log("6) 리포트 작성")
+    log("8) 리포트 작성")
     diag = {
         "queries": qstats,
         "drops": scan_drops,
+        "verified": len(extra),
         "samples": [v["title"] for v in vids[:20]],
     }
     path = write_report(results, today, first_run, len(vids), len(songs), diag)
