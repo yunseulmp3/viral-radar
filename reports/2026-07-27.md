@@ -1,43 +1,33 @@
 # 바이럴 레이더 — 2026-07-27
 
-수집 영상 306건 · 곡 후보 57곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 3곡
+수집 영상 57건 · 곡 후보 24곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 2곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **KATSEYE – ANIMAL** | 1일차 | 2.0 | +0.0 | 12.5만 | 1,090 | — |
+| 1 | **RESCENE – Deja Vu** | 1일차 | 3.0 | +1.0 | 9.3만 | 59.5만 | ⚠ 진입 |
 | 2 | **제니 – Less than a Lover** | 1일차 | 2.5 | +0.0 | 2.8만 | 59.5만 | ⚠ 진입 |
-| 3 | **RESCENE – Deja Vu** | 1일차 | 2.0 | +0.0 | 4.3만 | 59.5만 | ⚠ 진입 |
 
 ---
 
-### 1. KATSEYE – ANIMAL
+### 1. RESCENE – Deja Vu
 
-- 점수 **5.26** · 진입 1일차 (최초 포착 2026-07-26)
-- 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
-- 누적 조회 12.5만 (오늘 +148)
-- 최대 채널 규모 1,090 구독
-- 채널: Loey Zchan, OGlyrics
-- 대표 영상: [ANIMAL](https://youtu.be/o2xrGYkVEm0)
+- 점수 **2.53** · 진입 1일차 (최초 포착 2026-07-26)
+- 독립 진영 **3.0개** (어제 대비 +1.0, 원시 채널 3개)
+- 누적 조회 9.3만 (오늘 +4.9만)
+- 최대 채널 규모 59.5만 구독
+- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
+- 채널: 1H Kpop, 나만 듣기 아까운 노래, 웅키
+- 대표 영상: [Deja Vu]](https://youtu.be/MhH1XpgUEMg)
 
 ### 2. 제니 – Less than a Lover
 
-- 점수 **0.78** · 진입 1일차 (최초 포착 2026-07-26)
+- 점수 **0.81** · 진입 1일차 (최초 포착 2026-07-26)
 - 독립 진영 **2.5개** (어제 대비 +0.0, 원시 채널 3개)
-- 누적 조회 2.8만 (오늘 +16)
+- 누적 조회 2.8만 (오늘 +21)
 - 최대 채널 규모 59.5만 구독
 - ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
 - 채널: 1 Høur Lyrics, OGlyrics, 웅키
 - 대표 영상: [Less than a Lover](https://youtu.be/po587BaQIyw)
-
-### 3. RESCENE – Deja Vu
-
-- 점수 **0.36** · 진입 1일차 (최초 포착 2026-07-26)
-- 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
-- 누적 조회 4.3만 (오늘 +0)
-- 최대 채널 규모 59.5만 구독
-- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
-- 채널: 1H Kpop, 웅키
-- 대표 영상: [Deja Vu](https://youtu.be/XPfCY_a_P-c)
 
 ---
 
@@ -45,21 +35,21 @@
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **KATSEYE – Animal 노래제목으로** · 0일차 · 조회 3.5만 · [영상](https://youtu.be/Z23KrspLHQQ)
-- **볼빨간사춘기 – 여름아 부탁해 연속 재생** · 1일차 · 조회 1,134 · [영상](https://youtu.be/G69w_oYZ76g)
-- **KATSEYE Animal – BluesideByHope** · 1일차 · 조회 1,920 · [영상](https://youtu.be/SLjirhBvxFE)
-- **로시 – First Train** · 0일차 · 조회 1,762 · [영상](https://youtu.be/Ss4pVL4kXBE)
+- **🌿 국악으로 쉬는 시간 – 없는 힐링음악** · 0일차 · 조회 4 · [영상](https://youtu.be/ssu1soIcRGg)
+- **한요한 – 버킷리스트** · 1일차 · 조회 0 · [영상](https://youtu.be/_g8Cf6NDA5U)
+- **능력의 이름 예수 – CCM 연속듣기 기도찬양 Korea Gospel 중간광고없음** · 1일차 · 조회 5 · [영상](https://youtu.be/oca0ETKQOjs)
+- **🎵 여우와 장미 – 감성발라드** · 1일차 · 조회 11 · [영상](https://youtu.be/6vVyck3SJqE)
+- **KISS N TELL – aespa エスパ** · 1일차 · 조회 530 · [영상](https://youtu.be/5fhA-IVMhOY)
 - **뭉글 – 동성로에서** · 1일차 · 조회 265 · [영상](https://youtu.be/zJBL87aQxyM)
-- **BUMP OF CHICKEN – 아카시아** · 1일차 · 조회 2,005 · [영상](https://youtu.be/HfgatEEWcMQ)
-- **박소은, BünyTune – 속마음** · 0일차 · 조회 687 · [영상](https://youtu.be/Yd8mr7EU_4I)
-- **일본어와 포르투갈어를 섞은 펑크 – KPHK** · 0일차 · 조회 930 · [영상](https://youtu.be/Cm3CQCvMTsI)
-- **MONACO – 불어발음** · 1일차 · 조회 335 · [영상](https://youtu.be/2mgXK4ud8uY)
-- **데레 – Love More** · 0일차 · 조회 17 · [영상](https://youtu.be/w_Z8VPJ9hoU)
-- **큐티 스트릿 – 큐트한 구체** · 0일차 · 조회 1,827 · [영상](https://youtu.be/haflBseOedU)
+- **장민호 자작곡 5선🎙️ 연속듣기 – 그리움, 사랑의 다른 이름🤍** · 1일차 · 조회 30 · [영상](https://youtu.be/P3fUsFmJ0gs)
+- **maji – 쿨쿨쿨** · 1일차 · 조회 12 · [영상](https://youtu.be/p378iSDGi8w)
+- **Skid Row – 18 and life 영어 한글발음** · 1일차 · 조회 0 · [영상](https://youtu.be/ATocpyRXsy0)
+- **𝑝𝑙𝑎𝑦𝑙𝑖𝑠𝑡 – 집중력 폭발 바닷속 연구소 공부 플리** · 1일차 · 조회 23 · [영상](https://youtu.be/TX8ScVMMifw)
+- **성경묵상 CCM – 요게벳의 노래** · 1일차 · 조회 53 · [영상](https://youtu.be/DEJ3aIZqn9s)
+- **MONACO – 불어발음** · 1일차 · 조회 205 · [영상](https://youtu.be/2mgXK4ud8uY)
+- **KATSEYE – Animal 1 Høur** · 1일차 · 조회 121 · [영상](https://youtu.be/neeGQq6JF2s)
 - **aespa – KISS N TELL** · 1일차 · 조회 827 · [영상](https://youtu.be/hi8FWyF-6kM)
-- **SG워너비 – 죄와 벌 눈물겹도록 아련한 남녀 하모니!** · 1일차 · 조회 4,968 · [영상](https://youtu.be/Kui3UUmizcg)
-- **쿠기 – my own** · 0일차 · 조회 158 · [영상](https://youtu.be/-qHb7T4cJAY)
-- **오반 – PRAISE** · 1일차 · 조회 78 · [영상](https://youtu.be/G0EwD1I0010)
+- **FLY _ 듣기 – 하현우 _** · 0일차 · 조회 3 · [영상](https://youtu.be/BsZOWlpWERs)
 
 ---
 
@@ -67,39 +57,39 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
 | 검색어 | 수확 |
 |--------|------|
-| `가사` | 50 |
-| `가사 lyrics` | 50 |
+| `가사` | 0 |
+| `가사 lyrics` | 0 |
 | `1시간 가사` | 50 |
-| `슬로우 리버브 가사` | 50 |
-| `sped up 가사` | 50 |
-| `인디 노래 가사` | 50 |
+| `슬로우 리버브 가사` | 0 |
+| `sped up 가사` | 0 |
+| `인디 노래 가사` | 0 |
 
-2단 검증으로 추가 확보한 영상: 17건
+2단 검증으로 추가 확보한 영상: 7건
 
-걸러낸 영상 — 정크 121 · 한글없음 75 · 파싱실패 40
+걸러낸 영상 — 정크 11 · 한글없음 3 · 파싱실패 15
 
 실제로 긁혀온 제목 표본 20개:
 
-- main tumhe khush dekhna chahta hun 🥺💔🥀 black screen lyrics status 🖤 #sadstatus #lyrics #broken #sad
-- #lyrics
-- 김이나가 가사 자체로 가장 좋아하는 노래는? #웃다가 #김이나 #옛사랑
-- Aaram Aata Hai🤌🤍 | Aesthetic Lyrics Video #shorts #song #lyrics
-- Dai Dai – Shakira & Burna Boy | lyrics | aesthetic | english songs | Slowed | whatsapp status | edit
-- Girl so pretty japanese trend Korean ver مترجمة | Lyrics + Arabic Translation #lyrics #trending #fyp
-- 마지막 가사가 너무 심쿵이다...
-- 가사녹음 늪에 빠진 김재중💦 #김재중   #kimjaejoong  #金在中 #ジェジュン   #영웅재중 
-- (노래 부르기/설명란 가사) 부활 - Lonely Night #shorts
-- Teeth - 5 Seconds of Summer | lyrics | aesthetic | English songs | whatsapp status | slowed |sped up
-- 사랑하는 마음을 멈출 수 없을 때,,💚 |🎧ELDON - Monster | 가사해석 | 팝송
-- taras jaoge mujhe dekhne ke liye 😓💔🥀 black screen lyrics status 🖤 #sadstatus #lyrics #viralshorts
-- 이사님이 리센느 멤버들에게 해주고 싶은 말을 가사로 썼다는 수록곡 'CRASH' | 우쥬레코드
-- [145] ⭐ Time in a Bottle – Jim Croce | 명곡 가사 익히기 | 영원한 사랑의 고백
-- Aaj Tumhe Message Karunga 🥺🙏| black screen lyrics status| #sad #shayari #love #shorts
-- Tujh Se Kya Parda Karun Tu Mera Aaina 🥺 |Lyrics Short #shots
-- 일본어와 포르투갈어를 섞은 펑크 | KPHK - NOITE CHAMA (Slowed) | 한국어 가사 해석
-- 지평선은 말이 없다(가사) # #김준규 #지평선은말이없다 #이미자 #부용
-- 🐰남주니 형! 가사 틀려쒀?#JK
-- 가사 7글자만 보고 노래를 맞추라고요?
+- 밤에 어울리는 감성 Playlist! 가사없는 연주곡 1시간 연속 듣기!
+- 🌿 1시간 국악으로 쉬는 시간 | 가사없는 힐링음악 | 마음이 편안해지는 가야금 명상음악
+- FLY (아파트 OST)_1시간 듣기 (가사) - 하현우 (국카스텐)_1hour (Lyrics)
+- 와인 _1시간 듣기 (가사) - 김경호_1hour (Lyrics)
+- 슬픈 영혼의 아리아 (엘리제)_1시간 듣기 (가사) - 김경호_1hour (Lyrics)
+- [Lyric Ver] 좋은 사람 증후군 1시간 연속듣기 l  싫은데 웃고 있는 당신에게
+- [1시간/가사 자막] 짙은(Zitten) - 잘 지내자, 우리 (Cover) ㅣ Mooncanto Playlist ㅣ 문칸토 플레이리스트
+- 🎵 Playlist | 인생길정거장 | 1시간 연속듣기 | 감성 트로트 | 인생을 노래하다#트로트 #감성트로트 #힐링음악 #드라이브음악 #휴식음악 #감성노래 #중년음악 #한국트로트
+- 너는, 꽃 (Feat. Yooin_유인) _1시간 듣기 (가사) - 노르웨이 숲_1hour (Lyrics)
+- 한요한 - 버킷리스트 (Feat. Skinny Brown)ㅣLyrics/가사ㅣ1시간 재생
+- [1시간] 능력의 이름 예수 / CCM 연속듣기 기도찬양 (가사포함) Korea Gospel 중간광고없음
+- [1시간 명상음악] 잠들기 전 듣는 편안한 힐링 사운드 | 가사 없는 수면 명상 BGM
+- 🎧 잔잔히 틀어놓으면 좋은 찬양 | 가사 있는 찬양 플레이리스트 1시간
+- RESCENE (리센느) - Deja Vu (1시간) / 데자뷔 가사 Lyrics
+- 송축해 내 영혼 (예수전도단 화요모임) - 찬양을 반복적으로 가사를 보며 듣는 CCM Playlist - 기쁨으로 섬기는 찬양 | 플레이리스트 | 은혜 | 1시간 | 가사 | 반복
+- 지금 떠나고 있는 너에게 _1시간 듣기 (가사) - 김한결_1hour (Lyrics)
+- Endless (Special Edit)_1시간 듣기 (가사) - 플라워_1hour (Lyrics)
+- 1시간 15분짜리 망작 #액괴​#액괴계​#슬라임​#슬라임계​#편집계​#액괴편집​#편집​#액체괴물​#슬라임영상​#액괴영상​#액괴편집#편집액괴#가사쓰기#노래가사쓰기#노래#제이팝#떠라
+- Canticum Coram Domino (주님 앞에 드리는 노래) 🤍 1시간 묵상 바이올린 | Sacred Violin 1 Hour
+- [1 HOUR] JENNIE (제니) 'Less than A Lover' (Color Coded Lyrics) | 1시간
 
 ---
 
