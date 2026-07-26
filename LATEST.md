@@ -1,6 +1,6 @@
 # 바이럴 레이더 — 2026-07-26
 
-수집 영상 416건 · 곡 후보 94곡 · 실질 채널 2개 이상 0곡
+수집 영상 422건 · 곡 후보 94곡 · 실질 채널 2개 이상 0곡
 
 _오늘은 조건을 넘은 곡이 없어._
 ---
@@ -9,21 +9,21 @@ _오늘은 조건을 넘은 곡이 없어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **KATSEYE Animal – ShadowByYoongi** · 0일차 · 조회 2.5만 · [영상](https://youtu.be/HBjyxKkh3KY)
-- **볼빨간사춘기 – 여름아 부탁해 ㅣ** · 0일차 · 조회 2.3만 · [영상](https://youtu.be/93c8W1EDgWo)
-- **Kkuek – Still In Love With You** · 0일차 · 조회 9,006 · [영상](https://youtu.be/tLFgZnfvm9E)
-- **Jay의 Shining So Bright – summer night & love** · 0일차 · 조회 2,438 · [영상](https://youtu.be/18cBa9ivElQ)
-- **KATSEYE – ANIMAL** · 0일차 · 조회 1,850 · [영상](https://youtu.be/7xCXnG3RLD0)
-- **🎵 님 가신다 – 미수노 트롯** · 0일차 · 조회 1,284 · [영상](https://youtu.be/elVTLetII0U)
-- **BUMP OF CHICKEN – 아카시아** · 0일차 · 조회 1,144 · [영상](https://youtu.be/HfgatEEWcMQ)
-- **볼빨간사춘기 – 여름아 부탁해 연속 재생** · 0일차 · 조회 896 · [영상](https://youtu.be/G69w_oYZ76g)
-- **Less than a lover – by Jennie** · 0일차 · 조회 735 · [영상](https://youtu.be/ndjyg4F0o8o)
-- **KATSEYE Animal – BluesideByHope** · 0일차 · 조회 733 · [영상](https://youtu.be/SLjirhBvxFE)
-- **제니 – Less than a Lover** · 0일차 · 조회 1.6만 · [영상](https://youtu.be/po587BaQIyw)
-- **DECO 27 – ダミーロマンス 初音ミク hatsunemiku vocaloid** · 0일차 · 조회 659 · [영상](https://youtu.be/2JRAKiT-GQw)
-- **│ aespa – KISS N TELL │** · 0일차 · 조회 549 · [영상](https://youtu.be/hi8FWyF-6kM)
-- **이승환 – 물어본다 아련함 속 피어나는 단단한 전율** · 0일차 · 조회 519 · [영상](https://youtu.be/BD9t2w9_89Y)
-- **KISS N TELL – aespa エスパ** · 0일차 · 조회 371 · [영상](https://youtu.be/5fhA-IVMhOY)
+- **알고 보면 슬픈 K – POP 의 비밀** · 0일차 · 조회 12.0만 · [영상](https://youtu.be/Swi5S__luNc)
+- **KATSEYE – ANIMAL** · 0일차 · 조회 1.0만 · [영상](https://youtu.be/7xCXnG3RLD0)
+- **KATSEYE Animal – ShadowByYoongi** · 0일차 · 조회 2.9만 · [영상](https://youtu.be/HBjyxKkh3KY)
+- **제니 – Less than a Lover** · 0일차 · 조회 1.8만 · [영상](https://youtu.be/po587BaQIyw)
+- **Kkuek – 자꾸만 네가 떠올라** · 0일차 · 조회 2,278 · [영상](https://youtu.be/C-yTNkUhmyc)
+- **김하온 – Crisis** · 0일차 · 조회 643 · [영상](https://youtu.be/R2-p4lCNfuY)
+- **아일릿 – 이츠미✨ 손글씨｜ILLIT IT S ME shorts** · 0일차 · 조회 4,339 · [영상](https://youtu.be/qVDiFnUDRYY)
+- **깊은 어둠 속으로 – SXYGX** · 0일차 · 조회 352 · [영상](https://youtu.be/AHCk92S11sY)
+- **넌 다시 돌아와 – TWXNY** · 0일차 · 조회 544 · [영상](https://youtu.be/3cgkMCHya8Y)
+- **BUMP OF CHICKEN – 아카시아** · 0일차 · 조회 1,371 · [영상](https://youtu.be/HfgatEEWcMQ)
+- **SG워너비 – 죄와 벌 눈물겹도록 아련한 남녀 하모니!** · 0일차 · 조회 4,710 · [영상](https://youtu.be/Kui3UUmizcg)
+- **디핵 – 무계획 지구ㅣ** · 0일차 · 조회 343 · [영상](https://youtu.be/eOe2_k1N2j0)
+- **오피셜히게단디즘 – Same Blue 당신이라는 계절 속에서** · 0일차 · 조회 133 · [영상](https://youtu.be/-iWu4-CaeAY)
+- **볼빨간사춘기 – 여름아 부탁해 연속 재생** · 0일차 · 조회 1,003 · [영상](https://youtu.be/G69w_oYZ76g)
+- **NewJeans – Super Shy ㅣ** · 0일차 · 조회 319 · [영상](https://youtu.be/xE9NkTW-SUY)
 
 ---
 
@@ -44,30 +44,30 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `인디 노래 가사` | 50 |
 | `쇼츠 노래 뭐야` | 3 |
 
-걸러낸 영상 — 정크 131 · 한글없음 94 · 파싱실패 94
+걸러낸 영상 — 정크 125 · 한글없음 98 · 파싱실패 102
 
 실제로 긁혀온 제목 표본 20개:
 
+- 지평선은 말이 없다(가사) # #김준규 #지평선은말이없다 #이미자 #부용
+- 연준님 노래 가사에 아이스크림 나올때 마다 겁나신 아이스크림 먹기 투바투
+- 🐰남주니 형! 가사 틀려쒀?#JK
+- 가사 7글자만 보고 노래를 맞추라고요?
+- Naina Te Waar 👀💘 || Slowed Reverb || Aesthetic Lyrics || #trending #shorts #status
+- 가사까지 다 외운 '성덕' 박보검이 부르는 이효리 노래 〈톡!톡!톡!〉
+- Thumak thumak chachi version🤌🏻💖 | share with your chachi | lyrics | thumak thumak #shorts #feed #yt
 - 쁜라인 만찬가 가사 (feat.울릴라라)#플레이브 #plave #노아 #밤비
-- Itna Bata Dun Tujhko Chahat Me Apni Tujhko || Lyrics Status || Arjit Singh || Song 🎧 || Cinematic
-- Yeh Parda Hata Do With Lyrics | Asha Bhosle | Mohammed Rafi | Ek Phool Do Mali#shorts
 - 알고 보면 슬픈 K-POP 가사의 비밀
-- #status#love song lyrics❤️Telugu WhatsApp status/black screen lyrics videos love status#whatsappstat
-- Naa Pushde – Full Lyrics | Saivi Fareed | Punjabi Song 2026 @Lyrics_Loom-f5v
+- Dil Tuta Hai Kya 🍁💔🥺 #lyrics #short #shortssong #music #musiclyrics #mashup
 - 가사 못외우는 멍청이가 바로나야
 - 가사 맞춤형 율동 인사 연습하는 시연이
 - RM 가사 실수에 정국 제이홉 반응?!
-- 편지 - 어니언스 (통기타 커버) | 가사 포함 7080 추억의 노래 🎸
-- zaalima- (lyrics) viral songs lyrics ll#shorts #hindisong #song #lyrics #music #trending
+- Udi Udi 💫👑 | Wedding transition | Aesthetic status | Lyrics status | #lyrics#trendingsong#short
 - 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기억나지 않는 것을, 기억하고 있다｜가사 없는 음악
-- 디핵 (D-Hack) - 무계획 지구ㅣLyrics/가사
-- Lekin Asli Rishta Wahi Hota Hai 🥹💯| black screen lyrics status| #sad #shayari #love #shorts
-- Gatanam Gatanam || Wedding Dance ||WhatsApp (Lyrics) Dance Status ✨️||
 - 어떻게 노래 가사가 사람이 애교 부리는 소리..?
-- || Tohre Mein Base Raja || @SonaJaiswal-l9j || Bhojpuri Song || WhatsApp (lyrics) Status ||
+- Heartbreak Made Him Unstoppable ❤️‍🩹😭 | Slowed Reverb | #lyrics #shorts #trending
 - 안돼요 안돼(가사) #신웅 #안돼요안돼 #감상배 #송엽국
-- Chera badla rasta badla ❤️‍🩹🥀 | black screen lyrics| #blackscreenstatus #hearttouching  #shayari
-- Teri yaari teri yaari 😇🥰 || aesthetic Lyrics || whatsapp status || #bts #shorts #trending #lyrics
+- Tu Jaane Na 💔❓| Aesthetic Status | #song #shorts #lyrics
+- 드래곤볼 Z3 - 나는 절대로 멈추지 않아! (가사/Lyrics - 한국어 번역 / 여성보컬밴드 / 헤비메탈 Ver.)
 
 ---
 
