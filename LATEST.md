@@ -1,73 +1,43 @@
 # 바이럴 레이더 — 2026-07-27
 
-수집 영상 305건 · 곡 후보 58곡 · 실질 채널 2개 이상 6곡
+수집 영상 306건 · 곡 후보 57곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 3곡
 
-| # | 곡 | 진입 | 채널 | 어제比 | 조회수 | 최대구독 | Shazam |
+| # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **KATSEYE – ANIMAL** | 1일차 | 2.0 | +1.0 | 12.5만 | 1,090 | — |
-| 2 | **쿠기 – my ownㅣ** | 0일차 | 2.0 | +2.0 | 158 | 2,430 | — |
-| 3 | **박소은, BünyTune – 속마음** | 0일차 | 3.0 | +3.0 | 677 | 10.4만 | — |
-| 4 | **디핵 – 무계획 지구ㅣ** | 1일차 | 2.0 | +1.0 | 547 | 2,430 | — |
-| 5 | **RESCENE – Deja Vu** | 1일차 | 3.0 | +2.0 | 9.2만 | 59.5만 | ⚠ 진입 |
-| 6 | **제니 – Less than a Lover** | 1일차 | 2.5 | +0.8 | 2.8만 | 59.5만 | ⚠ 진입 |
+| 1 | **KATSEYE – ANIMAL** | 1일차 | 2.0 | +0.0 | 12.5만 | 1,090 | — |
+| 2 | **제니 – Less than a Lover** | 1일차 | 2.5 | +0.0 | 2.8만 | 59.5만 | ⚠ 진입 |
+| 3 | **RESCENE – Deja Vu** | 1일차 | 2.0 | +0.0 | 4.3만 | 59.5만 | ⚠ 진입 |
 
 ---
 
 ### 1. KATSEYE – ANIMAL
 
-- 점수 **13.59** · 진입 1일차 (최초 포착 2026-07-26)
-- 실질 채널 **2.0개** (어제 대비 +1.0)
-- 누적 조회 12.5만 (오늘 +11.4만)
+- 점수 **5.26** · 진입 1일차 (최초 포착 2026-07-26)
+- 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
+- 누적 조회 12.5만 (오늘 +148)
 - 최대 채널 규모 1,090 구독
 - 채널: Loey Zchan, OGlyrics
 - 대표 영상: [ANIMAL](https://youtu.be/o2xrGYkVEm0)
 
-### 2. 쿠기 – my ownㅣ
+### 2. 제니 – Less than a Lover
 
-- 점수 **13.3** · 진입 0일차 (최초 포착 2026-07-27)
-- 실질 채널 **2.0개** (어제 대비 +2.0)
-- 누적 조회 158 (오늘 +158)
-- 최대 채널 규모 2,430 구독
-- 채널: 대파, 힙합팬타이탄_HiphopFanTitan
-- 대표 영상: [my own](https://youtu.be/-qHb7T4cJAY)
-
-### 3. 박소은, BünyTune – 속마음
-
-- 점수 **11.55** · 진입 0일차 (최초 포착 2026-07-27)
-- 실질 채널 **3.0개** (어제 대비 +3.0)
-- 누적 조회 677 (오늘 +677)
-- 최대 채널 규모 10.4만 구독
-- 채널: NN Music, 버니튠 [BunyTune], 쿼터뮤직 Quarter Music
-- 대표 영상: [속마음](https://youtu.be/Yd8mr7EU_4I)
-
-### 4. 디핵 – 무계획 지구ㅣ
-
-- 점수 **9.47** · 진입 1일차 (최초 포착 2026-07-26)
-- 실질 채널 **2.0개** (어제 대비 +1.0)
-- 누적 조회 547 (오늘 +204)
-- 최대 채널 규모 2,430 구독
-- 채널: 대파, 힙합팬타이탄_HiphopFanTitan
-- 대표 영상: [무계획 지구ㅣ](https://youtu.be/eOe2_k1N2j0)
-
-### 5. RESCENE – Deja Vu
-
-- 점수 **3.32** · 진입 1일차 (최초 포착 2026-07-26)
-- 실질 채널 **3.0개** (어제 대비 +2.0)
-- 누적 조회 9.2만 (오늘 +9.2만)
-- 최대 채널 규모 59.5만 구독
-- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
-- 채널: 1H Kpop, 나만 듣기 아까운 노래, 웅키
-- 대표 영상: [Deja Vu]](https://youtu.be/MhH1XpgUEMg)
-
-### 6. 제니 – Less than a Lover
-
-- 점수 **2.12** · 진입 1일차 (최초 포착 2026-07-26)
-- 실질 채널 **2.5개** (어제 대비 +0.8)
-- 누적 조회 2.8만 (오늘 +9,109)
+- 점수 **0.78** · 진입 1일차 (최초 포착 2026-07-26)
+- 독립 진영 **2.5개** (어제 대비 +0.0, 원시 채널 3개)
+- 누적 조회 2.8만 (오늘 +16)
 - 최대 채널 규모 59.5만 구독
 - ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
 - 채널: 1 Høur Lyrics, OGlyrics, 웅키
 - 대표 영상: [Less than a Lover](https://youtu.be/po587BaQIyw)
+
+### 3. RESCENE – Deja Vu
+
+- 점수 **0.36** · 진입 1일차 (최초 포착 2026-07-26)
+- 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
+- 누적 조회 4.3만 (오늘 +0)
+- 최대 채널 규모 59.5만 구독
+- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
+- 채널: 1H Kpop, 웅키
+- 대표 영상: [Deja Vu](https://youtu.be/XPfCY_a_P-c)
 
 ---
 
@@ -76,20 +46,20 @@
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
 - **KATSEYE – Animal 노래제목으로** · 0일차 · 조회 3.5만 · [영상](https://youtu.be/Z23KrspLHQQ)
-- **큐티 스트릿 – 큐트한 구체** · 0일차 · 조회 1,823 · [영상](https://youtu.be/haflBseOedU)
-- **로시 – First Train** · 0일차 · 조회 1,739 · [영상](https://youtu.be/Ss4pVL4kXBE)
-- **Kkuek – Still In Love With You** · 1일차 · 조회 1.0만 · [영상](https://youtu.be/tLFgZnfvm9E)
-- **KATSEYE Animal – BluesideByHope** · 1일차 · 조회 1,878 · [영상](https://youtu.be/SLjirhBvxFE)
-- **일본어와 포르투갈어를 섞은 펑크 – KPHK** · 0일차 · 조회 920 · [영상](https://youtu.be/Cm3CQCvMTsI)
-- **BUMP OF CHICKEN – 아카시아** · 1일차 · 조회 1,993 · [영상](https://youtu.be/HfgatEEWcMQ)
-- **초록불꽃소년단 – 배설가** · 1일차 · 조회 491 · [영상](https://youtu.be/nY-EDYEiGqQ)
-- **성경묵상 CCM – 요게벳의 노래** · 1일차 · 조회 386 · [영상](https://youtu.be/nsaT5_LSFbs)
-- **SG워너비 – 죄와 벌 눈물겹도록 아련한 남녀 하모니!** · 1일차 · 조회 4,967 · [영상](https://youtu.be/Kui3UUmizcg)
-- **이승환 – 세상에 뿌려진 사랑만큼 As Much as Love Scattered Across the World** · 0일차 · 조회 210 · [영상](https://youtu.be/H8JbxdhIHH0)
-- **│ aespa – KISS N TELL │** · 1일차 · 조회 824 · [영상](https://youtu.be/hi8FWyF-6kM)
-- **MONACO – 불어발음** · 1일차 · 조회 325 · [영상](https://youtu.be/2mgXK4ud8uY)
-- **오반 – 교회오빠 ㅣ** · 1일차 · 조회 139 · [영상](https://youtu.be/Y2nnRVxlphk)
-- **비쥬 – Summer Night 2026** · 0일차 · 조회 70 · [영상](https://youtu.be/Q06wqzqnboA)
+- **볼빨간사춘기 – 여름아 부탁해 연속 재생** · 1일차 · 조회 1,134 · [영상](https://youtu.be/G69w_oYZ76g)
+- **KATSEYE Animal – BluesideByHope** · 1일차 · 조회 1,920 · [영상](https://youtu.be/SLjirhBvxFE)
+- **로시 – First Train** · 0일차 · 조회 1,762 · [영상](https://youtu.be/Ss4pVL4kXBE)
+- **뭉글 – 동성로에서** · 1일차 · 조회 265 · [영상](https://youtu.be/zJBL87aQxyM)
+- **BUMP OF CHICKEN – 아카시아** · 1일차 · 조회 2,005 · [영상](https://youtu.be/HfgatEEWcMQ)
+- **박소은, BünyTune – 속마음** · 0일차 · 조회 687 · [영상](https://youtu.be/Yd8mr7EU_4I)
+- **일본어와 포르투갈어를 섞은 펑크 – KPHK** · 0일차 · 조회 930 · [영상](https://youtu.be/Cm3CQCvMTsI)
+- **MONACO – 불어발음** · 1일차 · 조회 335 · [영상](https://youtu.be/2mgXK4ud8uY)
+- **데레 – Love More** · 0일차 · 조회 17 · [영상](https://youtu.be/w_Z8VPJ9hoU)
+- **큐티 스트릿 – 큐트한 구체** · 0일차 · 조회 1,827 · [영상](https://youtu.be/haflBseOedU)
+- **aespa – KISS N TELL** · 1일차 · 조회 827 · [영상](https://youtu.be/hi8FWyF-6kM)
+- **SG워너비 – 죄와 벌 눈물겹도록 아련한 남녀 하모니!** · 1일차 · 조회 4,968 · [영상](https://youtu.be/Kui3UUmizcg)
+- **쿠기 – my own** · 0일차 · 조회 158 · [영상](https://youtu.be/-qHb7T4cJAY)
+- **오반 – PRAISE** · 1일차 · 조회 78 · [영상](https://youtu.be/G0EwD1I0010)
 
 ---
 
@@ -104,9 +74,9 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 50 |
 | `인디 노래 가사` | 50 |
 
-2단 검증으로 추가 확보한 영상: 16건
+2단 검증으로 추가 확보한 영상: 17건
 
-걸러낸 영상 — 정크 119 · 한글없음 69 · 파싱실패 44
+걸러낸 영상 — 정크 121 · 한글없음 75 · 파싱실패 40
 
 실제로 긁혀온 제목 표본 20개:
 
@@ -125,12 +95,12 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 - 이사님이 리센느 멤버들에게 해주고 싶은 말을 가사로 썼다는 수록곡 'CRASH' | 우쥬레코드
 - [145] ⭐ Time in a Bottle – Jim Croce | 명곡 가사 익히기 | 영원한 사랑의 고백
 - Aaj Tumhe Message Karunga 🥺🙏| black screen lyrics status| #sad #shayari #love #shorts
+- Tujh Se Kya Parda Karun Tu Mera Aaina 🥺 |Lyrics Short #shots
 - 일본어와 포르투갈어를 섞은 펑크 | KPHK - NOITE CHAMA (Slowed) | 한국어 가사 해석
 - 지평선은 말이 없다(가사) # #김준규 #지평선은말이없다 #이미자 #부용
 - 🐰남주니 형! 가사 틀려쒀?#JK
 - 가사 7글자만 보고 노래를 맞추라고요?
-- Tag Your Friends 😅 lyrics with trending video #reelitfeelit #foryou #fyp
 
 ---
 
-**읽는 법** — 순위는 조회수가 아니라 *서로 다른 채널이 얼마나 빨리 늘고 있나*로 매겨져. `어제比 +N`이 클수록 지금 불붙는 중. `진입 3일차` 이내 + 채널 급증이 형이 노릴 구간이고, `Shazam ⚠`가 붙으면 이미 늦은 신호야.
+**읽는 법** — `진영`은 채널 수가 아니라 *서로 무관한 출처가 몇 개인가*야. 늘 같이 다니는 채널들은 한 진영으로 묶여서 한 표만 쳐. `어제比 +N`이 클수록 지금 불붙는 중이고, `진입 3일차` 이내 + 진영 급증이 형이 노릴 구간. `Shazam ⚠`가 붙으면 이미 대중까지 넘어가서 늦은 신호야.
