@@ -62,6 +62,21 @@ REQUIRE_HANGUL = True
 FARM_SONGS_HARD = 6      # 이상이면 채널 자체를 무효표 처리
 FARM_SONGS_SOFT = 3      # 이상이면 반 표만 인정
 
+# 채널 독립성 검사:
+# 4차 실행에서 '대파'와 '힙합팬타이탄'이 서로 다른 곡 여러 개에 나란히
+# 등장했다. 신곡을 죄다 올리는 채널끼리는 늘 같이 다니므로, 그 둘이
+# 한 곡에 모인 것은 우연이 아니고 따라서 아무 신호도 아니다.
+#
+# 이 지표의 전제는 '서로 모르는 채널들이 우연히 한 곡에 모인다'이다.
+# 그래서 채널 수가 아니라 '독립적인 진영 수'를 센다.
+# 표본 안에서 이 횟수 이상 함께 등장한 채널들은 한 진영으로 묶는다.
+COOCCUR_BLOC = 2
+
+# 본 표에 올리기 위한 최소 누적 조회수.
+# 총 158회짜리가 2위에 오르는 건 바이럴이 아니라 잡음이다.
+# 낮출수록 더 이른 시점을 잡지만 잡음도 늘어난다.
+MIN_VIEWS = 800
+
 # 검색어.
 #
 # 2차 실행 교훈: 1차 실패의 원인은 검색어가 아니라 필터였다.
@@ -146,8 +161,8 @@ SEP_RE = re.compile(r"\s*[-–—|/·:]\s*")
 def clean_piece(s):
     s = BRACKET_RE.sub(" ", s)
     s = DECOR_RE.sub(" ", s)
-    s = re.sub(r"[\"'“”‘’#♪♬★☆*]+", " ", s)
-    s = SPACE_RE.sub(" ", s).strip(" -–—|/·:,.")
+    s = re.sub(r"[\"'“”‘’#♪♬★☆*ㅣ│｜┃⎮|]+", " ", s)
+    s = SPACE_RE.sub(" ", s).strip(" -–—|/·:,.ㅣ│｜")
     return s
 
 
@@ -406,6 +421,45 @@ def detect_farms(parsed):
     return weights, per_channel
 
 
+def build_blocs(parsed):
+    """
+    늘 붙어다니는 채널들을 하나의 '진영'으로 묶는다.
+
+    표본 안에서 두 채널이 COOCCUR_BLOC 곡 이상 함께 등장하면
+    독립된 출처로 보지 않는다. 유니온-파인드로 연결 성분을 만든다.
+    """
+    songs_of = {}
+    for p in parsed:
+        songs_of.setdefault(p["key"], set()).add(p["channelId"])
+
+    pair = {}
+    for chans in songs_of.values():
+        cs = sorted(chans)
+        for i in range(len(cs)):
+            for j in range(i + 1, len(cs)):
+                pair[(cs[i], cs[j])] = pair.get((cs[i], cs[j]), 0) + 1
+
+    parent = {}
+
+    def find(x):
+        parent.setdefault(x, x)
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    for (a, b), n in pair.items():
+        if n >= COOCCUR_BLOC:
+            union(a, b)
+
+    return {c: find(c) for c in {p["channelId"] for p in parsed}}
+
+
 def aggregate(vids, subs):
     """
     1차: 제목 파싱 + 정크/한글 필터
@@ -449,8 +503,9 @@ def aggregate(vids, subs):
 
     parsed = [p for p in parsed if p["key"] and len(p["key"]) >= 4]
 
-    # ---- 팜 채널 가중치 ---------------------------------------------
+    # ---- 팜 채널 가중치 + 진영 묶기 ---------------------------------
     weights, per_channel = detect_farms(parsed)
+    blocs = build_blocs(parsed)
 
     # ---- 3차: 곡 단위 묶기 ------------------------------------------
     songs = {}
@@ -481,7 +536,14 @@ def aggregate(vids, subs):
             key=lambda kv: (kv[1], has_hangul(kv[0][0]) + has_hangul(kv[0][1]))
         )[0]
         s["artist"], s["title"] = best_pair
-        s["weighted_channels"] = sum(weights.get(c, 1.0) for c in s["channels"])
+        # 같은 진영은 여러 채널이어도 한 표.
+        # 진영 안에서 가장 높은 가중치만 인정한다.
+        by_bloc = {}
+        for c in s["channels"]:
+            b = blocs.get(c, c)
+            by_bloc[b] = max(by_bloc.get(b, 0.0), weights.get(c, 1.0))
+        s["weighted_channels"] = sum(by_bloc.values())
+        s["blocs"] = len(by_bloc)
         s["farm_channels"] = sum(1 for c in s["channels"] if weights.get(c, 1.0) == 0.0)
 
     return songs, drops
@@ -550,7 +612,7 @@ def score_songs(songs, prev, shazam_keys, today):
             "days": days,
             "first_seen": first_seen,
             "on_shazam": on_shazam,
-            "passes": n_ch >= MIN_CHANNELS,
+            "passes": n_ch >= MIN_CHANNELS and s["views"] >= MIN_VIEWS,
             "best_video": f"https://youtu.be/{best['videoId']}",
             "best_title": best["title"],
             "channel_names": sorted({v["channelTitle"] for v in s["videos"]})[:6],
@@ -581,7 +643,8 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
     L = []
     L.append(f"# 바이럴 레이더 — {today}")
     L.append("")
-    L.append(f"수집 영상 {n_vids}건 · 곡 후보 {n_songs}곡 · 실질 채널 {MIN_CHANNELS}개 이상 {len(passing)}곡")
+    L.append(f"수집 영상 {n_vids}건 · 곡 후보 {n_songs}곡 · "
+             f"독립 진영 {MIN_CHANNELS}개 이상 + 조회 {MIN_VIEWS}회 이상 → {len(passing)}곡")
     L.append("")
 
     if first_run:
@@ -593,7 +656,7 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
     if not top:
         L.append("_오늘은 조건을 넘은 곡이 없어._")
     else:
-        L.append("| # | 곡 | 진입 | 채널 | 어제比 | 조회수 | 최대구독 | Shazam |")
+        L.append("| # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |")
         L.append("|---|-----|------|------|--------|--------|----------|--------|")
         for i, r in enumerate(top, 1):
             flag = "⚠ 진입" if r["on_shazam"] else "—"
@@ -610,7 +673,8 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
             L.append("")
             L.append(f"- 점수 **{r['score']}** · 진입 {r['days']}일차 "
                      f"(최초 포착 {r['first_seen']})")
-            ch_line = f"- 실질 채널 **{r['channels']}개** (어제 대비 +{r['new_channels']})"
+            ch_line = (f"- 독립 진영 **{r['channels']}개** "
+                       f"(어제 대비 +{r['new_channels']}, 원시 채널 {r['raw_channels']}개)")
             if r.get("farm_channels"):
                 ch_line += f" · 원시 {r['raw_channels']}개 중 양산채널 {r['farm_channels']}개 제외"
             L.append(ch_line)
@@ -665,9 +729,10 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
 
     L.append("---")
     L.append("")
-    L.append("**읽는 법** — 순위는 조회수가 아니라 *서로 다른 채널이 얼마나 빨리 늘고 있나*로 매겨져. "
-             "`어제比 +N`이 클수록 지금 불붙는 중. `진입 3일차` 이내 + 채널 급증이 형이 노릴 구간이고, "
-             "`Shazam ⚠`가 붙으면 이미 늦은 신호야.")
+    L.append("**읽는 법** — `진영`은 채널 수가 아니라 *서로 무관한 출처가 몇 개인가*야. "
+             "늘 같이 다니는 채널들은 한 진영으로 묶여서 한 표만 쳐. "
+             "`어제比 +N`이 클수록 지금 불붙는 중이고, `진입 3일차` 이내 + 진영 급증이 형이 노릴 구간. "
+             "`Shazam ⚠`가 붙으면 이미 대중까지 넘어가서 늦은 신호야.")
     L.append("")
 
     with open(path, "w", encoding="utf-8") as f:
