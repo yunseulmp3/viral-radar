@@ -97,7 +97,15 @@ QUERIES = [
 ]
 
 # 2단 검증에서 이름으로 다시 찾아볼 후보 곡 수 (조회수 상위부터)
-VERIFY_N = 40
+#
+# 검색 1회 = 100유닛, 하루 한도 10,000유닛.
+# 40으로 잡았더니 1회 실행에 약 4,700유닛이 들어서 하루 두 번 돌리면
+# 한도가 터졌다. 실제로 5차 실행이 그렇게 죽었고, 검색어가 전부 0건을
+# 반환하는 바람에 '검색어 문제'로 오진할 뻔했다.
+VERIFY_N = 20
+
+# 조회수가 이보다 낮은 후보는 검증에 할당량을 쓰지 않는다
+VERIFY_MIN_VIEWS = 100
 # 곡 하나당 확인할 영상 수
 VERIFY_MAX = 25
 
@@ -116,6 +124,10 @@ JUNK_PATTERNS = [
     "반응", "실수", "비밀", "레전드", "썰", "리뷰", "브이로그", "직캠",
     "교차편집", "무대", "연습", "몰카", "tmi", "멍청이", "가사 없는",
     "가사 못", "외우", "애교", "율동", "shorts #", "#shorts",
+    # 5차 표본에서 대량 유입된 힐링/종교/연속듣기 계열
+    "연속듣기", "연속 듣기", "가사없는", "가사 없는", "명상", "힐링",
+    "수면", "찬양", "ccm", "연주곡", "bgm", "asmr", "공부", "드라이브",
+    "1시간 듣기", "1hour", "1 hour",
 ]
 
 # 이 정도 구독자면 대형/기획사 채널로 본다
@@ -129,16 +141,27 @@ def log(msg):
     print(f"[{datetime.now(KST):%H:%M:%S}] {msg}", flush=True)
 
 
+# API 오류 집계 — 할당량 초과를 결과 부실과 구분하기 위해 기록한다
+API_ERRORS = {"quota": 0, "other": 0}
+
+
 def yt(endpoint, key, **params):
     """YouTube Data API 호출. 실패해도 죽지 않고 빈 결과 반환."""
     params["key"] = key
     try:
         r = requests.get(f"{API}/{endpoint}", params=params, timeout=30)
         if r.status_code != 200:
-            log(f"  ! {endpoint} HTTP {r.status_code}: {r.text[:200]}")
+            body = r.text[:300]
+            if "quotaExceeded" in body or "dailyLimitExceeded" in body:
+                API_ERRORS["quota"] += 1
+                log(f"  !! 할당량 초과 — {endpoint} 거절됨")
+            else:
+                API_ERRORS["other"] += 1
+                log(f"  ! {endpoint} HTTP {r.status_code}: {body[:180]}")
             return {}
         return r.json()
     except Exception as e:
+        API_ERRORS["other"] += 1
         log(f"  ! {endpoint} 실패: {e}")
         return {}
 
@@ -313,7 +336,9 @@ def verify_candidates(key, songs, existing_ids):
     after = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime(
         "%Y-%m-%dT%H:%M:%SZ"
     )
-    ranked = sorted(songs.values(), key=lambda s: s["views"], reverse=True)[:VERIFY_N]
+    ranked = [s for s in songs.values() if s["views"] >= VERIFY_MIN_VIEWS]
+    ranked.sort(key=lambda s: s["views"], reverse=True)
+    ranked = ranked[:VERIFY_N]
 
     found = []
     for s in ranked:
@@ -647,6 +672,15 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
              f"독립 진영 {MIN_CHANNELS}개 이상 + 조회 {MIN_VIEWS}회 이상 → {len(passing)}곡")
     L.append("")
 
+    if (diag or {}).get("quota_errors"):
+        L.append("> ## ⚠ 이 리포트는 신뢰하지 마")
+        L.append(f"> **YouTube API 하루 할당량이 바닥나서 검색 "
+                 f"{diag['quota_errors']}건이 거절됐어.**")
+        L.append("> 곡이 적게 나온 건 실제로 조용해서가 아니라 데이터를 "
+                 "못 긁어와서야.")
+        L.append("> 할당량은 매일 한국시간 오후 4시쯤 초기화돼. 그 뒤에 다시 돌리면 돼.")
+        L.append("")
+
     if first_run:
         L.append("> **첫 실행이라 이번 리포트는 기준선(baseline)이야.**")
         L.append("> 모든 곡이 '신규'로 잡히니까 순위는 아직 의미 없어.")
@@ -711,9 +745,13 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
         for q, c in (diag.get("queries") or {}).items():
             L.append(f"| `{q}` | {c} |")
         L.append("")
+        L.append(f"2단 검증으로 추가 확보한 영상: {diag.get('verified',0)}건")
+        L.append("")
+        L.append(f"API 오류 — 할당량 초과 {diag.get('quota_errors',0)}건 · "
+                 f"기타 {diag.get('api_errors',0)}건")
+        L.append("")
         drops = diag.get("drops") or {}
         if drops:
-            L.append(f"2단 검증으로 추가 확보한 영상: {diag.get('verified',0)}건")
             L.append("")
             L.append(f"걸러낸 영상 — 정크 {drops.get('junk',0)} · "
                      f"한글없음 {drops.get('nohangul',0)} · "
@@ -803,7 +841,20 @@ def main():
     vids, qstats = collect_candidates(key)
     log(f"   → 영상 {len(vids)}건")
     if not vids:
-        log("수집 0건. 종료.")
+        log("수집 0건.")
+        # 아무것도 못 긁었어도 '왜 못 긁었는지'는 리포트로 남긴다.
+        # 그냥 끝내버리면 형은 빈 화면만 보고 원인을 알 수 없다.
+        diag = {
+            "queries": qstats,
+            "drops": {},
+            "verified": 0,
+            "quota_errors": API_ERRORS["quota"],
+            "api_errors": API_ERRORS["other"],
+            "samples": [],
+        }
+        path = write_report([], today, first_run, 0, 0, diag)
+        write_latest(path)
+        log(f"완료(빈 결과) → {path}")
         sys.exit(0)
 
     log("2) 조회수 / 구독자 보강")
@@ -840,11 +891,15 @@ def main():
         "queries": qstats,
         "drops": scan_drops,
         "verified": len(extra),
+        "quota_errors": API_ERRORS["quota"],
+        "api_errors": API_ERRORS["other"],
         "samples": [v["title"] for v in vids[:20]],
     }
     path = write_report(results, today, first_run, len(vids), len(songs), diag)
     write_latest(path)
     save_state(songs, prev, today)
+    if API_ERRORS["quota"]:
+        log(f"!! 할당량 초과로 검색 {API_ERRORS['quota']}건 거절 — 결과 불완전")
     log(f"완료 → {path}")
 
 
