@@ -1,32 +1,31 @@
 # 바이럴 레이더 — 2026-07-27
 
-수집 영상 57건 · 곡 후보 24곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 2곡
+수집 영상 298건 · 곡 후보 37곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 2곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **RESCENE – Deja Vu** | 1일차 | 3.0 | +1.0 | 9.3만 | 59.5만 | ⚠ 진입 |
-| 2 | **제니 – Less than a Lover** | 1일차 | 2.5 | +0.0 | 2.8만 | 59.5만 | ⚠ 진입 |
+| 1 | **디핵 – 무계획 지구** | 1일차 | 2.0 | +0.0 | 1,348 | 2,440 | — |
+| 2 | **제니 – Less than a Lover** | 1일차 | 3.5 | +0.9 | 3.7만 | 59.5만 | ⚠ 진입 |
 
 ---
 
-### 1. RESCENE – Deja Vu
+### 1. 디핵 – 무계획 지구
 
-- 점수 **2.53** · 진입 1일차 (최초 포착 2026-07-26)
-- 독립 진영 **3.0개** (어제 대비 +1.0, 원시 채널 3개)
-- 누적 조회 9.3만 (오늘 +4.9만)
-- 최대 채널 규모 59.5만 구독
-- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
-- 채널: 1H Kpop, 나만 듣기 아까운 노래, 웅키
-- 대표 영상: [Deja Vu]](https://youtu.be/MhH1XpgUEMg)
+- 점수 **6.36** · 진입 1일차 (최초 포착 2026-07-26)
+- 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
+- 누적 조회 1,348 (오늘 +801)
+- 최대 채널 규모 2,440 구독
+- 채널: 대파, 힙합팬타이탄_HiphopFanTitan
+- 대표 영상: [무계획 지구](https://youtu.be/eOe2_k1N2j0)
 
 ### 2. 제니 – Less than a Lover
 
-- 점수 **0.81** · 진입 1일차 (최초 포착 2026-07-26)
-- 독립 진영 **2.5개** (어제 대비 +0.0, 원시 채널 3개)
-- 누적 조회 2.8만 (오늘 +21)
+- 점수 **2.33** · 진입 1일차 (최초 포착 2026-07-26)
+- 독립 진영 **3.5개** (어제 대비 +0.9, 원시 채널 4개)
+- 누적 조회 3.7만 (오늘 +9,490)
 - 최대 채널 규모 59.5만 구독
 - ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
-- 채널: 1 Høur Lyrics, OGlyrics, 웅키
+- 채널: 1 Høur Lyrics, OGlyrics, 띵곡 수집가 - ThingSu, 웅키
 - 대표 영상: [Less than a Lover](https://youtu.be/po587BaQIyw)
 
 ---
@@ -35,21 +34,21 @@
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **🌿 국악으로 쉬는 시간 – 없는 힐링음악** · 0일차 · 조회 4 · [영상](https://youtu.be/ssu1soIcRGg)
-- **한요한 – 버킷리스트** · 1일차 · 조회 0 · [영상](https://youtu.be/_g8Cf6NDA5U)
-- **능력의 이름 예수 – CCM 연속듣기 기도찬양 Korea Gospel 중간광고없음** · 1일차 · 조회 5 · [영상](https://youtu.be/oca0ETKQOjs)
-- **🎵 여우와 장미 – 감성발라드** · 1일차 · 조회 11 · [영상](https://youtu.be/6vVyck3SJqE)
-- **KISS N TELL – aespa エスパ** · 1일차 · 조회 530 · [영상](https://youtu.be/5fhA-IVMhOY)
-- **뭉글 – 동성로에서** · 1일차 · 조회 265 · [영상](https://youtu.be/zJBL87aQxyM)
-- **장민호 자작곡 5선🎙️ 연속듣기 – 그리움, 사랑의 다른 이름🤍** · 1일차 · 조회 30 · [영상](https://youtu.be/P3fUsFmJ0gs)
-- **maji – 쿨쿨쿨** · 1일차 · 조회 12 · [영상](https://youtu.be/p378iSDGi8w)
-- **Skid Row – 18 and life 영어 한글발음** · 1일차 · 조회 0 · [영상](https://youtu.be/ATocpyRXsy0)
-- **𝑝𝑙𝑎𝑦𝑙𝑖𝑠𝑡 – 집중력 폭발 바닷속 연구소 공부 플리** · 1일차 · 조회 23 · [영상](https://youtu.be/TX8ScVMMifw)
-- **성경묵상 CCM – 요게벳의 노래** · 1일차 · 조회 53 · [영상](https://youtu.be/DEJ3aIZqn9s)
-- **MONACO – 불어발음** · 1일차 · 조회 205 · [영상](https://youtu.be/2mgXK4ud8uY)
-- **KATSEYE – Animal 1 Høur** · 1일차 · 조회 121 · [영상](https://youtu.be/neeGQq6JF2s)
-- **aespa – KISS N TELL** · 1일차 · 조회 827 · [영상](https://youtu.be/hi8FWyF-6kM)
-- **FLY _ 듣기 – 하현우 _** · 0일차 · 조회 3 · [영상](https://youtu.be/BsZOWlpWERs)
+- **ILLIT – I Got Your Back 노래제목으로** · 0일차 · 조회 9,324 · [영상](https://youtu.be/G2aXfbLWezI)
+- **중독적인 일본 펑크 감성 – BellyJay** · 0일차 · 조회 2,232 · [영상](https://youtu.be/Bh9M9Xs__kM)
+- **⭐ Ob – La** · 0일차 · 조회 1,183 · [영상](https://youtu.be/k7oA8QdRTrg)
+- **큐티 스트릿 – 큐트한 구체** · 0일차 · 조회 2,700 · [영상](https://youtu.be/haflBseOedU)
+- **일본어와 포르투갈어를 섞은 펑크 – KPHK** · 0일차 · 조회 1,767 · [영상](https://youtu.be/Cm3CQCvMTsI)
+- **Kkuek – Still In Love With You** · 1일차 · 조회 1.1만 · [영상](https://youtu.be/tLFgZnfvm9E)
+- **MC몽 – 죽을 만큼 아파서** · 0일차 · 조회 577 · [영상](https://youtu.be/W4A6RjFH_DU)
+- **KATSEYE ANIMAL Color Coded – mikitomikiri** · 0일차 · 조회 451 · [영상](https://youtu.be/5emjzT4jHco)
+- **이무진 – 에피소드** · 0일차 · 조회 418 · [영상](https://youtu.be/fME9mKGlrBA)
+- **난 다 알고 있어 – 끝내 말하지 못한 말 사랑해** · 0일차 · 조회 333 · [영상](https://youtu.be/D3-6MUxFNYs)
+- **SG워너비 – 죄와 벌 눈물겹도록 아련한 남녀 하모니!** · 1일차 · 조회 5,263 · [영상](https://youtu.be/Kui3UUmizcg)
+- **사사네 – otukare** · 0일차 · 조회 117 · [영상](https://youtu.be/znK_DZo1Spc)
+- **도겸 – Stay With Me** · 0일차 · 조회 75 · [영상](https://youtu.be/8cAMFGg9Ffs)
+- **뭉글 – 동성로에서** · 1일차 · 조회 319 · [영상](https://youtu.be/zJBL87aQxyM)
+- **드래곤볼 Z3 – 나는 절대로 멈추지 않아!** · 1일차 · 조회 376 · [영상](https://youtu.be/-R2rCqiSSNg)
 
 ---
 
@@ -57,39 +56,42 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
 | 검색어 | 수확 |
 |--------|------|
-| `가사` | 0 |
-| `가사 lyrics` | 0 |
+| `가사` | 50 |
+| `가사 lyrics` | 50 |
 | `1시간 가사` | 50 |
-| `슬로우 리버브 가사` | 0 |
-| `sped up 가사` | 0 |
-| `인디 노래 가사` | 0 |
+| `슬로우 리버브 가사` | 50 |
+| `sped up 가사` | 50 |
+| `인디 노래 가사` | 50 |
 
 2단 검증으로 추가 확보한 영상: 7건
 
-걸러낸 영상 — 정크 11 · 한글없음 3 · 파싱실패 15
+API 오류 — 할당량 초과 0건 · 기타 0건
+
+
+걸러낸 영상 — 정크 146 · 한글없음 69 · 파싱실패 42
 
 실제로 긁혀온 제목 표본 20개:
 
-- 밤에 어울리는 감성 Playlist! 가사없는 연주곡 1시간 연속 듣기!
-- 🌿 1시간 국악으로 쉬는 시간 | 가사없는 힐링음악 | 마음이 편안해지는 가야금 명상음악
-- FLY (아파트 OST)_1시간 듣기 (가사) - 하현우 (국카스텐)_1hour (Lyrics)
-- 와인 _1시간 듣기 (가사) - 김경호_1hour (Lyrics)
-- 슬픈 영혼의 아리아 (엘리제)_1시간 듣기 (가사) - 김경호_1hour (Lyrics)
-- [Lyric Ver] 좋은 사람 증후군 1시간 연속듣기 l  싫은데 웃고 있는 당신에게
-- [1시간/가사 자막] 짙은(Zitten) - 잘 지내자, 우리 (Cover) ㅣ Mooncanto Playlist ㅣ 문칸토 플레이리스트
-- 🎵 Playlist | 인생길정거장 | 1시간 연속듣기 | 감성 트로트 | 인생을 노래하다#트로트 #감성트로트 #힐링음악 #드라이브음악 #휴식음악 #감성노래 #중년음악 #한국트로트
-- 너는, 꽃 (Feat. Yooin_유인) _1시간 듣기 (가사) - 노르웨이 숲_1hour (Lyrics)
-- 한요한 - 버킷리스트 (Feat. Skinny Brown)ㅣLyrics/가사ㅣ1시간 재생
-- [1시간] 능력의 이름 예수 / CCM 연속듣기 기도찬양 (가사포함) Korea Gospel 중간광고없음
-- [1시간 명상음악] 잠들기 전 듣는 편안한 힐링 사운드 | 가사 없는 수면 명상 BGM
-- 🎧 잔잔히 틀어놓으면 좋은 찬양 | 가사 있는 찬양 플레이리스트 1시간
-- RESCENE (리센느) - Deja Vu (1시간) / 데자뷔 가사 Lyrics
-- 송축해 내 영혼 (예수전도단 화요모임) - 찬양을 반복적으로 가사를 보며 듣는 CCM Playlist - 기쁨으로 섬기는 찬양 | 플레이리스트 | 은혜 | 1시간 | 가사 | 반복
-- 지금 떠나고 있는 너에게 _1시간 듣기 (가사) - 김한결_1hour (Lyrics)
-- Endless (Special Edit)_1시간 듣기 (가사) - 플라워_1hour (Lyrics)
-- 1시간 15분짜리 망작 #액괴​#액괴계​#슬라임​#슬라임계​#편집계​#액괴편집​#편집​#액체괴물​#슬라임영상​#액괴영상​#액괴편집#편집액괴#가사쓰기#노래가사쓰기#노래#제이팝#떠라
-- Canticum Coram Domino (주님 앞에 드리는 노래) 🤍 1시간 묵상 바이올린 | Sacred Violin 1 Hour
-- [1 HOUR] JENNIE (제니) 'Less than A Lover' (Color Coded Lyrics) | 1시간
+- [키키] 수이가 몰래 흘린 '캔핑폰' 가사...키야가 직접 인증해버림ㅋㅋ
+- [엔하이픈] 신곡 프리뷰 가사 유추하기 #enhypen
+- 가사부터 미나미노래 미나미노~🎵 푸른산호초🌊 #리센느 #원이 #리브 #미나미 #메이 #제나#shorts #프리티걸 #푸른산호초
+- '붐 붐 붐' 가사에 맞춰 이란 폭격…백악관 전쟁 홍보영상 노래 무단 사용에 케이티 페리 분노｜지금 이 뉴스
+- #liriklagu
+- Afreen Afreen 💔🕊️|| Aesthetic Lyrics Video #shorts #vibe #sadstatus #lyrics #nfak
+- #status#love song lyrics💙Telugu WhatsApp status/black screen lyrics videos love status#whatsappstat
+- 사사네 - otukare [가사/발음/해석]
+- [146] ⭐ Ob-La-Di, Ob-La-Da – The Beatles | 명곡 가사 익히기 | 희망찬 삶의 이야기
+- 더글로리 김은숙 작가가 꽂혔었던 케이팝 가사
+- ILLIT - I Got Your Back 노래제목으로가사
+- main tumhe khush dekhna chahta hun 🥺💔🥀 black screen lyrics status 🖤 #sadstatus #lyrics #broken #sad
+- mirrors demo happy version - S0RROW | lyrics | aesthetic | english songs | Slowed | whatsapp status
+- 김이나가 가사 자체로 가장 좋아하는 노래는? #웃다가 #김이나 #옛사랑
+- DAI DAI - SHAKIRA , BURNA BOY (Lyrics)
+- Girl so pretty japanese trend Korean ver مترجمة | Lyrics + Arabic Translation #lyrics #trending #fyp
+- Illit - i got your back (lyrics) feat. Jisoo, momoka of hana
+- Gut Genug – Blumengarten | lyrics | aesthetic | Whatsapp Status | English songs | slowed & sped up
+- Teeth - 5 Seconds of Summer | lyrics | aesthetic | English songs | whatsapp status | slowed |sped up
+- taras jaoge mujhe dekhne ke liye 😓💔🥀 black screen lyrics status 🖤 #sadstatus #lyrics #viralshorts
 
 ---
 
