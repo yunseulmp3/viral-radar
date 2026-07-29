@@ -1,0 +1,45 @@
+name: 백테스트 (수동)
+
+on: [workflow_dispatch]
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v4
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 라이브러리 설치
+        run: pip install -r requirements.txt
+
+      - name: 백테스트 실행
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python backtest.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  "viral-radar"
+          git config user.email "actions@github.com"
+          git add -A BACKTEST.md 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git commit -m "백테스트 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
