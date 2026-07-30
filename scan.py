@@ -29,6 +29,8 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 import requests
+import smtplib
+from email.message import EmailMessage
 
 # ---------------------------------------------------------------- 설정
 
@@ -174,7 +176,8 @@ DECOR_RE = re.compile(
     r"(가사\s*(비디오)?|lyrics?|리릭\s*비디오|lyric\s*video|мv|official\s*(audio|video|mv)?"
     r"|audio|visualizer|비주얼라이저|1\s*시간|한시간|1\s*hour|loop|반복|"
     r"slowed(\s*\+?\s*reverb)?|reverb|슬로우(\s*리버브)?|sped\s*up|스페드업|"
-    r"nightcore|8d|가사해석|해석|자막|kor\s*sub|번역)",
+    r"nightcore|8d|가사해석|해석|자막|kor\s*sub|번역|"
+    r"노래제목으로|노래제목가사|노래제목|연속\s*재생|텍스트|texted)",
     re.IGNORECASE,
 )
 SPACE_RE = re.compile(r"\s+")
@@ -827,6 +830,105 @@ def write_latest(path):
         log(f"  ! LATEST.md 실패: {e}")
 
 
+
+# ---------------------------------------------------------------- 메일 발송
+
+def send_mail(results, today, quota_hit):
+    """
+    아침에 볼 톱5를 메일로 보낸다.
+
+    빈 날에는 보내지 않는다. 알프레도급 급증은 몇 주에 한 번 일어나는
+    사건이라 대부분의 날은 아무것도 안 잡히는 게 정상이고, 매일 빈 메일이
+    오면 형이 메일 자체를 안 열게 된다.
+    단, 할당량 초과처럼 '도구가 고장난' 경우는 반드시 알린다.
+    """
+    to = os.environ.get("MAIL_TO", "").strip()
+    frm = os.environ.get("MAIL_FROM", "").strip()
+    pw = os.environ.get("MAIL_APP_PASSWORD", "").strip()
+    if not (to and frm and pw):
+        log("메일 설정 없음 — 발송 건너뜀")
+        return
+
+    hits = [r for r in results if r.get("passes")][:5]
+    if not hits and not quota_hit:
+        log("오늘은 잡힌 곡 없음 — 메일 보내지 않음")
+        return
+
+    if quota_hit:
+        subject = f"[바이럴 레이더] {today} 도구 점검 필요"
+    else:
+        top = hits[0]
+        subject = (f"[바이럴 레이더] {today} — {top['artist']} 외 {len(hits)-1}곡"
+                   if len(hits) > 1 else
+                   f"[바이럴 레이더] {today} — {top['artist']}")
+
+    rows = []
+    for i, r in enumerate(hits, 1):
+        late = ' <span style="color:#c0392b">늦음</span>' if r["on_shazam"] else ""
+        rows.append(
+            f"<tr>"
+            f"<td style='padding:6px 10px'>{i}</td>"
+            f"<td style='padding:6px 10px'><b>{r['artist']}</b> – {r['title']}{late}</td>"
+            f"<td style='padding:6px 10px;text-align:center'>{r['days']}일차</td>"
+            f"<td style='padding:6px 10px;text-align:center'>{r['channels']} "
+            f"(+{r['new_channels']})</td>"
+            f"<td style='padding:6px 10px;text-align:right'>{fmt_num(r['views'])}</td>"
+            f"<td style='padding:6px 10px'>"
+            f"<a href='{r['best_video']}'>듣기</a></td>"
+            f"</tr>"
+        )
+
+    warn = ""
+    if quota_hit:
+        warn = ("<p style='background:#fdecea;padding:10px;border-radius:6px'>"
+                "<b>API 하루 할당량이 바닥났어.</b> 오늘 결과는 신뢰하지 마. "
+                "한국시간 오후 4시쯤 초기화돼.</p>")
+
+    html = f"""<div style="font-family:-apple-system,'Apple SD Gothic Neo',sans-serif;
+                            max-width:640px;color:#222">
+      <h2 style="margin-bottom:4px">바이럴 레이더 · {today}</h2>
+      {warn}
+      <table style="border-collapse:collapse;width:100%;font-size:14px">
+        <tr style="background:#f4f4f5;text-align:left">
+          <th style="padding:6px 10px">#</th>
+          <th style="padding:6px 10px">곡</th>
+          <th style="padding:6px 10px">진입</th>
+          <th style="padding:6px 10px">진영</th>
+          <th style="padding:6px 10px">조회</th>
+          <th style="padding:6px 10px"></th>
+        </tr>
+        {''.join(rows) if rows else "<tr><td colspan=6 style='padding:10px'>잡힌 곡 없음</td></tr>"}
+      </table>
+      <p style="font-size:13px;color:#666;margin-top:14px">
+        <b>진영</b>은 채널 수가 아니라 서로 무관한 출처 수야.
+        늘 같이 다니는 채널은 한 표로 접혀.
+        <b>진입 3일차 이내 + 진영 급증</b>이 노릴 구간이고,
+        <span style="color:#c0392b">늦음</span> 표시는 이미 Shazam 한국 200에
+        올라서 대중까지 넘어갔다는 뜻이야.
+      </p>
+      <p style="font-size:12px;color:#999">
+        전체 리포트는 저장소 LATEST.md 에 있어. 곡이 안 잡힌 날은 메일이 안 와.
+      </p>
+    </div>"""
+
+    msg = EmailMessage()
+    msg["Subject"] = subject
+    msg["From"] = frm
+    msg["To"] = to
+    msg.set_content("HTML 메일이야. 텍스트만 보이면 저장소 LATEST.md 를 봐줘.")
+    msg.add_alternative(html, subtype="html")
+
+    host, _, port = os.environ.get("MAIL_SMTP", "smtp.gmail.com:587").partition(":")
+    try:
+        with smtplib.SMTP(host, int(port or 587), timeout=30) as s:
+            s.starttls()
+            s.login(frm, pw)
+            s.send_message(msg)
+        log(f"메일 발송 완료 → {to} ({len(hits)}곡)")
+    except Exception as e:
+        log(f"! 메일 발송 실패: {e}")
+
+
 # ---------------------------------------------------------------- 상태 저장
 
 def load_state():
@@ -936,6 +1038,9 @@ def main():
     path = write_report(results, today, first_run, len(vids), len(songs), diag)
     write_latest(path)
     save_state(songs, prev, today)
+
+    log("9) 메일")
+    send_mail(results, today, API_ERRORS["quota"] > 0)
     if API_ERRORS["quota"]:
         log(f"!! 할당량 초과로 검색 {API_ERRORS['quota']}건 거절 — 결과 불완전")
     log(f"완료 → {path}")
