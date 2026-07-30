@@ -256,6 +256,21 @@ def is_junk(raw):
 
 # ---------------------------------------------------------------- 수집
 
+def _absorb(seen, items):
+    for it in items:
+        vid = (it.get("id") or {}).get("videoId")
+        sn = it.get("snippet") or {}
+        if not vid or vid in seen:
+            continue
+        seen[vid] = {
+            "videoId": vid,
+            "title": html.unescape(sn.get("title", "")),
+            "channelId": sn.get("channelId", ""),
+            "channelTitle": html.unescape(sn.get("channelTitle", "")),
+            "publishedAt": sn.get("publishedAt", ""),
+        }
+
+
 def collect_candidates(key):
     """검색어들을 돌면서 최근 업로드 영상 수집."""
     after = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime(
@@ -263,28 +278,31 @@ def collect_candidates(key):
     )
     seen = {}
     stats = {}
+
+    # 검색어마다 두 가지 순서로 긁는다.
+    #
+    # 왜: order=date + 50건은 '최근 한두 시간'만 보여준다. 유튜브에
+    # '가사'가 들어간 영상은 시간당 수십 개씩 올라오기 때문이다.
+    # 그런데 우리가 찾는 뭉침은 며칠에 걸쳐 벌어진다.
+    # 백테스트에서 7/17 하루에 채널 27개가 붙은 급증을 우리 스캐너가
+    # 통째로 놓친 이유가 정확히 이것이었다. 창문이 한 시간짜리였다.
+    #
+    # order=viewCount 를 같이 돌려서 '기간 안에서 실제로 조회수가 붙은 것'을
+    # 함께 본다. 이쪽은 업로드 시각과 무관하게 걸린다.
     for q in QUERIES:
-        data = yt(
-            "search", key,
-            part="snippet", q=q, type="video", order="date",
-            regionCode="KR", relevanceLanguage="ko",
-            publishedAfter=after, maxResults=50,
-        )
-        items = data.get("items", [])
-        stats[q] = len(items)
-        log(f"  검색 '{q}' → {len(items)}건")
-        for it in items:
-            vid = (it.get("id") or {}).get("videoId")
-            sn = it.get("snippet") or {}
-            if not vid or vid in seen:
-                continue
-            seen[vid] = {
-                "videoId": vid,
-                "title": html.unescape(sn.get("title", "")),
-                "channelId": sn.get("channelId", ""),
-                "channelTitle": html.unescape(sn.get("channelTitle", "")),
-                "publishedAt": sn.get("publishedAt", ""),
-            }
+        got = 0
+        for order in ("date", "viewCount"):
+            data = yt(
+                "search", key,
+                part="snippet", q=q, type="video", order=order,
+                regionCode="KR", relevanceLanguage="ko",
+                publishedAfter=after, maxResults=50,
+            )
+            items = data.get("items", [])
+            got += len(items)
+            _absorb(seen, items)
+        stats[q] = got
+        log(f"  검색 '{q}' → {got}건 (date+viewCount)")
     return list(seen.values()), stats
 
 
@@ -321,7 +339,7 @@ def enrich_channels(key, vids):
 
 # ---------------------------------------------------------------- 2단 검증
 
-def verify_candidates(key, songs, existing_ids):
+def verify_candidates(key, songs, existing_ids, prev=None):
     """
     2단: 곡 이름으로 다시 검색해서 '그 곡을 올린 채널'을 제대로 센다.
 
@@ -336,7 +354,27 @@ def verify_candidates(key, songs, existing_ids):
     after = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime(
         "%Y-%m-%dT%H:%M:%SZ"
     )
-    ranked = [s for s in songs.values() if s["views"] >= VERIFY_MIN_VIEWS]
+    # 오늘 표본에서 뽑힌 후보
+    pool = {s["key"]: s for s in songs.values()}
+
+    # 어제까지 추적하던 곡도 반드시 다시 확인한다.
+    #
+    # 왜: 1단 표본은 매일 달라진다. 어제 잡힌 곡이 오늘 표본에 안 들어오면
+    # 추적이 끊기고 '진영 증가'라는 핵심 지표가 계산되지 않는다.
+    # 뭉침은 며칠에 걸쳐 벌어지므로 곡을 계속 붙들고 있어야 한다.
+    for k, p in (prev or {}).items():
+        if k in pool:
+            continue
+        if not p.get("artist") or not p.get("title"):
+            continue
+        pool[k] = {
+            "key": k,
+            "artist": p["artist"],
+            "title": p["title"],
+            "views": p.get("views", 0),
+        }
+
+    ranked = [s for s in pool.values() if s["views"] >= VERIFY_MIN_VIEWS]
     ranked.sort(key=lambda s: s["views"], reverse=True)
     ranked = ranked[:VERIFY_N]
 
@@ -866,7 +904,7 @@ def main():
     log(f"   → 후보 {len(songs1)}곡")
 
     log("4) 2단 검증 (곡마다 이름으로 재검색)")
-    extra = verify_candidates(key, songs1, {v["videoId"] for v in vids})
+    extra = verify_candidates(key, songs1, {v["videoId"] for v in vids}, prev)
     log(f"   → 추가 영상 {len(extra)}건")
     if extra:
         extra = enrich_videos(key, extra)
