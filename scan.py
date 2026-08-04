@@ -29,6 +29,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 import requests
+import time
 import smtplib
 from email.message import EmailMessage
 
@@ -143,29 +144,80 @@ def log(msg):
     print(f"[{datetime.now(KST):%H:%M:%S}] {msg}", flush=True)
 
 
-# API 오류 집계 — 할당량 초과를 결과 부실과 구분하기 위해 기록한다
+# API 오류 집계. 사유별로 나눠 센다 —
+# '하루 총량 초과'와 '순간 속도 초과'는 원인도 대처도 완전히 다른데,
+# 뭉쳐서 세다가 후자를 놓쳤다. 검색을 6번에서 32번으로 늘리면서
+# 쉬는 시간 없이 연달아 쏘는 바람에 절반이 거절당하고 있었다.
 API_ERRORS = {"quota": 0, "other": 0}
+API_REASONS = {}
+
+# 호출 사이 최소 간격(초). 순간 속도 제한을 피하기 위한 것.
+CALL_GAP = 0.35
+_last_call = [0.0]
 
 
-def yt(endpoint, key, **params):
-    """YouTube Data API 호출. 실패해도 죽지 않고 빈 결과 반환."""
+def _throttle():
+    wait = CALL_GAP - (time.time() - _last_call[0])
+    if wait > 0:
+        time.sleep(wait)
+    _last_call[0] = time.time()
+
+
+def yt(endpoint, key, retries=3, **params):
+    """
+    YouTube Data API 호출.
+
+    일시적 거절(순간 속도 초과, 5xx)은 잠깐 쉬고 다시 시도한다.
+    하루 총량 초과는 다시 시도해도 소용없으므로 즉시 포기한다.
+    어떤 경우에도 예외를 던지지 않고 빈 결과를 돌려준다.
+    """
     params["key"] = key
-    try:
-        r = requests.get(f"{API}/{endpoint}", params=params, timeout=30)
-        if r.status_code != 200:
-            body = r.text[:300]
-            if "quotaExceeded" in body or "dailyLimitExceeded" in body:
-                API_ERRORS["quota"] += 1
-                log(f"  !! 할당량 초과 — {endpoint} 거절됨")
-            else:
-                API_ERRORS["other"] += 1
-                log(f"  ! {endpoint} HTTP {r.status_code}: {body[:180]}")
+    delay = 1.0
+
+    for attempt in range(retries):
+        _throttle()
+        try:
+            r = requests.get(f"{API}/{endpoint}", params=params, timeout=30)
+        except Exception as e:
+            API_ERRORS["other"] += 1
+            API_REASONS["network"] = API_REASONS.get("network", 0) + 1
+            log(f"  ! {endpoint} 통신 실패: {e}")
+            time.sleep(delay)
+            delay *= 2
+            continue
+
+        if r.status_code == 200:
+            return r.json()
+
+        body = r.text[:400]
+        reason = "unknown"
+        m = re.search(r'"reason"\s*:\s*"([^"]+)"', body)
+        if m:
+            reason = m.group(1)
+        API_REASONS[reason] = API_REASONS.get(reason, 0) + 1
+
+        # 하루 총량 초과 — 재시도 무의미
+        if reason in ("quotaExceeded", "dailyLimitExceeded"):
+            API_ERRORS["quota"] += 1
+            log(f"  !! 할당량 초과 — {endpoint} 거절")
             return {}
-        return r.json()
-    except Exception as e:
+
+        # 일시적 — 쉬고 다시
+        transient = (reason in ("rateLimitExceeded", "userRateLimitExceeded",
+                                "backendError", "internalError")
+                     or r.status_code >= 500 or r.status_code == 429)
+        if transient and attempt < retries - 1:
+            log(f"  ~ {endpoint} 일시 거절({reason}) — {delay:.0f}초 후 재시도")
+            time.sleep(delay)
+            delay *= 2
+            continue
+
         API_ERRORS["other"] += 1
-        log(f"  ! {endpoint} 실패: {e}")
+        log(f"  ! {endpoint} HTTP {r.status_code} ({reason})")
         return {}
+
+    API_ERRORS["other"] += 1
+    return {}
 
 
 # ---------------------------------------------------------------- 제목 정규화
@@ -790,6 +842,12 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
         L.append("")
         L.append(f"API 오류 — 할당량 초과 {diag.get('quota_errors',0)}건 · "
                  f"기타 {diag.get('api_errors',0)}건")
+        reasons = diag.get("reasons") or {}
+        if reasons:
+            L.append("")
+            L.append("거절 사유별: " + ", ".join(
+                f"`{k}` {v}건" for k, v in
+                sorted(reasons.items(), key=lambda kv: -kv[1])))
         L.append("")
         drops = diag.get("drops") or {}
         if drops:
@@ -990,6 +1048,7 @@ def main():
             "verified": 0,
             "quota_errors": API_ERRORS["quota"],
             "api_errors": API_ERRORS["other"],
+        "reasons": dict(API_REASONS),
             "samples": [],
         }
         path = write_report([], today, first_run, 0, 0, diag)
@@ -1033,6 +1092,7 @@ def main():
         "verified": len(extra),
         "quota_errors": API_ERRORS["quota"],
         "api_errors": API_ERRORS["other"],
+        "reasons": dict(API_REASONS),
         "samples": [v["title"] for v in vids[:20]],
     }
     path = write_report(results, today, first_run, len(vids), len(songs), diag)
