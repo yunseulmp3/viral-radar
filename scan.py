@@ -75,6 +75,16 @@ FARM_SONGS_SOFT = 3      # 이상이면 반 표만 인정
 # 표본 안에서 이 횟수 이상 함께 등장한 채널들은 한 진영으로 묶는다.
 COOCCUR_BLOC = 2
 
+# 본 표는 '지금 움직이는 곡'만 싣는다.
+#
+# 8/4 리포트에서 상위 5곡이 전부 진영 증가 +0.0에 진입 7~9일차였다.
+# 이미 끝난 곡들이 그동안 쌓인 누적치로 순위표를 점거한 것이다.
+# 형이 원하는 건 '지금 불붙는 곡'이지 '그동안 많이 쌓인 곡'이 아니다.
+#
+# 그래서 오늘 실제로 움직였는지를 본 표의 입장 조건으로 삼는다.
+STALE_DAYS = 5          # 이 일수를 넘고
+MIN_MOVE_CH = 0.5       # 진영 증가가 이 값 미만이면 본 표에서 뺀다
+
 # 본 표에 올리기 위한 최소 누적 조회수.
 # 총 158회짜리가 2위에 오르는 건 바이럴이 아니라 잡음이다.
 # 낮출수록 더 이른 시점을 잡지만 잡음도 늘어난다.
@@ -706,7 +716,9 @@ def score_songs(songs, prev, shazam_keys, today):
             under = 1.0
 
         # 신선도: 오래 추적된 곡은 감쇠 (형 목적상 초기 창이 중요)
-        fresh = 1.0 if days <= 7 else max(0.2, math.exp(-(days - 7) / 14.0))
+        # 3일까지는 온전히, 그 뒤로는 빠르게 식는다.
+        # 형이 노리는 창은 폭발 1~3일차라 그 뒤 곡은 순위에서 밀려야 한다.
+        fresh = 1.0 if days <= 3 else max(0.1, math.exp(-(days - 3) / 4.0))
 
         on_shazam = k in shazam_keys
         score = momentum * under * fresh
@@ -730,7 +742,10 @@ def score_songs(songs, prev, shazam_keys, today):
             "days": days,
             "first_seen": first_seen,
             "on_shazam": on_shazam,
-            "passes": n_ch >= MIN_CHANNELS and s["views"] >= MIN_VIEWS,
+            "passes": (n_ch >= MIN_CHANNELS
+                       and s["views"] >= MIN_VIEWS
+                       and not (days >= STALE_DAYS and new_ch < MIN_MOVE_CH)),
+            "stale": days >= STALE_DAYS and new_ch < MIN_MOVE_CH,
             "best_video": f"https://youtu.be/{best['videoId']}",
             "best_title": best["title"],
             "channel_names": sorted({v["channelTitle"] for v in s["videos"]})[:6],
@@ -812,6 +827,20 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
             L.append(f"- 채널: {', '.join(r['channel_names'])}")
             L.append(f"- 대표 영상: [{r['best_title']}]({r['best_video']})")
             L.append("")
+
+    # ── 식은 곡: 한때 잡혔지만 지금은 안 움직이는 곡 ────────────────
+    stale = [r for r in results if r.get("stale")][:8]
+    if stale:
+        L.append("---")
+        L.append("")
+        L.append("## 식은 곡 (움직임 멈춤)")
+        L.append("")
+        L.append("_진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._")
+        L.append("")
+        for r in stale:
+            L.append(f"- **{r['artist']} – {r['title']}** · {r['days']}일차 · "
+                     f"진영 {r['channels']} · 조회 {fmt_num(r['views'])}")
+        L.append("")
 
     # ── 관찰 목록: 아직 채널 1개지만 움직임이 있는 곡 ──────────────
     if watch:
