@@ -1,22 +1,87 @@
 # 바이럴 레이더 — 2026-08-11
 
-수집 영상 568건 · 곡 후보 61곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 0곡
+수집 영상 608건 · 곡 후보 69곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 6곡
 
-_오늘은 조건을 넘은 곡이 없어._
+| # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
+|---|-----|------|------|--------|--------|----------|--------|
+| 1 | **한로로 – 잔혹한 천사의 테제** | 11일차 | 6.0 | +5.4 | 26.6만 | 6.6만 | — |
+| 2 | **래원 – 2종보통멋쟁이** | 8일차 | 3.5 | +1.8 | 12.9만 | 8.6만 | — |
+| 3 | **Picheolin Mi – cheo Mi** | 10일차 | 2.0 | +1.0 | 2.0만 | 38.5만 | — |
+| 4 | **BIG Naughty – 왜 나만** | 12일차 | 2.0 | +1.5 | 7.0만 | 45.1만 | — |
+| 5 | **태비 – 너를 다시 찾겠다며** | 13일차 | 5.5 | +4.7 | 8.4만 | 554.0만 | — |
+| 6 | **제니 – Less than a Lover** | 16일차 | 4.0 | +1.3 | 30.2만 | 59.9만 | ⚠ 진입 |
+
+---
+
+### 1. 한로로 – 잔혹한 천사의 테제
+
+- 점수 **4.81** · 진입 11일차 (최초 포착 2026-07-31)
+- 독립 진영 **6.0개** (어제 대비 +5.4, 원시 채널 10개) · 원시 10개 중 양산채널 1개 제외
+- 누적 조회 26.6만 (오늘 +19.5만)
+- 최대 채널 규모 6.6만 구독
+- 채널: 1 Høur Lyrics, Code Daily Playlist #코데플, Songfor, 띵곡 수집가 - ThingSu, 베어뮤직 BearMusic, 별바다⭐음악공간
+- 대표 영상: [잔혹한 천사의 테제](https://youtu.be/m5ofdKxAL1k)
+
+### 2. 래원 – 2종보통멋쟁이
+
+- 점수 **4.71** · 진입 8일차 (최초 포착 2026-08-03)
+- 독립 진영 **3.5개** (어제 대비 +1.8, 원시 채널 4개)
+- 누적 조회 12.9만 (오늘 +9,170)
+- 최대 채널 규모 8.6만 구독
+- 채널: 곰순송, 노란바나나 한송, 노래제목가사, 말랑고양송
+- 대표 영상: [2종보통멋쟁이](https://youtu.be/27EffPrsSMc)
+
+### 3. Picheolin Mi – cheo Mi
+
+- 점수 **1.06** · 진입 10일차 (최초 포착 2026-08-01)
+- 독립 진영 **2.0개** (어제 대비 +1.0, 원시 채널 2개)
+- 누적 조회 2.0만 (오늘 +625)
+- 최대 채널 규모 38.5만 구독
+- 채널: GLYPH, ShadowByYoongi
+- 대표 영상: [cheo Mi](https://youtu.be/ZTFfan8CF-A)
+
+### 4. BIG Naughty – 왜 나만
+
+- 점수 **0.9** · 진입 12일차 (최초 포착 2026-07-30)
+- 독립 진영 **2.0개** (어제 대비 +1.5, 원시 채널 4개) · 원시 4개 중 양산채널 1개 제외
+- 누적 조회 7.0만 (오늘 +1.3만)
+- 최대 채널 규모 45.1만 구독
+- 채널: JH Playlist, 베어뮤직 BearMusic, 알파, 칵션
+- 대표 영상: [왜 나만](https://youtu.be/60StOJuV2no)
+
+### 5. 태비 – 너를 다시 찾겠다며
+
+- 점수 **0.79** · 진입 13일차 (최초 포착 2026-07-29)
+- 독립 진영 **5.5개** (어제 대비 +4.7, 원시 채널 7개) · 원시 7개 중 양산채널 1개 제외
+- 누적 조회 8.4만 (오늘 +5.3만)
+- 최대 채널 규모 554.0만 구독
+- 채널: JH Playlist, Release - Topic, df 디에프, 대파, 딩고 뮤직 / dingo music, 힙합갤러리
+- 대표 영상: [너를 다시 찾겠다며](https://youtu.be/2lnJbHdSWb8)
+
+### 6. 제니 – Less than a Lover
+
+- 점수 **0.3** · 진입 16일차 (최초 포착 2026-07-26)
+- 독립 진영 **4.0개** (어제 대비 +1.3, 원시 채널 6개) · 원시 6개 중 양산채널 1개 제외
+- 누적 조회 30.2만 (오늘 +6.6만)
+- 최대 채널 규모 59.9만 구독
+- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
+- 채널: 1 Høur Lyrics, NN Music, ai봇, 띵곡 수집가 - ThingSu, 웅키, 젠루비
+- 대표 영상: [Less than a Lover](https://youtu.be/VArqHoB_sec)
+
 ---
 
 ## 식은 곡 (움직임 멈춤)
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **CNBLUE – 외톨이야 트로트ver.🎵** · 8일차 · 진영 1.0 · 조회 8.4만
-- **JENNIE – Less than a Lover 제니 신곡** · 8일차 · 진영 1.0 · 조회 5.9만
-- **🎧 Beautiful – Crush X 성시경** · 10일차 · 진영 1.0 · 조회 85.9만
-- **DK, 유영우 – 행복하지 말아요** · 5일차 · 진영 2.0 · 조회 57.6만
-- **KATSEYE Animal – RCLeditz** · 11일차 · 진영 1.0 · 조회 17.6만
-- **볼빨간사춘기 – 여름아 부탁해** · 16일차 · 진영 6.0 · 조회 88.3만
-- **BABYMONSTER – MOON** · 7일차 · 진영 1.5 · 조회 87.9만
-- **tuki – 晩餐歌** · 10일차 · 진영 0.5 · 조회 12.6만
+- **DK, 유영우 – 행복하지 말아요** · 5일차 · 진영 2.0 · 조회 58.3만
+- **CNBLUE – 외톨이야 트로트ver.🎵** · 8일차 · 진영 1.0 · 조회 9.1만
+- **Kkuek – Dear** · 11일차 · 진영 1.0 · 조회 1.8만
+- **KATSEYE Animal – RCLeditz** · 11일차 · 진영 1.0 · 조회 17.7만
+- **tuki – 晩餐歌** · 10일차 · 진영 0.5 · 조회 14.0만
+- **볼빨간사춘기 – 여름아 부탁해** · 16일차 · 진영 3.5 · 조회 92.5만
+- **EK – 음지의 태양** · 16일차 · 진영 1.0 · 조회 9.4만
+- **Stray Kids Back Then – ShadowByYoongi** · 16일차 · 진영 1.0 · 조회 73.8만
 
 ---
 
@@ -24,21 +89,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **볼빨간사춘기 – 여름아 부탁해** · 16일차 · 조회 88.3만 · [영상](https://youtu.be/gkpM-iqxHHs)
-- **Stray Kids Back Then – ShadowByYoongi** · 16일차 · 조회 69.9만 · [영상](https://youtu.be/HBjyxKkh3KY)
-- **BABYMONSTER – MOON** · 7일차 · 조회 87.9만 · [영상](https://youtu.be/fuVaqtSfYvE)
-- **🎧 Beautiful – Crush X 성시경** · 10일차 · 조회 85.9만 · [영상](https://youtu.be/mM-yf4DsE_U)
-- **fromis_9 – Vitamin ME** · 16일차 · 조회 78.4만 · [영상](https://youtu.be/PRWdtBBVQys)
-- **tuki – 晩餐歌** · 10일차 · 조회 12.6만 · [영상](https://youtu.be/b5ToKSJqAfo)
-- **▶𝟏𝐡𝐨𝐮𝐫 𝐋𝐎𝐎𝐏🎧 – 저음의 은은한 허스키함😍 김용빈의 사랑이 저만치 가네 듣기 금타는금요일** · 0일차 · 조회 1.2만 · [영상](https://youtu.be/9A75LWVzw4c)
-- **CNBLUE – 외톨이야 트로트ver.🎵** · 8일차 · 조회 8.4만 · [영상](https://youtu.be/ru46b8wVwD8)
-- **이게 가 있다고? – 노래에 가 있는 지메 레벨 6탄** · 0일차 · 조회 1.1만 · [영상](https://youtu.be/8hyacwDSatk)
-- **KITSCHKRIEG & BLUMENGARTEN – GUT GENUG** · 0일차 · 조회 1.1만 · [영상](https://youtu.be/ZYgUvYWiURA)
-- **고고프렌즈 국어별동대 버전🎶 – 고고프렌즈** · 0일차 · 조회 9,783 · [영상](https://youtu.be/-UkPmfBYs84)
-- **제니 – Less than a Lover** · 16일차 · 조회 23.6만 · [영상](https://youtu.be/VArqHoB_sec)
-- **🌼예전 내 모습이 그립다고? – Ariana Grande** · 9일차 · 조회 51.9만 · [영상](https://youtu.be/pBS7ewW14gA)
-- **래원, 이영지 – 2종보통멋쟁이** · 8일차 · 조회 11.9만 · [영상](https://youtu.be/27EffPrsSMc)
-- **KiiiKiii – Pop Off Pop Off** · 0일차 · 조회 4,930 · [영상](https://youtu.be/sigoXkCIzsY)
+- **정효빈 – 나의 작은 틈** · 3일차 · 조회 6.8만 · (진영 1.0) · [영상](https://youtu.be/1gS1xVRxYYg)
+- **피철인 – 놀아보세** · 5일차 · 조회 4.6만 · (진영 1.0) · [영상](https://youtu.be/mC_DCafeQMg)
+- **쿠기 – Thursday** · 0일차 · 조회 1.1만 · (오늘 미확인) · [영상](https://youtu.be/NWIgIhxb7QI)
+- **TWS 투어스 – SODA SODA** · 6일차 · 조회 3.2만 · (진영 1.0) · [영상](https://youtu.be/VOFmJC8C74o)
+- **KiiiKiii – Pop Off Pop Off** · 0일차 · 조회 1.4만 · (오늘 미확인) · [영상](https://youtu.be/sigoXkCIzsY)
+- **이게 가 있다고? – 노래에 가 있는 지메 레벨 8탄** · 0일차 · 조회 6,695 · (오늘 미확인) · [영상](https://youtu.be/jS3m5Jq5k9I)
+- **진진경 – 만년사랑** · 2일차 · 조회 5,654 · (오늘 미확인) · [영상](https://youtu.be/jOVZETv4nzU)
+- **WangOK – Before Spring Ends** · 0일차 · 조회 1,327 · (오늘 미확인) · [영상](https://youtu.be/yCC8m3axMcY)
+- **진진경 – 도지요요** · 5일차 · 조회 3,617 · (오늘 미확인) · [영상](https://youtu.be/47Vj6dDdAoQ)
+- **FTISLAND – 눈물이 더 가까운 사람** · 0일차 · 조회 1,209 · (오늘 미확인) · [영상](https://youtu.be/vVFhrTMb6YU)
+- **𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧 아름다운 기억 한가득 – 멜로망스, AKMU, 이무진, 데이브레이크 •••** · 4일차 · 조회 3.7만 · (진영 1.0) · [영상](https://youtu.be/s9a4sf8tqHo)
+- **저스디스, 양홍원, 스윙스 – 돌아와** · 0일차 · 조회 3,826 · (오늘 미확인) · [영상](https://youtu.be/c4ID5r1CPLw)
+- **Too Late – Jannine Weigel** · 0일차 · 조회 919 · (오늘 미확인) · [영상](https://youtu.be/oWew1FLtzHY)
+- **오토노세 카나데 – You & aIze** · 0일차 · 조회 2,163 · (오늘 미확인) · [영상](https://youtu.be/cKwzZYA6Q2Y)
+- **1분영어 – 최무식이 영어를 잘한 비결? 노래 통암기로 배우는 생활영어** · 2일차 · 조회 856 · (오늘 미확인) · [영상](https://youtu.be/-PrrUSHdskE)
 
 ---
 
@@ -53,35 +118,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 35건
+2단 검증으로 추가 확보한 영상: 81건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 231 · 한글없음 145 · 파싱실패 86
+걸러낸 영상 — 정크 246 · 한글없음 146 · 파싱실패 78
 
 실제로 긁혀온 제목 표본 20개:
 
-- 🌟 Olivia Rodrigo CHANGED The Lyrics
-- 1분영어 | 최무식이 영어를 잘한 비결? 노래 가사 통암기로 배우는 생활영어
-- When Singers Mix Up Their Lyrics On Stage
-- Max Cavalera talks about his early lyrics, song titles, and translations from Portuguese to English
-- 사랑은 하나 [가사]
-- 지칠 때 듣는 BTS SWIM, 눈물 나는 가사
-- 소다팝 들리는 대로 가사쓰기
-- 오토노세 카나데 - You & aIze 노래제목으로가사
-- CHIMERA FNF EXTENDED and WITH LYRICS is EVEN DARKER
-- Him & I | G-Eazy & Halsey #shorts #lyrics #whatsappstatus #him&i
-- 고고프렌즈 국어별동대 가사 들리는대로 써보기#알고리즘떠라#추천#관리자님추천뜨게해주세요#리즘아띄어줘#추천떠라#고프#가사쓰기#백앤아#떡상
-- Cheema y Intro | Cheema y | Panjabi song lyrics video | Lyricsmehfil0 edit | #lyrics
-- 박서진♡가사 까먹으니 더 신나신나 💥
-- 내 맘대로 되는 게 하나도 없을 때
-- KiiiKiii (키키) - Pop Off Pop Off [가사/Lyrics]
-- 코르티스 REDRED 가사는 어려워😓
-- [K-POP위엄] "그 가사를 다 안다고?!" 미국인들 억두를 강타한 한글 떼창의 위엄#Shorts #KPOP #떼창 #외국인반응 #국뽕#
-- 델리스파이스 명곡 '고백' 가사 분석하다 극대노한 박보검(그냥 웃겨)
-- 저 강은 알고 있다(가사) #김준규 #저강은알고있다 #이미자 #저녁노을
-- 가사 한 줄 한 줄이 너무 아픈 유리상자 명곡
+- 키키 - Pop Off Pop Off 노래제목으로가사
+- Es kracht komplett bei Finish the Lyrics 😂 #eliasn97 #eligella #musik #lyrics #lustig #fyp #viral
+- Most Loveir Artist But You Dont Know🥲#song #shorts #lyrics #love
+- Spiderman intro mix With sunflower - Post Malone | Lyrics +Arabic Trans مترجمة #Short #Lyrics #ترجمة
+- Hamaare Life Ka Best Chapter 🥹🫶 || Ishq De Fanniyar || WhatsApp (Lyrics) Status || #shorts #song
+- Oh Carol Lyrics – Neil Sedaka | Sundari Vibes #lyrics #shorts #sundarivibes
+- 노을(가사) #박진석 #노을 #저녁노을
+- 가사 한마디 한마디에 감정이입… 이영현 ‘툭하면’ LIVE 🎤💙
+- 볼빨간사춘기 - 여름아 부탁해 ☀️ 가사 손글씨｜여름노래 #Shorts
+- FTISLAND (FT아일랜드) - 눈물이 더 가까운 사람 [가사/Lyrics]
+- 가사에 미련이...
+- 한주형 - 우리의 반짝 우정 #가사 #kpop
+- 누구 하나 담굴 뻔했던 가사
+- 🎤 가사에 ‘bye’가 나오는 노래 👋🎶
+- 가사 너무 이쁘다고 생각한 부분⋆˚.•✩‧₊⋆
+- 이게 가사가 있다고? | 노래에 가사가 있는 지메 레벨 8탄
+- 가사 곱씹자 우리.. #보이넥스트도어 #태산
+- 90년대 17주 연속 1위했던 노래?! 가사가 지금 들어도 미쳤네ㄷㄷ
+- [태국노래 한글가사번역 ] Too Late (สายไป) - Jannine Weigel (พลอยชมพู)
+- Dil Ka Jo Haal Hai 😅👀 | #trend #lyrics #vibe #love #edit #shorts
 
 ---
 
