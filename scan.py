@@ -84,6 +84,12 @@ COOCCUR_BLOC = 2
 # 그래서 오늘 실제로 움직였는지를 본 표의 입장 조건으로 삼는다.
 STALE_DAYS = 5          # 이 일수를 넘고
 MIN_MOVE_CH = 0.5       # 진영 증가가 이 값 미만이면 본 표에서 뺀다
+#
+# 단, '오늘 실제로 다시 확인한 곡'에만 이 판정을 적용한다.
+# 8/11 리포트에서 통과 0곡이 나온 원인이 이것이었다: 추적 중인 곡이
+# 61개인데 2단 검증은 상위 20곡만 다시 봤고, 갱신되지 않은 41곡이
+# '증가 0'으로 보여 전부 식은 곡으로 밀려났다.
+# 안 본 것을 안 움직였다고 판정하면 안 된다.
 
 # 본 표에 올리기 위한 최소 누적 조회수.
 # 총 158회짜리가 2위에 오르는 건 바이럴이 아니라 잡음이다.
@@ -115,7 +121,7 @@ QUERIES = [
 # 40으로 잡았더니 1회 실행에 약 4,700유닛이 들어서 하루 두 번 돌리면
 # 한도가 터졌다. 실제로 5차 실행이 그렇게 죽었고, 검색어가 전부 0건을
 # 반환하는 바람에 '검색어 문제'로 오진할 뻔했다.
-VERIFY_N = 20
+VERIFY_N = 45
 
 # 조회수가 이보다 낮은 후보는 검증에 할당량을 쓰지 않는다
 VERIFY_MIN_VIEWS = 100
@@ -239,7 +245,8 @@ DECOR_RE = re.compile(
     r"|audio|visualizer|비주얼라이저|1\s*시간|한시간|1\s*hour|loop|반복|"
     r"slowed(\s*\+?\s*reverb)?|reverb|슬로우(\s*리버브)?|sped\s*up|스페드업|"
     r"nightcore|8d|가사해석|해석|자막|kor\s*sub|번역|"
-    r"노래제목으로|노래제목가사|노래제목|연속\s*재생|텍스트|texted)",
+    r"노래제목으로|노래제목가사|노래제목|연속\s*재생|텍스트|texted|"
+    r"신곡|정규|미니앨범|수록곡|타이틀곡|full\s*ver|色分け|color\s*coded)",
     re.IGNORECASE,
 )
 SPACE_RE = re.compile(r"\s+")
@@ -295,6 +302,23 @@ def parse_title(raw):
 def _n(s):
     s = (s or "").lower()
     return re.sub(r"[^0-9a-z가-힣ぁ-んァ-ン一-龥]", "", s)
+
+
+# 제목 끝에 아티스트 이름이 다시 붙는 경우가 흔하다.
+# "JENNIE - Less than a Lover 제니 신곡" → 장식어 '신곡'을 떼도 '제니'가 남아
+# "제니 - Less than a Lover" 와 다른 곡으로 갈린다.
+# 곡명 끝의 1~2 어절이 표본 안에서 아티스트로 쓰인 적 있으면 떼어낸다.
+ARTIST_POOL = set()
+
+
+def strip_trailing_artist(title):
+    words = title.split()
+    for take in (2, 1):
+        if len(words) > take:
+            tail = _n(" ".join(words[-take:]))
+            if tail and tail in ARTIST_POOL:
+                return " ".join(words[:-take])
+    return title
 
 
 def norm_key(artist, title):
@@ -443,7 +467,7 @@ def verify_candidates(key, songs, existing_ids, prev=None):
     ranked.sort(key=lambda s: s["views"], reverse=True)
     ranked = ranked[:VERIFY_N]
 
-    found = []
+    found, checked = [], set()
     for s in ranked:
         q = f"{s['artist']} {s['title']}"
         data = yt(
@@ -477,9 +501,10 @@ def verify_candidates(key, songs, existing_ids, prev=None):
                 "channelTitle": html.unescape(sn.get("channelTitle", "")),
                 "publishedAt": sn.get("publishedAt", ""),
             })
+        checked.add(s["key"])
         log(f"  검증 '{q[:34]}' → +{hit}건")
 
-    return found
+    return found, checked
 
 
 # ---------------------------------------------------------------- Shazam 퇴장 필터
@@ -613,6 +638,15 @@ def aggregate(vids, subs):
             continue
         parsed.append({**v, "artist": artist, "title": title})
 
+    # 표본에 등장한 아티스트 이름을 모아둔다 (꼬리 제거용)
+    ARTIST_POOL.clear()
+    for p in parsed:
+        n = _n(p["artist"])
+        if n:
+            ARTIST_POOL.add(n)
+    for p in parsed:
+        p["title"] = strip_trailing_artist(p["title"]) or p["title"]
+
     # ---- 2차: 순서 교정 ---------------------------------------------
     # "Worry - LONOWN" 처럼 곡명이 앞에 오는 경우가 있다.
     # 표본 전체에서 각 문자열이 앞자리(아티스트 위치)에 얼마나 자주
@@ -677,7 +711,7 @@ def aggregate(vids, subs):
     return songs, drops
 
 
-def score_songs(songs, prev, shazam_keys, today):
+def score_songs(songs, prev, shazam_keys, today, checked=None):
     """
     점수 = 채널 증가 모멘텀 × 언더그라운드 가중 × 신선도
     조회수는 보조 지표로만 (로그 스케일).
@@ -725,6 +759,12 @@ def score_songs(songs, prev, shazam_keys, today):
         if on_shazam:
             score *= 0.3   # 퇴장 신호 — 완전 제외는 안 하고 강하게 감점
 
+        # 오늘 재확인하지 않은 곡은 '증가 0'이 관측이 아니라 무지다.
+        # 그래서 식은 곡으로 몰지도 않고, 본 표에 올리지도 않는다.
+        # 확인한 곡만 판정 대상이다 — 모르는 걸 안다고 하지 않는다.
+        _checked = (checked is None) or (k in checked)
+        _stale = _checked and days >= STALE_DAYS and new_ch < MIN_MOVE_CH
+
         best = max(s["videos"], key=lambda v: v.get("views", 0))
 
         results.append({
@@ -742,10 +782,12 @@ def score_songs(songs, prev, shazam_keys, today):
             "days": days,
             "first_seen": first_seen,
             "on_shazam": on_shazam,
-            "passes": (n_ch >= MIN_CHANNELS
+            "passes": (_checked
+                       and n_ch >= MIN_CHANNELS
                        and s["views"] >= MIN_VIEWS
-                       and not (days >= STALE_DAYS and new_ch < MIN_MOVE_CH)),
-            "stale": days >= STALE_DAYS and new_ch < MIN_MOVE_CH,
+                       and not _stale),
+            "stale": _stale,
+            "checked": _checked,
             "best_video": f"https://youtu.be/{best['videoId']}",
             "best_title": best["title"],
             "channel_names": sorted({v["channelTitle"] for v in s["videos"]})[:6],
@@ -769,7 +811,7 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
     os.makedirs(REPORT_DIR, exist_ok=True)
     path = f"{REPORT_DIR}/{today}.md"
     passing = [r for r in results if r.get("passes")]
-    watch = [r for r in results if not r.get("passes")]
+    watch = [r for r in results if not r.get("passes") and not r.get("stale")]
     watch.sort(key=lambda r: r["view_delta"], reverse=True)
     top = passing[:TOP_N]
 
@@ -851,9 +893,18 @@ def write_report(results, today, first_run, n_vids, n_songs, diag=None):
         L.append("_여기서 채널이 하나 더 붙으면 위 표로 올라온다._")
         L.append("")
         for r in watch[:15]:
+            miss = []
+            if r["channels"] < MIN_CHANNELS:
+                miss.append(f"진영 {r['channels']}")
+            if r["views"] < MIN_VIEWS:
+                miss.append(f"조회 {fmt_num(r['views'])}")
+            if not r.get("checked", True):
+                why = "오늘 미확인"
+            else:
+                why = " · ".join(miss) if miss else "판정 보류"
             L.append(f"- **{r['artist']} – {r['title']}** · "
                      f"{r['days']}일차 · 조회 {fmt_num(r['views'])} · "
-                     f"[영상]({r['best_video']})")
+                     f"({why}) · [영상]({r['best_video']})")
         L.append("")
 
     # ── 진단: 검색어가 뭘 긁어오는지 눈으로 보기 위한 구역 ──────────
@@ -1094,7 +1145,7 @@ def main():
     log(f"   → 후보 {len(songs1)}곡")
 
     log("4) 2단 검증 (곡마다 이름으로 재검색)")
-    extra = verify_candidates(key, songs1, {v["videoId"] for v in vids}, prev)
+    extra, checked = verify_candidates(key, songs1, {v["videoId"] for v in vids}, prev)
     log(f"   → 추가 영상 {len(extra)}건")
     if extra:
         extra = enrich_videos(key, extra)
@@ -1110,7 +1161,7 @@ def main():
     log(f"   → {len(songs)}곡")
 
     log("7) 점수 계산")
-    results = score_songs(songs, prev, shazam, today)
+    results = score_songs(songs, prev, shazam, today, checked)
     passing = sum(1 for r in results if r.get("passes"))
     log(f"   → 실질 채널 {MIN_CHANNELS}개 이상 {passing}곡")
 
