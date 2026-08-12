@@ -143,6 +143,8 @@ JUNK_PATTERNS = [
     "반응", "실수", "비밀", "레전드", "썰", "리뷰", "브이로그", "직캠",
     "교차편집", "무대", "연습", "몰카", "tmi", "멍청이", "가사 없는",
     "가사 못", "외우", "애교", "율동", "shorts #", "#shorts",
+    "있다고", "이라고", "하는 노래", "그 노래", "노래는", "곱씹",
+    "손글씨", "번역", "발음", "따라 부르기", "레벨",
     # 5차 표본에서 대량 유입된 힐링/종교/연속듣기 계열
     "연속듣기", "연속 듣기", "가사없는", "가사 없는", "명상", "힐링",
     "수면", "찬양", "ccm", "연주곡", "bgm", "asmr", "공부", "드라이브",
@@ -241,7 +243,7 @@ def yt(endpoint, key, retries=3, **params):
 # 제목에서 걷어낼 장식들
 BRACKET_RE = re.compile(r"[\[\(\{【（][^\]\)\}】）]*[\]\)\}】）]")
 DECOR_RE = re.compile(
-    r"(가사\s*(비디오)?|lyrics?|리릭\s*비디오|lyric\s*video|мv|official\s*(audio|video|mv)?"
+    r"((?<![가-힣])가사(?![가-힣])\s*(비디오)?|lyrics?|리릭\s*비디오|lyric\s*video|мv|official\s*(audio|video|mv)?"
     r"|audio|visualizer|비주얼라이저|1\s*시간|한시간|1\s*hour|loop|반복|"
     r"slowed(\s*\+?\s*reverb)?|reverb|슬로우(\s*리버브)?|sped\s*up|스페드업|"
     r"nightcore|8d|가사해석|해석|자막|kor\s*sub|번역|"
@@ -250,10 +252,25 @@ DECOR_RE = re.compile(
     re.IGNORECASE,
 )
 SPACE_RE = re.compile(r"\s+")
-SEP_RE = re.compile(r"\s*[-–—|/·:]\s*")
+SEP_SPACED = re.compile(r"\s+[-–—|/·:]+\s+|\s*[|·:]\s*")
+SEP_BARE = re.compile(r"\s*[-–—]\s*")
+
+
+def split_parts(t):
+    """공백을 낀 구분자를 우선한다. 로마자 표기의 하이픈을 보호하기 위함."""
+    parts = SEP_SPACED.split(t)
+    if len([p for p in parts if p.strip()]) >= 2:
+        return parts
+    return SEP_BARE.split(t)
+
+
+# 붙어서 오는 합성 장식어는 한글 경계 규칙보다 먼저 통째로 지운다.
+GLUED_RE = re.compile(r"노래제목(으로)?가사|가사영상|가사비디오|한글가사|가사해석",
+                      re.IGNORECASE)
 
 
 def clean_piece(s):
+    s = GLUED_RE.sub(" ", s)
     s = BRACKET_RE.sub(" ", s)
     s = DECOR_RE.sub(" ", s)
     s = re.sub(r"[\"'“”‘’#♪♬★☆*ㅣ│｜┃⎮|]+", " ", s)
@@ -275,7 +292,7 @@ def parse_title(raw):
     t = BRACKET_RE.sub(" ", t)          # 앞뒤 대괄호 장식 제거
     t = SPACE_RE.sub(" ", t).strip()
 
-    parts = SEP_RE.split(t)
+    parts = split_parts(t)
     parts = [clean_piece(p) for p in parts]
     parts = [p for p in parts if p and len(p) >= 2]
 
