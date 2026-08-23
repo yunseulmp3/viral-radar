@@ -1,4 +1,649 @@
 {
+ "liveqnabar": {
+  "artist": "ABM",
+  "title": "LIVE QNA BAR",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 1253,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "감성공감글귀가사쓰기kpop": {
+  "artist": "내 마음은 이게 아닌데",
+  "title": "감성 공감글귀 가사쓰기 kpop",
+  "channels": [
+   "UCWZvw1HFzLy76j2XcPsIeBg"
+  ],
+  "views": 1233,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "troyesivan|blue": {
+  "artist": "Troye Sivan",
+  "title": "BLUE",
+  "channels": [
+   "UCHEzDsqh6rI_2oANAnVWK3w"
+  ],
+  "views": 179,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "gnarly": {
+  "artist": "KATSEYE",
+  "title": "Gnarly",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 16450,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "carelesswhisper조지마이클케어리스위스퍼배우기팝송추천추억의팝송올드팝": {
+  "artist": "George Michael",
+  "title": "Careless Whisper, 조지마이클, 케어리스 위스퍼 배우기, 팝송추천 추억의팝송 올드팝",
+  "channels": [
+   "UCcAoCbE_kQgwPQV_H9IE--w"
+  ],
+  "views": 625,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "노래고마워요중에서노래가사쓰기예쁜글씨calligraphyarthandwriting": {
+  "artist": "캘리그라피",
+  "title": "노래 고마워요 중에서 노래가사쓰기 예쁜글씨 calligraphy art handwriting",
+  "channels": [
+   "UCjGsj732dUnER9HNsj4pDrg"
+  ],
+  "views": 1404,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "thisthat": {
+  "artist": "Stray Kids",
+  "title": "This & That",
+  "channels": [
+   "UC5BMQOsAB8hKUyHu9KI6yig",
+   "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 3783644,
+  "first_seen": "2026-08-09",
+  "last_seen": "2026-08-24"
+ },
+ "hootiefrutti": {
+  "artist": "KATSEYE",
+  "title": "Hootie Frutti",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 1091876,
+  "first_seen": "2026-08-16",
+  "last_seen": "2026-08-24"
+ },
+ "shadowbyyoongi": {
+  "artist": "CORTIS MONEYMONEYMONEY",
+  "title": "ShadowByYoongi",
+  "channels": [
+   "UC6Dot0dgBH9odsD_XKhci_w"
+  ],
+  "views": 717165,
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-08-24"
+ },
+ "outside": {
+  "artist": "엔하이픈",
+  "title": "Outside",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 45,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "highlight": {
+  "artist": "엔하이픈",
+  "title": "Highlight",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 21,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "acoustickpopver": {
+  "artist": "잔향",
+  "title": "Acoustic K-pop Ver",
+  "channels": [
+   "UCQGVqnKg1cLiW34kxZdJb6g"
+  ],
+  "views": 9,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "bloodyparadise": {
+  "artist": "엔하이픈",
+  "title": "Bloody Paradise",
+  "channels": [
+   "UC5BMQOsAB8hKUyHu9KI6yig",
+   "UCa2thp4T0YSy7qBSL2WBEdA",
+   "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "UCi5u2xTzKv4vQY3Fqse9MtA",
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 1534025,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "manphasickzuck": {
+  "artist": "실리카겔",
+  "title": "Manphasickzuck",
+  "channels": [
+   "UCgp1DN5kDI_fuC8KxxFWRoQ"
+  ],
+  "views": 21,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "summertime": {
+  "artist": "The Joyfools",
+  "title": "Summertime",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 17,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "현서|가지마": {
+  "artist": "현서",
+  "title": "가지마",
+  "channels": [
+   "UC3i0PM6WNy6do0pcRUUbOjw"
+  ],
+  "views": 47,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "tarayayaya": {
+  "artist": "歌詞+ENGTRANS",
+  "title": "T-ARA yayaya",
+  "channels": [
+   "UC1qzi8ZlXw0nI3f-Dv1JyIg"
+  ],
+  "views": 687,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "김재중|91": {
+  "artist": "김재중",
+  "title": "9+1",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 10,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "justanothergirl": {
+  "artist": "김재중",
+  "title": "Just Another Girl",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 15,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "goodmorningnight": {
+  "artist": "김재중",
+  "title": "Good Morning Night",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 17,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "miracle": {
+  "artist": "김재중",
+  "title": "Miracle",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 30,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "빅뱅bigbang|biiig": {
+  "artist": "빅뱅 BIGBANG",
+  "title": "BiiiG",
+  "channels": [
+   "UCI0ABmBMxulkhpB9WGYlcUA"
+  ],
+  "views": 1250,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "tiffanyyoung|codes": {
+  "artist": "Tiffany Young",
+  "title": "Codes",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 64,
+  "first_seen": "2026-08-21",
+  "last_seen": "2026-08-24"
+ },
+ "bluevalentine": {
+  "artist": "NMIXX",
+  "title": "Blue Valentine",
+  "channels": [
+   "UCHyJLaPB61tGOi28_LJe-Eg"
+  ],
+  "views": 10,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "midday": {
+  "artist": "송남현",
+  "title": "Midday",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 5,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "하루의끝에내가있을게요": {
+  "artist": "봉훈",
+  "title": "하루의 끝에 내가 있을게요",
+  "channels": [
+   "UCM046A_jnoUK36hiWVwUR2w"
+  ],
+  "views": 1978,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "작은날vibesong오노추": {
+  "artist": "PATEKO",
+  "title": "작은 날 Vibe song 오노추",
+  "channels": [
+   "UC4rKuC-NG37yo6AgMDFu3XQ"
+  ],
+  "views": 182,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "hanaumabay": {
+  "artist": "죠지, 차울",
+  "title": "hanaumabay",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 140,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "구마exorcist": {
+  "artist": "우리 보카로가 뭔가 이상해",
+  "title": "구마 Exorcist",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 737468,
+  "first_seen": "2026-08-17",
+  "last_seen": "2026-08-24"
+ },
+ "iconicheart": {
+  "artist": "Hearts2Hearts",
+  "title": "ICONIC HEART",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA",
+   "UCoveg6T3elIkN0x0BdFniAA"
+  ],
+  "views": 652364,
+  "first_seen": "2026-08-15",
+  "last_seen": "2026-08-24"
+ },
+ "toxicgossiptrain": {
+  "artist": "Snappydoodle",
+  "title": "Toxic Gossip Train",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 546603,
+  "first_seen": "2026-08-16",
+  "last_seen": "2026-08-24"
+ },
+ "2종보통멋쟁이": {
+  "artist": "래원",
+  "title": "2종보통멋쟁이",
+  "channels": [
+   "UCPzSErlpKTvf-A9SVmZwNIg",
+   "UCX68_4UpD_vGTIcoToD0RpA",
+   "UCi5u2xTzKv4vQY3Fqse9MtA",
+   "UCjYi7J7JZP8v5JkO-0brz6A",
+   "UCnuxf8pB5QqLgvuK1eyb6hQ"
+  ],
+  "views": 437230,
+  "first_seen": "2026-08-03",
+  "last_seen": "2026-08-24"
+ },
+ "snakeeyes하코스벨즈dingomusic": {
+  "artist": "Hakos Baelz",
+  "title": "SNAKE EYES 하코스 벨즈 dingo Music",
+  "channels": [
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 243340,
+  "first_seen": "2026-08-21",
+  "last_seen": "2026-08-24"
+ },
+ "외톨이야트로트ver": {
+  "artist": "CNBLUE",
+  "title": "외톨이야 트로트ver.🎵",
+  "channels": [
+   "UCBn_JvU8qQ_641Le4RnJ6Ag"
+  ],
+  "views": 198792,
+  "first_seen": "2026-08-03",
+  "last_seen": "2026-08-24"
+ },
+ "bigbang|biiig": {
+  "artist": "BIGBANG",
+  "title": "BiiiG",
+  "channels": [
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCGwy3aG0otCibKPyuR0q1nA",
+   "UCJUNhYh-tFB2o7LA8CzzJaw",
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 270730,
+  "first_seen": "2026-08-20",
+  "last_seen": "2026-08-24"
+ },
+ "진진경|만년사랑": {
+  "artist": "진진경",
+  "title": "만년사랑",
+  "channels": [
+   "UC89REZtkRvJYaevszj4hKZQ"
+  ],
+  "views": 710151,
+  "first_seen": "2026-08-09",
+  "last_seen": "2026-08-24"
+ },
+ "가끔네가너무그리워": {
+  "artist": "펀치",
+  "title": "가끔 네가 너무 그리워",
+  "channels": [
+   "UCM046A_jnoUK36hiWVwUR2w",
+   "UCZaxtcrLDEOFeYlfa41p6Ww",
+   "UClT-0bfjE8LDCUCht3o2Hvw",
+   "UCtCiO5t2voB14CmZKTkIzPQ",
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 1238976,
+  "first_seen": "2026-08-17",
+  "last_seen": "2026-08-24"
+ },
+ "popoffpopoff": {
+  "artist": "KiiiKiii",
+  "title": "Pop Off Pop Off",
+  "channels": [
+   "UC5BMQOsAB8hKUyHu9KI6yig",
+   "UCJUNhYh-tFB2o7LA8CzzJaw",
+   "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 630998,
+  "first_seen": "2026-08-11",
+  "last_seen": "2026-08-24"
+ },
+ "채널동영상이동": {
+  "artist": "시간의 굴레 풀버전",
+  "title": "채널동영상 이동",
+  "channels": [
+   "UCzuKEHS9k9qQgd_-bz2aEHQ"
+  ],
+  "views": 31,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "어쩔건데|포함": {
+  "artist": "어쩔 건데",
+  "title": "포함",
+  "channels": [
+   "UCKslS_y9HQujMfYVPm_dc3Q"
+  ],
+  "views": 27,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "이수현|푸른산호초": {
+  "artist": "이수현",
+  "title": "푸른 산호초",
+  "channels": [
+   "UCv6LEBZ1ZJtb7AIWPAYsjLQ"
+  ],
+  "views": 508,
+  "first_seen": "2026-08-19",
+  "last_seen": "2026-08-24"
+ },
+ "너에게다시|감성발라드": {
+  "artist": "🎵 너에게 다시",
+  "title": "감성발라드",
+  "channels": [
+   "UCZX0OhDTMGVVnw8CaYq0g8Q"
+  ],
+  "views": 25,
+  "first_seen": "2026-08-23",
+  "last_seen": "2026-08-24"
+ },
+ "성모님께맡기는밤": {
+  "artist": "수험생과 가족을 위한 기도음악",
+  "title": "성모님께 맡기는 밤",
+  "channels": [
+   "UCW98tkJ3q27J8TRDkPd01Rw"
+  ],
+  "views": 28,
+  "first_seen": "2026-08-24",
+  "last_seen": "2026-08-24"
+ },
+ "tuneweaver비오는밤새벽에무한해서듣기좋은lofirb": {
+  "artist": "똑똑똑",
+  "title": "Tuneweaver 비 오는 밤, 새벽에 무한 해서 듣기 좋은 Lo-fi R&B",
+  "channels": [
+   "UC_u_2YAMN2d6bxWipCSVSRA"
+  ],
+  "views": 4,
+  "first_seen": "2026-08-22",
+  "last_seen": "2026-08-24"
+ },
+ "downbelow": {
+  "artist": "🌊 세이렌의 바다에 잠기다",
+  "title": "Down Below",
+  "channels": [
+   "UC9yvoNm1NsgzwZ9KvMgCBcg"
+  ],
+  "views": 29281,
+  "first_seen": "2026-08-18",
+  "last_seen": "2026-08-24"
+ },
+ "surfinboy": {
+  "artist": "Red Velvet",
+  "title": "Surfin Boy",
+  "channels": [
+   "UCJUNhYh-tFB2o7LA8CzzJaw"
+  ],
+  "views": 19722,
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-24"
+ },
+ "postmaloneswaelee재생": {
+  "artist": "노래들으면서 동안 노을 웹스윙🎵Sunflower",
+  "title": "Post Malone, Swae Lee 🎶 재생",
+  "channels": [
+   "UCtobcFZ9KVf9rbJ518m-DVw"
+  ],
+  "views": 23174,
+  "first_seen": "2026-08-18",
+  "last_seen": "2026-08-24"
+ },
+ "영화가다보여주지못한원작전체이야기": {
+  "artist": "오디세우스는 왜 10년을 떠돌았나",
+  "title": "영화가 다 보여주지 못한 원작 전체 이야기",
+  "channels": [
+   "UC3dcojrx2C-aJZ91di54c7w"
+  ],
+  "views": 16105,
+  "first_seen": "2026-08-22",
+  "last_seen": "2026-08-24"
+ },
+ "눈감고듣는몽환인디포크새벽안개": {
+  "artist": "안개가 삼킨 아침",
+  "title": "눈 감고 듣는 몽환 인디포크 🌫️ 새벽 안개",
+  "channels": [
+   "UCjNnFksGHA93dIxS7ubTTBg"
+  ],
+  "views": 348,
+  "first_seen": "2026-08-18",
+  "last_seen": "2026-08-24"
+ },
+ "수아플발라드인디": {
+  "artist": "🎧 잘못했어",
+  "title": "수아플 발라드 인디",
+  "channels": [
+   "UCkwBgm1g9yESZ5ybsFhD_tQ"
+  ],
+  "views": 33,
+  "first_seen": "2026-08-22",
+  "last_seen": "2026-08-24"
+ },
+ "눈감고듣는몽환인디포크": {
+  "artist": "새벽창에 찾아온 안개",
+  "title": "눈 감고 듣는 몽환 인디포크",
+  "channels": [
+   "UCjNnFksGHA93dIxS7ubTTBg"
+  ],
+  "views": 305,
+  "first_seen": "2026-08-22",
+  "last_seen": "2026-08-24"
+ },
+ "키스오브라이프벨": {
+  "artist": "가사와 현실이 정반대인 라이브ㅋㅋ",
+  "title": "키스오브라이프 벨",
+  "channels": [
+   "UCRbPDspfZz6SmiDy85ca3oA"
+  ],
+  "views": 1286565,
+  "first_seen": "2026-08-13",
+  "last_seen": "2026-08-24"
+ },
+ "babymonster|moon": {
+  "artist": "BABYMONSTER",
+  "title": "MOON",
+  "channels": [
+   "UCe52oeb7Xv_KaJsEzcKXJJg"
+  ],
+  "views": 931201,
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-24"
+ },
+ "여름아부탁해": {
+  "artist": "아니 안지영 인맥 어디까지임..?",
+  "title": "여름아 부탁해]",
+  "channels": [
+   "UCa6WhioiyUb-ke0FQZVeFsA"
+  ],
+  "views": 579297,
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-08-24"
+ },
+ "thursday": {
+  "artist": "쿠기",
+  "title": "Thursday",
+  "channels": [
+   "UCO_HutTdw0PTxGPK7FG1fRA",
+   "UCl6I47A_QWxHxdVEOH1ajoQ",
+   "UCviI9lzTe2pkxJ9M2ArA7WQ"
+  ],
+  "views": 118160,
+  "first_seen": "2026-08-11",
+  "last_seen": "2026-08-24"
+ },
+ "hotline": {
+  "artist": "마시로",
+  "title": "HOTLINE",
+  "channels": [
+   "UC5BMQOsAB8hKUyHu9KI6yig",
+   "UCZaxtcrLDEOFeYlfa41p6Ww",
+   "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 165922,
+  "first_seen": "2026-08-22",
+  "last_seen": "2026-08-24"
+ },
+ "yukopi|쇼기한판": {
+  "artist": "Yukopi",
+  "title": "쇼기 한 판!",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 80985,
+  "first_seen": "2026-08-14",
+  "last_seen": "2026-08-24"
+ },
+ "뒤로가지않는지하철": {
+  "artist": "한이서",
+  "title": "뒤로 가지 않는 지하철",
+  "channels": [
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 72608,
+  "first_seen": "2026-08-14",
+  "last_seen": "2026-08-24"
+ },
+ "정효빈|나의작은틈": {
+  "artist": "정효빈",
+  "title": "나의 작은 틈",
+  "channels": [
+   "UC8Kc12FgdeLCbBsDXms3MZA",
+   "UC9qQRusPFJK15kNCZVnIqMA",
+   "UCWay6XzxACmPf7ZW1glW59g",
+   "UCZaxtcrLDEOFeYlfa41p6Ww",
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 71756,
+  "first_seen": "2026-08-08",
+  "last_seen": "2026-08-24"
+ },
+ "피철인|놀아보세": {
+  "artist": "피철인",
+  "title": "놀아보세",
+  "channels": [
+   "UCfkXDY7vwkcJ8ddFGz8KusA",
+   "UCmjNKt6kITwaZTqvWuaSPLg",
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 70922,
+  "first_seen": "2026-08-06",
+  "last_seen": "2026-08-24"
+ },
+ "toil최성jayciyucca|유한세상": {
+  "artist": "TOIL, 최성, Jayci yucca",
+  "title": "유한세상",
+  "channels": [
+   "UC4TBUBoU_2W5NOk_FbsnDyw",
+   "UC9_U_zuqc2D1ik4xhVzOHnw",
+   "UCF8wEh-DzIOf-vhZqVs2AWQ",
+   "UCGuE0TrBNIZKfordUwAQe2w"
+  ],
+  "views": 43930,
+  "first_seen": "2026-08-06",
+  "last_seen": "2026-08-24"
+ },
  "프레데릭|오도루프": {
   "artist": "프레데릭",
   "title": "오도루프",
@@ -7,27 +652,6 @@
   ],
   "views": 19,
   "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "bloodyparadise": {
-  "artist": "ENHYPEN エンハイプン 엔하이픈",
-  "title": "Bloody Paradise",
-  "channels": [
-   "UC5BMQOsAB8hKUyHu9KI6yig",
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 341315,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "shadowbyyoongi": {
-  "artist": "ENHYPEN Highlight",
-  "title": "ShadowByYoongi",
-  "channels": [
-   "UC6Dot0dgBH9odsD_XKhci_w"
-  ],
-  "views": 770595,
-  "first_seen": "2026-07-26",
   "last_seen": "2026-08-23"
  },
  "baumkuchenendcredits": {
@@ -60,61 +684,9 @@
   "first_seen": "2026-08-23",
   "last_seen": "2026-08-23"
  },
- "thisthat": {
-  "artist": "Stray Kids",
-  "title": "This & That",
-  "channels": [
-   "UC5BMQOsAB8hKUyHu9KI6yig",
-   "UCe52oeb7Xv_KaJsEzcKXJJg",
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 3711568,
-  "first_seen": "2026-08-09",
-  "last_seen": "2026-08-23"
- },
- "hootiefrutti": {
-  "artist": "KATSEYE",
-  "title": "Hootie Frutti",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 1037259,
-  "first_seen": "2026-08-16",
-  "last_seen": "2026-08-23"
- },
- "justanothergirl": {
-  "artist": "김재중",
-  "title": "Just Another Girl",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 5,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "goodmorningnight": {
-  "artist": "김재중",
-  "title": "Good Morning Night",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 7,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
  "inchaos": {
   "artist": "김재중",
   "title": "In Chaos",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 11,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "miracle": {
-  "artist": "김재중",
-  "title": "Miracle",
   "channels": [
    "UCylvD44Ks75w-jTw4ie3Crg"
   ],
@@ -142,36 +714,6 @@
   "first_seen": "2026-08-23",
   "last_seen": "2026-08-23"
  },
- "빅뱅bigbang|biiig": {
-  "artist": "빅뱅 BIGBANG",
-  "title": "BiiiG",
-  "channels": [
-   "UCI0ABmBMxulkhpB9WGYlcUA"
-  ],
-  "views": 1155,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "tiffanyyoung|codes": {
-  "artist": "Tiffany Young",
-  "title": "Codes",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 24,
-  "first_seen": "2026-08-21",
-  "last_seen": "2026-08-23"
- },
- "bluevalentine": {
-  "artist": "NMIXX",
-  "title": "Blue Valentine",
-  "channels": [
-   "UCHyJLaPB61tGOi28_LJe-Eg"
-  ],
-  "views": 5,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
  "송남현|알라프리마": {
   "artist": "송남현",
   "title": "알라프리마",
@@ -179,36 +721,6 @@
    "UCZaxtcrLDEOFeYlfa41p6Ww"
   ],
   "views": 2,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "midday": {
-  "artist": "송남현",
-  "title": "Midday",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 6,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "하루의끝에내가있을게요": {
-  "artist": "봉훈",
-  "title": "하루의 끝에 내가 있을게요",
-  "channels": [
-   "UCM046A_jnoUK36hiWVwUR2w"
-  ],
-  "views": 827,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "작은날vibesong오노추": {
-  "artist": "PATEKO",
-  "title": "작은 날 Vibe song 오노추",
-  "channels": [
-   "UC4rKuC-NG37yo6AgMDFu3XQ"
-  ],
-  "views": 176,
   "first_seen": "2026-08-23",
   "last_seen": "2026-08-23"
  },
@@ -220,16 +732,6 @@
   ],
   "views": 100,
   "first_seen": "2026-08-21",
-  "last_seen": "2026-08-23"
- },
- "hanaumabay": {
-  "artist": "죠지, 차울",
-  "title": "hanaumabay",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 93,
-  "first_seen": "2026-08-23",
   "last_seen": "2026-08-23"
  },
  "죠지|bgf": {
@@ -342,151 +844,6 @@
   "first_seen": "2026-08-22",
   "last_seen": "2026-08-23"
  },
- "구마exorcist": {
-  "artist": "우리 보카로가 뭔가 이상해",
-  "title": "구마 Exorcist",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 694819,
-  "first_seen": "2026-08-17",
-  "last_seen": "2026-08-23"
- },
- "iconicheart": {
-  "artist": "Hearts2Hearts",
-  "title": "ICONIC HEART",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA",
-   "UCoveg6T3elIkN0x0BdFniAA"
-  ],
-  "views": 642828,
-  "first_seen": "2026-08-15",
-  "last_seen": "2026-08-23"
- },
- "toxicgossiptrain": {
-  "artist": "Snappydoodle",
-  "title": "Toxic Gossip Train",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 540168,
-  "first_seen": "2026-08-16",
-  "last_seen": "2026-08-23"
- },
- "2종보통멋쟁이": {
-  "artist": "래원",
-  "title": "2종보통멋쟁이",
-  "channels": [
-   "UCPzSErlpKTvf-A9SVmZwNIg",
-   "UCX68_4UpD_vGTIcoToD0RpA",
-   "UCi5u2xTzKv4vQY3Fqse9MtA",
-   "UCjYi7J7JZP8v5JkO-0brz6A",
-   "UCnuxf8pB5QqLgvuK1eyb6hQ"
-  ],
-  "views": 409562,
-  "first_seen": "2026-08-03",
-  "last_seen": "2026-08-23"
- },
- "snakeeyes하코스벨즈dingomusic": {
-  "artist": "Hakos Baelz",
-  "title": "SNAKE EYES 하코스 벨즈 dingo Music",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 217211,
-  "first_seen": "2026-08-21",
-  "last_seen": "2026-08-23"
- },
- "외톨이야트로트ver": {
-  "artist": "CNBLUE",
-  "title": "외톨이야 트로트ver.🎵",
-  "channels": [
-   "UCBn_JvU8qQ_641Le4RnJ6Ag"
-  ],
-  "views": 190541,
-  "first_seen": "2026-08-03",
-  "last_seen": "2026-08-23"
- },
- "진진경|만년사랑": {
-  "artist": "진진경",
-  "title": "만년사랑",
-  "channels": [
-   "UC89REZtkRvJYaevszj4hKZQ"
-  ],
-  "views": 704421,
-  "first_seen": "2026-08-09",
-  "last_seen": "2026-08-23"
- },
- "bigbang|biiig": {
-  "artist": "BIGBANG",
-  "title": "BiiiG",
-  "channels": [
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCJUNhYh-tFB2o7LA8CzzJaw",
-   "UCoBcjaSab_CLwBOKe-8Fvjw"
-  ],
-  "views": 237667,
-  "first_seen": "2026-08-20",
-  "last_seen": "2026-08-23"
- },
- "가끔네가너무그리워": {
-  "artist": "펀치",
-  "title": "가끔 네가 너무 그리워",
-  "channels": [
-   "UCM046A_jnoUK36hiWVwUR2w",
-   "UCQy2ao4U9GJHsnxBtwrmPyQ",
-   "UCS7hEsbC90Cea-5_hCCOHBA",
-   "UCZKcxTMmaUsS07MqyDLfNFQ",
-   "UCZaxtcrLDEOFeYlfa41p6Ww",
-   "UClT-0bfjE8LDCUCht3o2Hvw",
-   "UCtCiO5t2voB14CmZKTkIzPQ",
-   "UCxgmlqkl1U5rNTME63j5I0A",
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 1237361,
-  "first_seen": "2026-08-17",
-  "last_seen": "2026-08-23"
- },
- "채널동영상이동": {
-  "artist": "시간의 굴레 풀버전",
-  "title": "채널동영상 이동",
-  "channels": [
-   "UCzuKEHS9k9qQgd_-bz2aEHQ"
-  ],
-  "views": 28,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "어쩔건데|포함": {
-  "artist": "어쩔 건데",
-  "title": "포함",
-  "channels": [
-   "UCKslS_y9HQujMfYVPm_dc3Q"
-  ],
-  "views": 21,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "너에게다시|감성발라드": {
-  "artist": "🎵 너에게 다시",
-  "title": "감성발라드",
-  "channels": [
-   "UCZX0OhDTMGVVnw8CaYq0g8Q"
-  ],
-  "views": 18,
-  "first_seen": "2026-08-23",
-  "last_seen": "2026-08-23"
- },
- "tuneweaver비오는밤새벽에무한해서듣기좋은lofirb": {
-  "artist": "똑똑똑",
-  "title": "Tuneweaver 비 오는 밤, 새벽에 무한 해서 듣기 좋은 Lo-fi R&B",
-  "channels": [
-   "UC_u_2YAMN2d6bxWipCSVSRA"
-  ],
-  "views": 4,
-  "first_seen": "2026-08-22",
-  "last_seen": "2026-08-23"
- },
  "빛그리고바람|포함": {
   "artist": "빛, 그리고 바람",
   "title": "포함",
@@ -494,86 +851,6 @@
    "UCKslS_y9HQujMfYVPm_dc3Q"
   ],
   "views": 9,
-  "first_seen": "2026-08-22",
-  "last_seen": "2026-08-23"
- },
- "surfinboy": {
-  "artist": "Red Velvet",
-  "title": "Surfin Boy",
-  "channels": [
-   "UCJUNhYh-tFB2o7LA8CzzJaw"
-  ],
-  "views": 19591,
-  "first_seen": "2026-08-04",
-  "last_seen": "2026-08-23"
- },
- "popoffpopoff": {
-  "artist": "KiiiKiii",
-  "title": "Pop Off Pop Off",
-  "channels": [
-   "UCJUNhYh-tFB2o7LA8CzzJaw"
-  ],
-  "views": 11806,
-  "first_seen": "2026-08-11",
-  "last_seen": "2026-08-23"
- },
- "postmaloneswaelee재생": {
-  "artist": "노래들으면서 동안 노을 웹스윙🎵Sunflower",
-  "title": "Post Malone, Swae Lee 🎶 재생",
-  "channels": [
-   "UCtobcFZ9KVf9rbJ518m-DVw"
-  ],
-  "views": 22637,
-  "first_seen": "2026-08-18",
-  "last_seen": "2026-08-23"
- },
- "downbelow": {
-  "artist": "🌊 세이렌의 바다에 잠기다",
-  "title": "Down Below",
-  "channels": [
-   "UC9yvoNm1NsgzwZ9KvMgCBcg"
-  ],
-  "views": 22772,
-  "first_seen": "2026-08-18",
-  "last_seen": "2026-08-23"
- },
- "영화가다보여주지못한원작전체이야기": {
-  "artist": "오디세우스는 왜 10년을 떠돌았나",
-  "title": "영화가 다 보여주지 못한 원작 전체 이야기",
-  "channels": [
-   "UC3dcojrx2C-aJZ91di54c7w"
-  ],
-  "views": 16038,
-  "first_seen": "2026-08-22",
-  "last_seen": "2026-08-23"
- },
- "눈감고듣는몽환인디포크새벽안개": {
-  "artist": "안개가 삼킨 아침",
-  "title": "눈 감고 듣는 몽환 인디포크 🌫️ 새벽 안개",
-  "channels": [
-   "UCjNnFksGHA93dIxS7ubTTBg"
-  ],
-  "views": 344,
-  "first_seen": "2026-08-18",
-  "last_seen": "2026-08-23"
- },
- "수아플발라드인디": {
-  "artist": "🎧 잘못했어",
-  "title": "수아플 발라드 인디",
-  "channels": [
-   "UCkwBgm1g9yESZ5ybsFhD_tQ"
-  ],
-  "views": 33,
-  "first_seen": "2026-08-22",
-  "last_seen": "2026-08-23"
- },
- "눈감고듣는몽환인디포크": {
-  "artist": "새벽창에 찾아온 안개",
-  "title": "눈 감고 듣는 몽환 인디포크",
-  "channels": [
-   "UCjNnFksGHA93dIxS7ubTTBg"
-  ],
-  "views": 305,
   "first_seen": "2026-08-22",
   "last_seen": "2026-08-23"
  },
@@ -597,104 +874,6 @@
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-23"
  },
- "키스오브라이프벨": {
-  "artist": "가사와 현실이 정반대인 라이브ㅋㅋ",
-  "title": "키스오브라이프 벨",
-  "channels": [
-   "UCRbPDspfZz6SmiDy85ca3oA"
-  ],
-  "views": 1281917,
-  "first_seen": "2026-08-13",
-  "last_seen": "2026-08-23"
- },
- "babymonster|moon": {
-  "artist": "BABYMONSTER",
-  "title": "MOON",
-  "channels": [
-   "UCe52oeb7Xv_KaJsEzcKXJJg"
-  ],
-  "views": 922300,
-  "first_seen": "2026-08-04",
-  "last_seen": "2026-08-23"
- },
- "여름아부탁해": {
-  "artist": "아니 안지영 인맥 어디까지임..?",
-  "title": "여름아 부탁해]",
-  "channels": [
-   "UCa6WhioiyUb-ke0FQZVeFsA"
-  ],
-  "views": 578182,
-  "first_seen": "2026-07-26",
-  "last_seen": "2026-08-23"
- },
- "thursday": {
-  "artist": "쿠기",
-  "title": "Thursday",
-  "channels": [
-   "UCO_HutTdw0PTxGPK7FG1fRA",
-   "UCl6I47A_QWxHxdVEOH1ajoQ",
-   "UCviI9lzTe2pkxJ9M2ArA7WQ"
-  ],
-  "views": 116433,
-  "first_seen": "2026-08-11",
-  "last_seen": "2026-08-23"
- },
- "yukopi|쇼기한판": {
-  "artist": "Yukopi",
-  "title": "쇼기 한 판!",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 79916,
-  "first_seen": "2026-08-14",
-  "last_seen": "2026-08-23"
- },
- "뒤로가지않는지하철": {
-  "artist": "한이서",
-  "title": "뒤로 가지 않는 지하철",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 72549,
-  "first_seen": "2026-08-14",
-  "last_seen": "2026-08-23"
- },
- "정효빈|나의작은틈": {
-  "artist": "정효빈",
-  "title": "나의 작은 틈",
-  "channels": [
-   "UC8Kc12FgdeLCbBsDXms3MZA",
-   "UC9qQRusPFJK15kNCZVnIqMA",
-   "UCWay6XzxACmPf7ZW1glW59g",
-   "UCZaxtcrLDEOFeYlfa41p6Ww",
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 71628,
-  "first_seen": "2026-08-08",
-  "last_seen": "2026-08-23"
- },
- "피철인|놀아보세": {
-  "artist": "피철인",
-  "title": "놀아보세",
-  "channels": [
-   "UCfkXDY7vwkcJ8ddFGz8KusA"
-  ],
-  "views": 66539,
-  "first_seen": "2026-08-06",
-  "last_seen": "2026-08-23"
- },
- "hotline": {
-  "artist": "마시로",
-  "title": "HOTLINE",
-  "channels": [
-   "UC5BMQOsAB8hKUyHu9KI6yig",
-   "UCe52oeb7Xv_KaJsEzcKXJJg",
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 105077,
-  "first_seen": "2026-08-22",
-  "last_seen": "2026-08-23"
- },
  "sodasoda": {
   "artist": "TWS 투어스",
   "title": "SODA SODA",
@@ -703,19 +882,6 @@
   ],
   "views": 50142,
   "first_seen": "2026-08-05",
-  "last_seen": "2026-08-23"
- },
- "toil최성jayciyucca|유한세상": {
-  "artist": "TOIL, 최성, Jayci yucca",
-  "title": "유한세상",
-  "channels": [
-   "UC4TBUBoU_2W5NOk_FbsnDyw",
-   "UC9_U_zuqc2D1ik4xhVzOHnw",
-   "UCF8wEh-DzIOf-vhZqVs2AWQ",
-   "UCGuE0TrBNIZKfordUwAQe2w"
-  ],
-  "views": 43281,
-  "first_seen": "2026-08-06",
   "last_seen": "2026-08-23"
  },
  "다시만난오늘가사쓰기액괴시리즈공감시리즈액괴가사쓰기시리즈액괴": {
@@ -1227,18 +1393,6 @@
   ],
   "views": 63,
   "first_seen": "2026-08-21",
-  "last_seen": "2026-08-21"
- },
- "이수현|푸른산호초": {
-  "artist": "이수현",
-  "title": "푸른 산호초",
-  "channels": [
-   "UCJUNhYh-tFB2o7LA8CzzJaw",
-   "UCWay6XzxACmPf7ZW1glW59g",
-   "UCv6LEBZ1ZJtb7AIWPAYsjLQ"
-  ],
-  "views": 390,
-  "first_seen": "2026-08-19",
   "last_seen": "2026-08-21"
  },
  "shirt|style": {
