@@ -1,4 +1,720 @@
 {
+ "소연|퇴사할게여": {
+  "artist": "소연",
+  "title": "퇴사할게여",
+  "channels": [
+   "UCI0ABmBMxulkhpB9WGYlcUA",
+   "UCWgYP_gdOuDqbplrg7JHL8w",
+   "UCsF6Ttu4aaIXyHIRFEfN-Zg"
+  ],
+  "views": 161171,
+  "first_seen": "2026-09-09",
+  "last_seen": "2026-10-12"
+ },
+ "선미|사이렌": {
+  "artist": "선미",
+  "title": "사이렌",
+  "channels": [
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 6986,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "야라라라|abm": {
+  "artist": "야라라라",
+  "title": "ABM",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 6876,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "이런특|노래좋음": {
+  "artist": "이런 특",
+  "title": "노래 좋음",
+  "channels": [
+   "UCSMc8Sek3QAPgWaomLih_xA"
+  ],
+  "views": 1019,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "사랑그쓸쓸함에대하여": {
+  "artist": "김건모",
+  "title": "🍂사랑, 그 쓸쓸함에 대하여 🍁",
+  "channels": [
+   "UCgM79K9ZBwRG08QLqKKwRzA"
+  ],
+  "views": 2147,
+  "first_seen": "2026-10-07",
+  "last_seen": "2026-10-12"
+ },
+ "나비|잘된일이야": {
+  "artist": "나비",
+  "title": "잘 된 일이야",
+  "channels": [
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 15769,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-12"
+ },
+ "로이킴|크게울어라": {
+  "artist": "로이킴",
+  "title": "크게 울어라",
+  "channels": [
+   "UCM046A_jnoUK36hiWVwUR2w"
+  ],
+  "views": 35682,
+  "first_seen": "2026-10-07",
+  "last_seen": "2026-10-12"
+ },
+ "사랑사랑ioutnow": {
+  "artist": "JNV",
+  "title": "사랑사랑 I / OUT NOW !!",
+  "channels": [
+   "UC1fhdSQBan75FOEDx9BlNPw"
+  ],
+  "views": 308,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "거북선|윤민": {
+  "artist": "거북선",
+  "title": "윤민",
+  "channels": [
+   "UCt_a47nXKzjQiqrUr74QRLw"
+  ],
+  "views": 32,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "taradaybyday": {
+  "artist": "歌詞+ENGTRANS",
+  "title": "T-ARA DAY BY DAY",
+  "channels": [
+   "UC1qzi8ZlXw0nI3f-Dv1JyIg"
+  ],
+  "views": 276,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "영원히너의곁에kpophiphop응원rb가요사랑고백프로포즈웨딩송": {
+  "artist": "🎵 Tommy Kim",
+  "title": "영원히 너의 곁에 K-POP HIP-HOP 응원 R&B 가요 사랑고백 프로포즈 웨딩송",
+  "channels": [
+   "UCGt-TMpcDkpJ37p4IFYepcg"
+  ],
+  "views": 88,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "최유리|각자의길": {
+  "artist": "최유리",
+  "title": "각자의 길",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 39,
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-12"
+ },
+ "snooze": {
+  "artist": "바늘",
+  "title": "SNOOZE",
+  "channels": [
+   "UCjYaDRzjS0sn5PTD1tC-XVQ"
+  ],
+  "views": 74,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "stayawake": {
+  "artist": "문수진",
+  "title": "Stay Awake",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 322,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "조선힙합|살다보니": {
+  "artist": "조선힙합_",
+  "title": "살다보니",
+  "channels": [
+   "UCM046A_jnoUK36hiWVwUR2w"
+  ],
+  "views": 3106,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "alphabet": {
+  "artist": "로시",
+  "title": "Alphabet",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 418,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-12"
+ },
+ "kickflip|미완성": {
+  "artist": "KickFlip",
+  "title": "미완성",
+  "channels": [
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 1122,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-12"
+ },
+ "하슬하슬|기다려": {
+  "artist": "🎵하슬하슬",
+  "title": "기다려",
+  "channels": [
+   "UCWbgZEcy-lIpTsKzYpiyN0g"
+  ],
+  "views": 3736,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "빛나는너에게": {
+  "artist": "배우리",
+  "title": "빛나는 너에게",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 52,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "마음이아파요": {
+  "artist": "디어밍",
+  "title": "마음이 아파요",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 31,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "latecheckout": {
+  "artist": "PS영준",
+  "title": "Late Checkout",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 21,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "soberenough": {
+  "artist": "CLOCK",
+  "title": "Sober Enough ) )",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 27,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "우예린|소원빌기": {
+  "artist": "우예린",
+  "title": "소원빌기 )",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 88,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "ch3ven0m|믿어": {
+  "artist": "CH3V EN0M",
+  "title": "믿어",
+  "channels": [
+   "UCGuE0TrBNIZKfordUwAQe2w"
+  ],
+  "views": 6493,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "사랑은결말을알면서도다시": {
+  "artist": "경서",
+  "title": "사랑은 결말을 알면서도 다시",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 48,
+  "first_seen": "2026-10-11",
+  "last_seen": "2026-10-12"
+ },
+ "marryme": {
+  "artist": "마크툽 & 구윤회",
+  "title": "Marry Me",
+  "channels": [
+   "UCHEzDsqh6rI_2oANAnVWK3w"
+  ],
+  "views": 911,
+  "first_seen": "2026-10-11",
+  "last_seen": "2026-10-12"
+ },
+ "오늘도내일도iloveyou": {
+  "artist": "은주",
+  "title": "오늘도 내일도 I love you",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 86,
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-12"
+ },
+ "전유진|가시꽃사랑": {
+  "artist": "전유진",
+  "title": "가시 꽃 사랑",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 77,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "도아|fade": {
+  "artist": "도아 )",
+  "title": "FADE",
+  "channels": [
+   "UCZaxtcrLDEOFeYlfa41p6Ww"
+  ],
+  "views": 20,
+  "first_seen": "2026-10-11",
+  "last_seen": "2026-10-12"
+ },
+ "hu57la|찰랑찰랑": {
+  "artist": "hu57la",
+  "title": "찰랑찰랑",
+  "channels": [
+   "UCviI9lzTe2pkxJ9M2ArA7WQ"
+  ],
+  "views": 38382,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ "qwer|소년만화": {
+  "artist": "QWER",
+  "title": "소년만화",
+  "channels": [
+   "UC7Z7Kvu0Z39Aq-msEbJxWrQ",
+   "UC8Mrych8hmlL6BcnNFQeSoA",
+   "UCJUNhYh-tFB2o7LA8CzzJaw",
+   "UCM046A_jnoUK36hiWVwUR2w",
+   "UCoBcjaSab_CLwBOKe-8Fvjw",
+   "UCvc9oH60JALvJl2fvkMjpMw",
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 415804,
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-10-12"
+ },
+ "박상철|빵빵": {
+  "artist": "박상철",
+  "title": "빵빵",
+  "channels": [
+   "UCoBcjaSab_CLwBOKe-8Fvjw",
+   "UCy-R_WjKZMLQeoz5D_dtXDA"
+  ],
+  "views": 143062,
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-12"
+ },
+ "alldayproject|crash": {
+  "artist": "ALLDAY PROJECT",
+  "title": "CRASH",
+  "channels": [
+   "UCJUNhYh-tFB2o7LA8CzzJaw",
+   "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "UCeLPm9yH_a_QH8n6445G-Ow",
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 593758,
+  "first_seen": "2026-09-29",
+  "last_seen": "2026-10-12"
+ },
+ "계절의끝딩고뮤직dingomusic": {
+  "artist": "박재정",
+  "title": "계절의 끝 딩고뮤직 dingo Music",
+  "channels": [
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 189025,
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-12"
+ },
+ "박재정|계절의끝": {
+  "artist": "박재정",
+  "title": "계절의 끝",
+  "channels": [
+   "UCLvhr40dgoBcV4XBlOhauNw",
+   "UCM046A_jnoUK36hiWVwUR2w",
+   "UCeLPm9yH_a_QH8n6445G-Ow",
+   "UCkt5auxw8j76wvEuH4u-JJg",
+   "UCx4gTnBLHwIbOtsSXDCYg2A",
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 1360404,
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-10-12"
+ },
+ "shadowbyyoongi": {
+  "artist": "ALLDAY PROJECT TALK",
+  "title": "ShadowByYoongi",
+  "channels": [
+   "UC6Dot0dgBH9odsD_XKhci_w"
+  ],
+  "views": 273781,
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-10-12"
+ },
+ "창모|불러봐": {
+  "artist": "창모",
+  "title": "불러봐",
+  "channels": [
+   "UC7EN7nZ8CxTobJ8xu6Hb4KA",
+   "UC9_U_zuqc2D1ik4xhVzOHnw",
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCNlmhEjcV011Hzd8UMFapPw",
+   "UCl6I47A_QWxHxdVEOH1ajoQ",
+   "UCpnc6w-7QyNe7dcYDiDI5Tg",
+   "UCvHb8R4fu0TKkaij36A4rOg"
+  ],
+  "views": 111583,
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-12"
+ },
+ "ugrsrighthere": {
+  "artist": "창모",
+  "title": "UGRS RIGHT HERE!",
+  "channels": [
+   "UC2maPeQKTJAdD_GOgv-bpDA",
+   "UC9_U_zuqc2D1ik4xhVzOHnw",
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCNlmhEjcV011Hzd8UMFapPw",
+   "UCgp1DN5kDI_fuC8KxxFWRoQ",
+   "UCi5u2xTzKv4vQY3Fqse9MtA",
+   "UCkxBjysIyS3AicvgcjY7wog",
+   "UCm69xuysxVgNuRpmXCiXlPw",
+   "UCoCCXWjzE8psrek2-Hfwr5A",
+   "UCvHb8R4fu0TKkaij36A4rOg"
+  ],
+  "views": 110292,
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-12"
+ },
+ "amorescomoelnuestro": {
+  "artist": "Jerry Rivera",
+  "title": "Amores como el nuestro",
+  "channels": [
+   "UC3T634Dcsu1Pbg0pgB_vY7A"
+  ],
+  "views": 57437,
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-12"
+ },
+ "보기드문여자": {
+  "artist": "YENA",
+  "title": "보기 드문 여자",
+  "channels": [
+   "UCcJW5obUML3W4A7VTY-jv6w"
+  ],
+  "views": 86495,
+  "first_seen": "2026-10-03",
+  "last_seen": "2026-10-12"
+ },
+ "연애의조건|베스티": {
+  "artist": "연애의 조건",
+  "title": "베스티",
+  "channels": [
+   "UCi5u2xTzKv4vQY3Fqse9MtA"
+  ],
+  "views": 113408,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-12"
+ },
+ "창모|가스펠": {
+  "artist": "창모",
+  "title": "가스펠",
+  "channels": [
+   "UC9_U_zuqc2D1ik4xhVzOHnw",
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCNlmhEjcV011Hzd8UMFapPw",
+   "UCvHb8R4fu0TKkaij36A4rOg"
+  ],
+  "views": 99220,
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-12"
+ },
+ "pateko|toy": {
+  "artist": "PATEKO",
+  "title": "Toy",
+  "channels": [
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCvHb8R4fu0TKkaij36A4rOg",
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 109152,
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-12"
+ },
+ "애쓰지않아도충분한밤": {
+  "artist": "너는 너로",
+  "title": "애쓰지 않아도 충분한 밤",
+  "channels": [
+   "UCIoesjWwR8Gj-Ajcmq1AmGg"
+  ],
+  "views": 16,
+  "first_seen": "2026-10-11",
+  "last_seen": "2026-10-12"
+ },
+ "잔불노래재생lhanlyics": {
+  "artist": "엔플라잉",
+  "title": "잔불 노래 재생 l HAN Lyics",
+  "channels": [
+   "UCdO6EYjzMwIHvZk0FSYulFA"
+  ],
+  "views": 1733,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-12"
+ },
+ "loveoptions": {
+  "artist": "BESTie",
+  "title": "Love Options",
+  "channels": [
+   "UCGwy3aG0otCibKPyuR0q1nA"
+  ],
+  "views": 3230,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-12"
+ },
+ "한걸음씩|묵상": {
+  "artist": "한 걸음씩",
+  "title": "묵상",
+  "channels": [
+   "UCOkH-lFdixJDAnST-oO6sow"
+  ],
+  "views": 0,
+  "first_seen": "2026-10-11",
+  "last_seen": "2026-10-12"
+ },
+ "부드러운플루트": {
+  "artist": "숲속 온실의 아침",
+  "title": "부드러운 플루트",
+  "channels": [
+   "UCtWiuHWyuAQnoN4WEgFKroQ"
+  ],
+  "views": 26,
+  "first_seen": "2026-10-11",
+  "last_seen": "2026-10-12"
+ },
+ "검은별똥별시간의나그네더빙彡": {
+  "artist": "치이카와",
+  "title": "검은 별똥별 「시간의 나그네」 더빙 彡",
+  "channels": [
+   "UCpou_jgVN5OFbnisQ4ZveeA"
+  ],
+  "views": 232499,
+  "first_seen": "2026-09-25",
+  "last_seen": "2026-10-12"
+ },
+ "거봐결국나잖아|確信": {
+  "artist": "🖤거봐, 결국 나잖아",
+  "title": "確信",
+  "channels": [
+   "UCk56jAGfVN5dFxjZEs2k-hw"
+  ],
+  "views": 89308,
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-12"
+ },
+ "치이카와귀여워돌아버림": {
+  "artist": "우사기 랩 따라부르기 무한",
+  "title": "치이카와 귀여워 돌아버림",
+  "channels": [
+   "UCwHRNJbf4TH4soYRv0gXo5Q"
+  ],
+  "views": 18944,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-12"
+ },
+ "unis|하늘땅별땅": {
+  "artist": "UNIS",
+  "title": "하늘땅별땅",
+  "channels": [
+   "UCXNhguwNaE0MNz4Zhg9vLGg"
+  ],
+  "views": 7546,
+  "first_seen": "2026-09-13",
+  "last_seen": "2026-10-12"
+ },
+ "조정민|유리벽": {
+  "artist": "조정민",
+  "title": "유리벽",
+  "channels": [
+   "UCsxbX6QnOLal_qzzMK9AR9g"
+  ],
+  "views": 16812,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-12"
+ },
+ "화내는얼굴도귀여우니까|采配": {
+  "artist": "🖤화내는 얼굴도 귀여우니까",
+  "title": "采配",
+  "channels": [
+   "UCk56jAGfVN5dFxjZEs2k-hw"
+  ],
+  "views": 11003,
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-12"
+ },
+ "인디음악스토리뮤직감성음악엄마": {
+  "artist": "어떤 표정을 하고 있었더라",
+  "title": "인디음악 스토리뮤직 감성음악 엄마",
+  "channels": [
+   "UCqTS7Y8GVnZRchkI_YTx4Aw"
+  ],
+  "views": 458,
+  "first_seen": "2026-10-07",
+  "last_seen": "2026-10-12"
+ },
+ "인디음악스토리뮤직사춘기자작가사": {
+  "artist": "그냥 불러봤어",
+  "title": "인디음악 스토리뮤직 사춘기 자작가사",
+  "channels": [
+   "UCqTS7Y8GVnZRchkI_YTx4Aw"
+  ],
+  "views": 662,
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-12"
+ },
+ "감성음악인디음악": {
+  "artist": "별 일 없는 하루",
+  "title": "감성음악 인디음악",
+  "channels": [
+   "UCqTS7Y8GVnZRchkI_YTx4Aw"
+  ],
+  "views": 580,
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-12"
+ },
+ "언제쯤사랑할수있을까": {
+  "artist": "정승제",
+  "title": "언제쯤 사랑할 수 있을까",
+  "channels": [
+   "UC6VxwID91lb0j6yY2DWoa1Q",
+   "UCeLPm9yH_a_QH8n6445G-Ow",
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 1404646,
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-12"
+ },
+ "letsgroove": {
+  "artist": "Earth, Wind & Fire",
+  "title": "Let s Groove",
+  "channels": [
+   "UCrNwVrLuKynv5rG8CqdFPvg"
+  ],
+  "views": 710322,
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-12"
+ },
+ "사계그리고너": {
+  "artist": "같은 노래 맞아...?",
+  "title": "사계, 그리고 너]",
+  "channels": [
+   "UCyfyS8IGpeM3cB1gKsCR6OQ"
+  ],
+  "views": 673683,
+  "first_seen": "2026-09-16",
+  "last_seen": "2026-10-12"
+ },
+ "원신6주년테마곡바람의편지": {
+  "artist": "남도형",
+  "title": "원신 6주년 테마곡 바람의 편지",
+  "channels": [
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 521943,
+  "first_seen": "2026-10-03",
+  "last_seen": "2026-10-12"
+ },
+ "최초가사조사도중퇴소요청": {
+  "artist": "이혼숙려캠프 102회 예고편",
+  "title": "최초! 가사조사 도중 퇴소 요청💥",
+  "channels": [
+   "UCFL1sCAksD6_7JIZwwHcwjQ"
+  ],
+  "views": 315703,
+  "first_seen": "2026-09-25",
+  "last_seen": "2026-10-12"
+ },
+ "트랜지션플리": {
+  "artist": "고양 위켄드 내한 셋리스트",
+  "title": "트랜지션 플리 +",
+  "channels": [
+   "UCn8uankM3zautavUtdMkRSg"
+  ],
+  "views": 317667,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-12"
+ },
+ "sparkle": {
+  "artist": "로이킴",
+  "title": "Sparkle",
+  "channels": [
+   "UC9xbXVaaN6Q7PJut2MMZt0w",
+   "UCIDEcInP63cqfQ9QUioLPjg",
+   "UCTWgNNgcFA0sp8CjiFtoMhQ",
+   "UCeLPm9yH_a_QH8n6445G-Ow",
+   "UCk47fWy6pMaTUocu9HpBlIw"
+  ],
+  "views": 277240,
+  "first_seen": "2026-09-12",
+  "last_seen": "2026-10-12"
+ },
+ "focusonme": {
+  "artist": "샤넌 배",
+  "title": "Focus on Me",
+  "channels": [
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 104861,
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-12"
+ },
+ "bff딩고뮤직dingomusic": {
+  "artist": "KARDI",
+  "title": "BFF 딩고뮤직 dingo Music",
+  "channels": [
+   "UCCntvq0Jg-v5F5LaNXvX0SA",
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 104296,
+  "first_seen": "2026-09-23",
+  "last_seen": "2026-10-12"
+ },
+ "heartstage": {
+  "artist": "캐치! 티니핑, PLAVE",
+  "title": "Heart Stage",
+  "channels": [
+   "UCgp1DN5kDI_fuC8KxxFWRoQ",
+   "UCqelHOoPrV7uh3Gw4bgg4-w",
+   "UCylvD44Ks75w-jTw4ie3Crg"
+  ],
+  "views": 79237,
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-10-12"
+ },
  "아름다운날들": {
   "artist": "장혜진",
   "title": "아름다운 날들",
@@ -7,16 +723,6 @@
   ],
   "views": 1420,
   "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "트랜지션플리": {
-  "artist": "고양 위켄드 내한 셋리스트",
-  "title": "트랜지션 플리 +",
-  "channels": [
-   "UCn8uankM3zautavUtdMkRSg"
-  ],
-  "views": 298077,
-  "first_seen": "2026-10-09",
   "last_seen": "2026-10-11"
  },
  "troyesivan": {
@@ -39,63 +745,6 @@
   "first_seen": "2026-10-11",
   "last_seen": "2026-10-11"
  },
- "qwer|소년만화": {
-  "artist": "QWER",
-  "title": "소년만화",
-  "channels": [
-   "UC7Z7Kvu0Z39Aq-msEbJxWrQ",
-   "UC8Mrych8hmlL6BcnNFQeSoA",
-   "UCJUNhYh-tFB2o7LA8CzzJaw",
-   "UCM046A_jnoUK36hiWVwUR2w",
-   "UCWgYP_gdOuDqbplrg7JHL8w",
-   "UCoBcjaSab_CLwBOKe-8Fvjw",
-   "UCvc9oH60JALvJl2fvkMjpMw",
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 410309,
-  "first_seen": "2026-09-22",
-  "last_seen": "2026-10-11"
- },
- "letsgroove": {
-  "artist": "Earth, Wind & Fire",
-  "title": "Let s Groove",
-  "channels": [
-   "UCrNwVrLuKynv5rG8CqdFPvg"
-  ],
-  "views": 675354,
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-10-11"
- },
- "사랑은결말을알면서도다시": {
-  "artist": "경서",
-  "title": "사랑은 결말을 알면서도 다시",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 7,
-  "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "marryme": {
-  "artist": "마크툽 & 구윤회",
-  "title": "Marry Me",
-  "channels": [
-   "UCHEzDsqh6rI_2oANAnVWK3w"
-  ],
-  "views": 281,
-  "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "오늘도내일도iloveyou": {
-  "artist": "은주",
-  "title": "오늘도 내일도 I love you",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 48,
-  "first_seen": "2026-10-05",
-  "last_seen": "2026-10-11"
- },
  "서로끌어당기는마음이말이야|eve": {
   "artist": "🥀서로 끌어당기는 마음이 말이야",
   "title": "Eve",
@@ -113,16 +762,6 @@
    "UCZaxtcrLDEOFeYlfa41p6Ww"
   ],
   "views": 18,
-  "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "도아|fade": {
-  "artist": "도아 )",
-  "title": "FADE",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 15,
   "first_seen": "2026-10-11",
   "last_seen": "2026-10-11"
  },
@@ -326,209 +965,6 @@
   "first_seen": "2026-10-10",
   "last_seen": "2026-10-11"
  },
- "박상철|빵빵": {
-  "artist": "박상철",
-  "title": "빵빵",
-  "channels": [
-   "UCoBcjaSab_CLwBOKe-8Fvjw",
-   "UCy-R_WjKZMLQeoz5D_dtXDA"
-  ],
-  "views": 135992,
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-10-11"
- },
- "alldayproject|crash": {
-  "artist": "ALLDAY PROJECT",
-  "title": "CRASH",
-  "channels": [
-   "UCJUNhYh-tFB2o7LA8CzzJaw",
-   "UCe52oeb7Xv_KaJsEzcKXJJg",
-   "UCeLPm9yH_a_QH8n6445G-Ow",
-   "UCoBcjaSab_CLwBOKe-8Fvjw"
-  ],
-  "views": 521335,
-  "first_seen": "2026-09-29",
-  "last_seen": "2026-10-11"
- },
- "계절의끝딩고뮤직dingomusic": {
-  "artist": "박재정",
-  "title": "계절의 끝 딩고뮤직 dingo Music",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 183867,
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-11"
- },
- "shadowbyyoongi": {
-  "artist": "ALLDAY PROJECT TALK",
-  "title": "ShadowByYoongi",
-  "channels": [
-   "UC6Dot0dgBH9odsD_XKhci_w"
-  ],
-  "views": 259447,
-  "first_seen": "2026-07-26",
-  "last_seen": "2026-10-11"
- },
- "박재정|계절의끝": {
-  "artist": "박재정",
-  "title": "계절의 끝",
-  "channels": [
-   "UCLvhr40dgoBcV4XBlOhauNw",
-   "UCM046A_jnoUK36hiWVwUR2w",
-   "UCeGmMDyVK9W7hZP_fPhoi6g",
-   "UCeLPm9yH_a_QH8n6445G-Ow",
-   "UCkt5auxw8j76wvEuH4u-JJg",
-   "UCx4gTnBLHwIbOtsSXDCYg2A",
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 1309240,
-  "first_seen": "2026-09-30",
-  "last_seen": "2026-10-11"
- },
- "창모|불러봐": {
-  "artist": "창모",
-  "title": "불러봐",
-  "channels": [
-   "UC7EN7nZ8CxTobJ8xu6Hb4KA",
-   "UC9_U_zuqc2D1ik4xhVzOHnw",
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCNlmhEjcV011Hzd8UMFapPw",
-   "UCl6I47A_QWxHxdVEOH1ajoQ",
-   "UCpnc6w-7QyNe7dcYDiDI5Tg",
-   "UCvHb8R4fu0TKkaij36A4rOg"
-  ],
-  "views": 107361,
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-11"
- },
- "ugrsrighthere": {
-  "artist": "창모",
-  "title": "UGRS RIGHT HERE!",
-  "channels": [
-   "UC2maPeQKTJAdD_GOgv-bpDA",
-   "UC9_U_zuqc2D1ik4xhVzOHnw",
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCNlmhEjcV011Hzd8UMFapPw",
-   "UCgp1DN5kDI_fuC8KxxFWRoQ",
-   "UCi5u2xTzKv4vQY3Fqse9MtA",
-   "UCkxBjysIyS3AicvgcjY7wog",
-   "UCm69xuysxVgNuRpmXCiXlPw",
-   "UCoCCXWjzE8psrek2-Hfwr5A",
-   "UCvHb8R4fu0TKkaij36A4rOg"
-  ],
-  "views": 106973,
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-11"
- },
- "amorescomoelnuestro": {
-  "artist": "Jerry Rivera",
-  "title": "Amores como el nuestro",
-  "channels": [
-   "UC3T634Dcsu1Pbg0pgB_vY7A"
-  ],
-  "views": 56324,
-  "first_seen": "2026-10-05",
-  "last_seen": "2026-10-11"
- },
- "소연|퇴사할게여": {
-  "artist": "소연",
-  "title": "퇴사할게여",
-  "channels": [
-   "UCWgYP_gdOuDqbplrg7JHL8w",
-   "UCivS_SkgGkroj3SNcKruong",
-   "UCsF6Ttu4aaIXyHIRFEfN-Zg"
-  ],
-  "views": 164685,
-  "first_seen": "2026-09-09",
-  "last_seen": "2026-10-11"
- },
- "연애의조건|베스티": {
-  "artist": "연애의 조건",
-  "title": "베스티",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 111963,
-  "first_seen": "2026-10-08",
-  "last_seen": "2026-10-11"
- },
- "창모|가스펠": {
-  "artist": "창모",
-  "title": "가스펠",
-  "channels": [
-   "UC9_U_zuqc2D1ik4xhVzOHnw",
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCNlmhEjcV011Hzd8UMFapPw",
-   "UCvHb8R4fu0TKkaij36A4rOg"
-  ],
-  "views": 95286,
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-11"
- },
- "pateko|toy": {
-  "artist": "PATEKO",
-  "title": "Toy",
-  "channels": [
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCvHb8R4fu0TKkaij36A4rOg",
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 107920,
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-10-11"
- },
- "heartstage": {
-  "artist": "캐치! 티니핑, PLAVE",
-  "title": "Heart Stage",
-  "channels": [
-   "UCqelHOoPrV7uh3Gw4bgg4-w",
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 75513,
-  "first_seen": "2026-09-22",
-  "last_seen": "2026-10-11"
- },
- "애쓰지않아도충분한밤": {
-  "artist": "너는 너로",
-  "title": "애쓰지 않아도 충분한 밤",
-  "channels": [
-   "UCIoesjWwR8Gj-Ajcmq1AmGg"
-  ],
-  "views": 4,
-  "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "한걸음씩|묵상": {
-  "artist": "한 걸음씩",
-  "title": "묵상",
-  "channels": [
-   "UCOkH-lFdixJDAnST-oO6sow"
-  ],
-  "views": 0,
-  "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "부드러운플루트": {
-  "artist": "숲속 온실의 아침",
-  "title": "부드러운 플루트",
-  "channels": [
-   "UCtWiuHWyuAQnoN4WEgFKroQ"
-  ],
-  "views": 2,
-  "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "잔불노래재생lhanlyics": {
-  "artist": "엔플라잉",
-  "title": "잔불 노래 재생 l HAN Lyics",
-  "channels": [
-   "UCdO6EYjzMwIHvZk0FSYulFA"
-  ],
-  "views": 1174,
-  "first_seen": "2026-10-09",
-  "last_seen": "2026-10-11"
- },
  "가사와함께듣는오리지널트로트10곡": {
   "artist": "발끝이 가벼운 스윙 트로트",
   "title": "가사와 함께 듣는 오리지널 트로트 10곡",
@@ -569,36 +1005,6 @@
   "first_seen": "2026-10-11",
   "last_seen": "2026-10-11"
  },
- "검은별똥별시간의나그네더빙彡": {
-  "artist": "치이카와",
-  "title": "검은 별똥별 「시간의 나그네」 더빙 彡",
-  "channels": [
-   "UCpou_jgVN5OFbnisQ4ZveeA"
-  ],
-  "views": 229086,
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-11"
- },
- "거봐결국나잖아|確信": {
-  "artist": "🖤거봐, 결국 나잖아",
-  "title": "確信",
-  "channels": [
-   "UCk56jAGfVN5dFxjZEs2k-hw"
-  ],
-  "views": 85994,
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-10-11"
- },
- "unis|하늘땅별땅": {
-  "artist": "UNIS",
-  "title": "하늘땅별땅",
-  "channels": [
-   "UCXNhguwNaE0MNz4Zhg9vLGg"
-  ],
-  "views": 7200,
-  "first_seen": "2026-09-13",
-  "last_seen": "2026-10-11"
- },
  "조선힙합|아팠소": {
   "artist": "🔥 조선힙합",
   "title": "아팠소",
@@ -607,46 +1013,6 @@
   ],
   "views": 20279,
   "first_seen": "2026-10-11",
-  "last_seen": "2026-10-11"
- },
- "치이카와귀여워돌아버림": {
-  "artist": "우사기 랩 따라부르기 무한",
-  "title": "치이카와 귀여워 돌아버림",
-  "channels": [
-   "UCwHRNJbf4TH4soYRv0gXo5Q"
-  ],
-  "views": 12559,
-  "first_seen": "2026-10-10",
-  "last_seen": "2026-10-11"
- },
- "조정민|유리벽": {
-  "artist": "조정민",
-  "title": "유리벽",
-  "channels": [
-   "UCsxbX6QnOLal_qzzMK9AR9g"
-  ],
-  "views": 16734,
-  "first_seen": "2026-10-10",
-  "last_seen": "2026-10-11"
- },
- "화내는얼굴도귀여우니까|采配": {
-  "artist": "🖤화내는 얼굴도 귀여우니까",
-  "title": "采配",
-  "channels": [
-   "UCk56jAGfVN5dFxjZEs2k-hw"
-  ],
-  "views": 10953,
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-10-11"
- },
- "인디음악스토리뮤직감성음악엄마": {
-  "artist": "어떤 표정을 하고 있었더라",
-  "title": "인디음악 스토리뮤직 감성음악 엄마",
-  "channels": [
-   "UCqTS7Y8GVnZRchkI_YTx4Aw"
-  ],
-  "views": 457,
-  "first_seen": "2026-10-07",
   "last_seen": "2026-10-11"
  },
  "스토리뮤직사춘기인디음악자작가사": {
@@ -659,92 +1025,6 @@
   "first_seen": "2026-10-08",
   "last_seen": "2026-10-11"
  },
- "인디음악스토리뮤직사춘기자작가사": {
-  "artist": "그냥 불러봤어",
-  "title": "인디음악 스토리뮤직 사춘기 자작가사",
-  "channels": [
-   "UCqTS7Y8GVnZRchkI_YTx4Aw"
-  ],
-  "views": 661,
-  "first_seen": "2026-10-06",
-  "last_seen": "2026-10-11"
- },
- "감성음악인디음악": {
-  "artist": "별 일 없는 하루",
-  "title": "감성음악 인디음악",
-  "channels": [
-   "UCqTS7Y8GVnZRchkI_YTx4Aw"
-  ],
-  "views": 578,
-  "first_seen": "2026-10-05",
-  "last_seen": "2026-10-11"
- },
- "언제쯤사랑할수있을까": {
-  "artist": "정승제",
-  "title": "언제쯤 사랑할 수 있을까",
-  "channels": [
-   "UC6VxwID91lb0j6yY2DWoa1Q",
-   "UCeLPm9yH_a_QH8n6445G-Ow",
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 1321343,
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-11"
- },
- "사계그리고너": {
-  "artist": "같은 노래 맞아...?",
-  "title": "사계, 그리고 너]",
-  "channels": [
-   "UCyfyS8IGpeM3cB1gKsCR6OQ"
-  ],
-  "views": 646705,
-  "first_seen": "2026-09-16",
-  "last_seen": "2026-10-11"
- },
- "원신6주년테마곡바람의편지": {
-  "artist": "남도형",
-  "title": "원신 6주년 테마곡 바람의 편지",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 521244,
-  "first_seen": "2026-10-03",
-  "last_seen": "2026-10-11"
- },
- "최초가사조사도중퇴소요청": {
-  "artist": "이혼숙려캠프 102회 예고편",
-  "title": "최초! 가사조사 도중 퇴소 요청💥",
-  "channels": [
-   "UCFL1sCAksD6_7JIZwwHcwjQ"
-  ],
-  "views": 315271,
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-11"
- },
- "sparkle": {
-  "artist": "로이킴",
-  "title": "Sparkle",
-  "channels": [
-   "UC9xbXVaaN6Q7PJut2MMZt0w",
-   "UCIDEcInP63cqfQ9QUioLPjg",
-   "UCTWgNNgcFA0sp8CjiFtoMhQ",
-   "UCeLPm9yH_a_QH8n6445G-Ow",
-   "UCk47fWy6pMaTUocu9HpBlIw"
-  ],
-  "views": 279929,
-  "first_seen": "2026-09-12",
-  "last_seen": "2026-10-11"
- },
- "focusonme": {
-  "artist": "샤넌 배",
-  "title": "Focus on Me",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 104696,
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-10-11"
- },
  "어서오지마세요": {
   "artist": "CRK",
   "title": "어서오지마세요!!!!!!!!!!!!!",
@@ -753,17 +1033,6 @@
   ],
   "views": 62821,
   "first_seen": "2026-09-15",
-  "last_seen": "2026-10-11"
- },
- "bff딩고뮤직dingomusic": {
-  "artist": "KARDI",
-  "title": "BFF 딩고뮤직 dingo Music",
-  "channels": [
-   "UCCntvq0Jg-v5F5LaNXvX0SA",
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 104025,
-  "first_seen": "2026-09-23",
   "last_seen": "2026-10-11"
  },
  "dearmycrazysoulmate": {
@@ -946,26 +1215,6 @@
   "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  },
- "alphabet": {
-  "artist": "로시",
-  "title": "Alphabet",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 200,
-  "first_seen": "2026-10-10",
-  "last_seen": "2026-10-10"
- },
- "loveoptions": {
-  "artist": "BESTie",
-  "title": "Love Options",
-  "channels": [
-   "UCGwy3aG0otCibKPyuR0q1nA"
-  ],
-  "views": 1279,
-  "first_seen": "2026-10-08",
-  "last_seen": "2026-10-10"
- },
  "고생했어노래재생lhanlyics": {
   "artist": "엔플라잉",
   "title": "고생했어 노래 재생 l HAN Lyics",
@@ -1015,26 +1264,6 @@
   "views": 14,
   "first_seen": "2026-09-11",
   "last_seen": "2026-10-10"
- },
- "나비|잘된일이야": {
-  "artist": "나비",
-  "title": "잘 된 일이야",
-  "channels": [
-   "UCoBcjaSab_CLwBOKe-8Fvjw"
-  ],
-  "views": 12054,
-  "first_seen": "2026-10-08",
-  "last_seen": "2026-10-09"
- },
- "로이킴|크게울어라": {
-  "artist": "로이킴",
-  "title": "크게 울어라",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 5449,
-  "first_seen": "2026-10-07",
-  "last_seen": "2026-10-09"
  },
  "하라메1분요약": {
   "artist": "플레이브",
@@ -1447,16 +1676,6 @@
   "first_seen": "2026-10-08",
   "last_seen": "2026-10-08"
  },
- "kickflip|미완성": {
-  "artist": "KickFlip",
-  "title": "미완성",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 183,
-  "first_seen": "2026-10-08",
-  "last_seen": "2026-10-08"
- },
  "kik|f1": {
   "artist": "KIK",
   "title": "F1",
@@ -1739,16 +1958,6 @@
   "first_seen": "2026-10-07",
   "last_seen": "2026-10-07"
  },
- "사랑그쓸쓸함에대하여": {
-  "artist": "양희은",
-  "title": "사랑 그 쓸쓸함에 대하여",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 139,
-  "first_seen": "2026-10-07",
-  "last_seen": "2026-10-07"
- },
  "ashall|adhd": {
   "artist": "Ashall",
   "title": "ADHD",
@@ -1986,16 +2195,6 @@
    "UCZaxtcrLDEOFeYlfa41p6Ww"
   ],
   "views": 35,
-  "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06"
- },
- "최유리|각자의길": {
-  "artist": "최유리",
-  "title": "각자의 길",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 170,
   "first_seen": "2026-10-06",
   "last_seen": "2026-10-06"
  },
@@ -2490,17 +2689,6 @@
   ],
   "views": 22,
   "first_seen": "2026-10-04",
-  "last_seen": "2026-10-04"
- },
- "보기드문여자": {
-  "artist": "YENA",
-  "title": "보기 드문 여자",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww",
-   "UCcJW5obUML3W4A7VTY-jv6w"
-  ],
-  "views": 20737,
-  "first_seen": "2026-10-03",
   "last_seen": "2026-10-04"
  },
  "이십사일|마른바다": {
@@ -8445,226 +8633,5 @@
   "views": 5,
   "first_seen": "2026-09-10",
   "last_seen": "2026-09-12"
- },
- "iu|이별로부터": {
-  "artist": "IU",
-  "title": "이 별로부터",
-  "channels": [
-   "UCYA3gLE34set7Xn_FVU8D0Q"
-  ],
-  "views": 1006,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "november11": {
-  "artist": "STRAY KIDS",
-  "title": "NOVEMBER 11ᵗʰ",
-  "channels": [
-   "UCsUF6gtb0t4r-XF6yoZQtfA"
-  ],
-  "views": 7063,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "눈물닦고또닦아도트로트이노래가노래": {
-  "artist": "♣♣ 참고은",
-  "title": "눈물 닦고 또 닦아도 ♣♣ 트로트 이노래가 노래",
-  "channels": [
-   "UCY8G0iygPtYpoXIvzLm1uwg"
-  ],
-  "views": 1227,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "빙점쇼츠트로트가요가수발라드": {
-  "artist": "김준규",
-  "title": "빙점 쇼츠 트로트 가요 가수 발라드",
-  "channels": [
-   "UCbuk9G_tHit-IiBPjGRSieg"
-  ],
-  "views": 1087,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "quinn|히든엔딩": {
-  "artist": "quinn_",
-  "title": "히든엔딩",
-  "channels": [
-   "UCHJqGTjBZdVYvA2GktIJUHg",
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 14,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "yousorude": {
-  "artist": "산타십구",
-  "title": "you so rude",
-  "channels": [
-   "UCHJqGTjBZdVYvA2GktIJUHg"
-  ],
-  "views": 6,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "drunknight": {
-  "artist": "Yung Blesh",
-  "title": "Drunk Night",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 14,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "ternuraantiga": {
-  "artist": "조민규",
-  "title": "Ternura Antiga",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 35,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "숨어우는바람소리|이정옥": {
-  "artist": "숨어 우는 바람소리",
-  "title": "이정옥",
-  "channels": [
-   "UCHm7akgu-FRMqngSE53BWGQ"
-  ],
-  "views": 67,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "또내탓이야|하얀감옥": {
-  "artist": "또 내 탓이야?",
-  "title": "하얀 감옥",
-  "channels": [
-   "UCjQIfBS212Gc2aJ4MhWGezg"
-  ],
-  "views": 596,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "11월11일": {
-  "artist": "Stray Kids",
-  "title": "11월 11일",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 167,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "hymnforthecocktail": {
-  "artist": "Thund & 박서진",
-  "title": "Hymn for the Cocktail",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 2,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "naewon|여전해": {
-  "artist": "NAEWON",
-  "title": "여전해",
-  "channels": [
-   "UCM046A_jnoUK36hiWVwUR2w"
-  ],
-  "views": 1064,
-  "first_seen": "2026-09-11",
-  "last_seen": "2026-09-11"
- },
- "moonride": {
-  "artist": "Hearts2Hearts",
-  "title": "Moonride",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 7074,
-  "first_seen": "2026-09-10",
-  "last_seen": "2026-09-11"
- },
- "jagwartwin": {
-  "artist": "bounce",
-  "title": "jagwar twin",
-  "channels": [
-   "UCZ8QxczKq_FGkov3ynKtDZA"
-  ],
-  "views": 97,
-  "first_seen": "2026-09-10",
-  "last_seen": "2026-09-11"
- },
- "hanatdoolset": {
-  "artist": "김심야",
-  "title": "Hanat Dool Set",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 258,
-  "first_seen": "2026-09-10",
-  "last_seen": "2026-09-11"
- },
- "itsthat": {
-  "artist": "김심야",
-  "title": "It s That",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 265,
-  "first_seen": "2026-09-10",
-  "last_seen": "2026-09-11"
- },
- "melifenothingelse": {
-  "artist": "김심야",
-  "title": "Me Life & Nothing Else",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 457,
-  "first_seen": "2026-09-10",
-  "last_seen": "2026-09-11"
- },
- "movemyfeet": {
-  "artist": "김심야",
-  "title": "Move My Feet",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 335,
-  "first_seen": "2026-09-10",
-  "last_seen": "2026-09-11"
- },
- "어깨춤이절로나네오늘도내마음은스무살청춘이란다": {
-  "artist": "🌹 청춘은 고무줄",
-  "title": "어깨춤이 절로 나네, 오늘도 내 마음은 스무 살 청춘이란다!",
-  "channels": [
-   "UCZfDI727dLD4jWYKGf0nSBA"
-  ],
-  "views": 28,
-  "first_seen": "2026-09-10",
-  "last_seen": "2026-09-11"
- },
- "송예린|나였으면해": {
-  "artist": "송예린",
-  "title": "나였으면 해",
-  "channels": [
-   "UCtzF27AvRZpmLVNCUizO10w"
-  ],
-  "views": 24,
-  "first_seen": "2026-09-09",
-  "last_seen": "2026-09-11"
- },
- "김승민|미쳤다고해": {
-  "artist": "김승민",
-  "title": "미쳤다고 해",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 5086,
-  "first_seen": "2026-08-19",
-  "last_seen": "2026-09-11"
  }
 }
