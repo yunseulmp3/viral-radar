@@ -1,31 +1,42 @@
-# 바이럴 레이더 — 2026-10-13
+# 바이럴 레이더 — 2026-10-14
 
-수집 영상 600건 · 곡 후보 55곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 2곡
+수집 영상 588건 · 곡 후보 57곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 3곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **소연 – 퇴사할게여** | 34일차 | 3.0 | +1.0 | 18.2만 | 7,680 | — |
-| 2 | **QWER – 소년만화** | 21일차 | 3.5 | +0.9 | 4.0만 | 1.0만 | — |
+| 1 | **소연 – 퇴사할게여** | 35일차 | 3.0 | +2.0 | 15.4만 | 1.1만 | — |
+| 2 | **창모 – UGRS RIGHT HERE!** | 12일차 | 6.0 | +0.6 | 11.6만 | 45.2만 | — |
+| 3 | **ALLDAY PROJECT – CRASH** | 15일차 | 3.5 | +0.9 | 66.5만 | 2060.0만 | ⚠ 진입 |
 
 ---
 
 ### 1. 소연 – 퇴사할게여
 
-- 점수 **1.35** · 진입 34일차 (최초 포착 2026-09-09)
-- 독립 진영 **3.0개** (어제 대비 +1.0, 원시 채널 3개)
-- 누적 조회 18.2만 (오늘 +2.1만)
-- 최대 채널 규모 7,680 구독
-- 채널: A4 노래 가사, BakkwoDream (바꿔드림), 중앙보훈병원밴드 : THE NOLZA
+- 점수 **1.1** · 진입 35일차 (최초 포착 2026-09-09)
+- 독립 진영 **3.0개** (어제 대비 +2.0, 원시 채널 3개)
+- 누적 조회 15.4만 (오늘 +0)
+- 최대 채널 규모 1.1만 구독
+- 채널: A4 노래 가사, STRAWBERRY  KPOP, 밤과새벽사이
 - 대표 영상: [퇴사할게여](https://youtu.be/Vp8Egj-gHeI)
 
-### 2. QWER – 소년만화
+### 2. 창모 – UGRS RIGHT HERE!
 
-- 점수 **0.7** · 진입 21일차 (최초 포착 2026-09-22)
+- 점수 **0.86** · 진입 12일차 (최초 포착 2026-10-02)
+- 독립 진영 **6.0개** (어제 대비 +0.6, 원시 채널 10개)
+- 누적 조회 11.6만 (오늘 +2,893)
+- 최대 채널 규모 45.2만 구독
+- 채널: 1시간음악채널, Eskeptor, Songfor, 가사채널, 노래제목가사, 대파
+- 대표 영상: [UGRS RIGHT HERE!](https://youtu.be/ktbs35fkI9w)
+
+### 3. ALLDAY PROJECT – CRASH
+
+- 점수 **0.05** · 진입 15일차 (최초 포착 2026-09-29)
 - 독립 진영 **3.5개** (어제 대비 +0.9, 원시 채널 4개)
-- 누적 조회 4.0만 (오늘 +0)
-- 최대 채널 규모 1.0만 구독
-- 채널: 1 Høur Lyrics, 베어뮤직 BearMusic, 보글사운드, 체리나
-- 대표 영상: [소년만화](https://youtu.be/6TJSFlBZwjk)
+- 누적 조회 66.5만 (오늘 +0)
+- 최대 채널 규모 2060.0만 구독
+- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
+- 채널: KBS Kpop, KBS WORLD TV, MBCkpop, 웅키
+- 대표 영상: [CRASH](https://youtu.be/RLIvEo14gGg)
 
 ---
 
@@ -33,14 +44,14 @@
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **Jerry Rivera – Amores como el nuestro** · 8일차 · 진영 1.0 · 조회 5.9만
-- **YENA – 보기 드문 여자** · 10일차 · 진영 1.0 · 조회 9.5만
-- **창모 – UGRS RIGHT HERE!** · 11일차 · 진영 7.0 · 조회 11.3만
-- **창모 – 불러봐** · 11일차 · 진영 4.0 · 조회 11.7만
-- **Earth, Wind & Fire – Let s Groove** · 19일차 · 진영 1.0 · 조회 74.0만
-- **같은 노래 맞아...? – 사계, 그리고 너]** · 27일차 · 진영 1.0 · 조회 69.7만
-- **캐치! 티니핑, PLAVE – Heart Stage** · 21일차 · 진영 1.5 · 조회 8.1만
-- **🖤거봐, 결국 나잖아 – 確信** · 19일차 · 진영 1.0 · 조회 9.3만
+- **고양 위켄드 내한 셋리스트 – 트랜지션 플리 +** · 5일차 · 진영 1.0 · 조회 35.6만
+- **YENA – 보기 드문 여자** · 11일차 · 진영 1.0 · 조회 10.0만
+- **같은 노래 맞아...? – 사계, 그리고 너]** · 28일차 · 진영 1.0 · 조회 73.0만
+- **Earth, Wind & Fire – Let s Groove** · 20일차 · 진영 1.0 · 조회 76.2만
+- **🖤거봐, 결국 나잖아 – 確信** · 20일차 · 진영 1.0 · 조회 9.6만
+- **창모 – 불러봐** · 12일차 · 진영 3.5 · 조회 12.0만
+- **창모 – 가스펠** · 12일차 · 진영 0.5 · 조회 11.0만
+- **박상철 – 빵빵** · 20일차 · 진영 1.0 · 조회 15.5만
 
 ---
 
@@ -48,21 +59,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **고양 위켄드 내한 셋리스트 – 트랜지션 플리 +** · 4일차 · 조회 34.0만 · (진영 1.0) · [영상](https://youtu.be/Ghbv5mPaYWQ)
-- **우사기 랩 따라부르기 무한 – 치이카와 귀여워 돌아버림** · 3일차 · 조회 3.0만 · (오늘 미확인) · [영상](https://youtu.be/rnnYxHqgvXU)
-- **PLAVE – Star Trace** · 0일차 · 조회 7,976 · (오늘 미확인) · [영상](https://youtu.be/uxpe8wF2iMw)
-- **지코 – 아무노래** · 0일차 · 조회 5,534 · (오늘 미확인) · [영상](https://youtu.be/ITFXfUqVA_w)
-- **NiziU SOUR GRAPES – BluesideByHope** · 79일차 · 조회 2,459 · (오늘 미확인) · [영상](https://youtu.be/c66PJaOJ8Rs)
-- **빅뱅 – BiiiG** · 0일차 · 조회 1,301 · (오늘 미확인) · [영상](https://youtu.be/wDA1fI5jruA)
-- **AllDay Project – Crash kpop** · 0일차 · 조회 1,050 · (오늘 미확인) · [영상](https://youtu.be/298vltwuHDs)
-- **스카이민혁 – 푸른소나무** · 0일차 · 조회 1,026 · (오늘 미확인) · [영상](https://youtu.be/5oqZvWsDPGY)
-- **성시경 – 내게 오는 길** · 0일차 · 조회 944 · (오늘 미확인) · [영상](https://youtu.be/0GK6bqO-f9o)
-- **장한별 – 미야** · 0일차 · 조회 607 · (오늘 미확인) · [영상](https://youtu.be/aUok5UfMuZ8)
-- **VIRGE – 毒苺** · 0일차 · 조회 474 · (오늘 미확인) · [영상](https://youtu.be/Nag5GgTkWP8)
-- **UNIS – 하늘땅별땅** · 30일차 · 조회 7,957 · (오늘 미확인) · [영상](https://youtu.be/g1qVFnKysgI)
-- **아직 그날에 – sprengeri** · 0일차 · 조회 333 · (오늘 미확인) · [영상](https://youtu.be/jnpozBqDoJ4)
-- **🔥 조선힙합 – 아팠소** · 2일차 · 조회 2.1만 · (오늘 미확인) · [영상](https://youtu.be/HJ29qcZPPFg)
-- **잔나비 – 주저하는 연인들을 위해** · 0일차 · 조회 208 · (오늘 미확인) · [영상](https://youtu.be/higXPiSJMcs)
+- **남진 – 지금까지 사는 동안** · 0일차 · 조회 3.7만 · (오늘 미확인) · [영상](https://youtu.be/63ZYuQlUQvQ)
+- **우사기 랩 따라부르기 무한 – 치이카와 귀여워 돌아버림** · 4일차 · 조회 4.3만 · (진영 1.0) · [영상](https://youtu.be/rnnYxHqgvXU)
+- **🖤망가질 거 알아도 상관없어 – 未練** · 8일차 · 조회 1.3만 · (오늘 미확인) · [영상](https://youtu.be/pdy9RIfaDeQ)
+- **스카이민혁 – 푸른소나무** · 1일차 · 조회 9,856 · (오늘 미확인) · [영상](https://youtu.be/5oqZvWsDPGY)
+- **캘리그라피 – 노래 너의 뒤에 내가 있을게 중에서 노래가사쓰기 예쁜글씨 calligraphy art handwriting** · 0일차 · 조회 1,221 · (오늘 미확인) · [영상](https://youtu.be/zZX9ribsiMk)
+- **A20 LITE – NEON** · 0일차 · 조회 763 · (오늘 미확인) · [영상](https://youtu.be/GBrLL4mU4rc)
+- **SUNG HANBIN – UNDEAD** · 1일차 · 조회 763 · (오늘 미확인) · [영상](https://youtu.be/JhOw4N0aVMg)
+- **A2O LITE – NEON 歌詞 日本語訳** · 0일차 · 조회 520 · (오늘 미확인) · [영상](https://youtu.be/i1mLqzvrvXY)
+- **UNIS – 하늘땅별땅** · 31일차 · 조회 8,277 · (오늘 미확인) · [영상](https://youtu.be/g1qVFnKysgI)
+- **💔두고 가지 마 – Velen** · 0일차 · 조회 304 · (오늘 미확인) · [영상](https://youtu.be/r_7yV-f94_M)
+- **안예은 – 출항** · 0일차 · 조회 213 · (오늘 미확인) · [영상](https://youtu.be/H4REwz9cXic)
+- **아직 그날에 – sprengeri** · 1일차 · 조회 479 · (오늘 미확인) · [영상](https://youtu.be/jnpozBqDoJ4)
+- **조정민 – 유리벽** · 4일차 · 조회 1.7만 · (오늘 미확인) · [영상](https://youtu.be/nKH-oXBo4ps)
+- **Ghvstclub 고스트클럽 – 최종병기 그녀** · 0일차 · 조회 125 · (오늘 미확인) · [영상](https://youtu.be/m86IQQFxNag)
+- **글든 – 피짜** · 0일차 · 조회 113 · (오늘 미확인) · [영상](https://youtu.be/IET50dGs3mw)
 
 ---
 
@@ -77,35 +88,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 79건
+2단 검증으로 추가 확보한 영상: 77건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 276 · 한글없음 120 · 파싱실패 89
+걸러낸 영상 — 정크 278 · 한글없음 119 · 파싱실패 80
 
 실제로 긁혀온 제목 표본 20개:
 
-- 🥀किसपे नही है भरोसा ❤️‍🩹#naazedittz #shorts #lyrics #foryou #fyp #trending
-- Dana Winner – Woman in Love | Lyrics That Stay With You #Shorts
-- A2O LITE 'NEON' (Color Coded Lyrics)
-- QWER 가사가 너무 좋은 노래 To Be Continued 도굴왕 주제곡
-- Are These Katy Perry Lyrics BANNED? ⛔️🤯
-- 빅뱅 노래 가사 맘에 안 든다며 강제 개사해버린 유세윤 ㅋㅋㅋ 🤣🎤
-- ♣♣ 참고은 - 신나는 3곡 노래 몰아 듣기 (가사 첨부) -13- ♣♣ #노래 #국내발라드모음 #트로트
-- MICHAEL JACKSON DOESNT REMEMBER HIS LYRICS DURING SMOOTH CRIMINAL AND SAYS RIMINAL 😭❤️
-- 스카이민혁 (Skyminhyuk) - 푸른소나무 (Feat. 올티)ㅣ Lyrics / 가사
-- 아직 오지 않은 이별을 앓고 있어 / Dijon - Stranger (가사 해석) (MV)
-- 🥀लड़का लड़की मे फर्क ❤️‍🩹#naazedittz #shorts #lyrics #foryou #fyp #trending
-- 멜론 4위 노래, 목소리는 AI가 만들었다 | 가사는 사람
-- 가사가 너무 예뻐서 위로 되는 노래
-- '5자녀 이상' 가정에 월 2회 가사서비스 지원 20261012
-- PLAVE 'Sweet Rain' Lyrics (플레이브 푸른 하늘에 단비 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
-- 시간이 지나야만 알게 되는 가사의 무게 | 마흔 넘어 들으니 더 눈물나는 이유 #서른즈음에 #김광석 #공감
-- 임영웅.잊혀진 계절  귀호강 라이브#원곡#이용#산골총각영웅#가사/Lyrics#
-- Xdinary Heroes 'Slashhh!' Lyrics (엑스디너리 히어로즈 Slashhh! 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
-- PLAVE 'GGUN' Lyrics (플레이브 꾼 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
-- 기안84가 말하는 족족 가사로 만들어버리는 소연 ㄷㄷ
+- 안나 얼굴 본다고 일본어 가사인 줄 몰랐음
+- 2026.10.12 새벽비 가사 다 외움.내가 과연 미스트롯처럼 할 수 있을까?한다 더 잘 할 수 있다!해 낸다!
+- 뜻밖의 슬픈 노래 가사에 결국 오열하는 유명 유튜버ㄷㄷ 씨야 - 그럼에도 우린
+- 변해버린 친구 🔴 Luka Ferraro - SMS 가사해석/팝송추천
+- 권루트 챌린지 - L을가져가 노래제목으로가사
+- 캘리그라피 - 노래 '너의 뒤에 내가 있을게 (제이세라)' 가사 중에서 #노래가사쓰기 #예쁜글씨 #calligraphy #art #handwriting
+- 팝스타 히트곡 가사 베꼈을까?
+- 광야를 넘어 네온으로ㅋㅋ a20 lite NEON 가사 해석
+- [272] ⭐ To Love You More (Part 2) – Celine Dion | 명곡 가사 익히기 | 영원히 곁을 지킬 단 한 사람
+- 폰 자동 업데이트 한 번에 10년 치 가사 날린 타블로 #shorts
+- 가사 듣고 나니 이별 노래
+- 신문희 - 아름다운 나라 (가사/Lyrics - 네오 클래식컬 심포니 메탈 Ver.) K-POP ROCK AI COVER
+- 가사 실수로 대참사 난 레전드 무대 TOP5
+- Odetari - KEEP UP 가사 한글 번역 #odetari #keepup #lyrics #lyricsvideo
+- 아파트 가사가 윤수일 친구의 실화였다는 사실
+- CRASH - ALLDAY PROJECT 올데이 프로젝트 가사쓰기 #shorts
+- mai mar gaya to story lagao ge na 🥹 black screen lyrics status 🖤🥀 shayari status 💔 #brokenheart
+- 무대 끝나자 사과한 래퍼 이영지 가사 실수
+- 하치와레/타나카 마코토 - 혼잣말(ひとりごつ) [가사/발음/해석]
+- 태진아 - 잘났어 정말 (가사/Lyrics - 신나는 트롯 버전) K-POP AI COVER
 
 ---
 
