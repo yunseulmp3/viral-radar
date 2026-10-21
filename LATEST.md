@@ -1,41 +1,61 @@
-# 바이럴 레이더 — 2026-10-21
+# 바이럴 레이더 — 2026-10-22
 
-수집 영상 612건 · 곡 후보 65곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 3곡
+수집 영상 613건 · 곡 후보 60곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 5곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **BIG Naughty – Vancouver 3** | 6일차 | 4.0 | +1.0 | 52.7만 | 1.7만 | — |
-| 2 | **엔플라잉 – 잔불** | 12일차 | 2.5 | +1.7 | 29.7만 | 225.0만 | — |
-| 3 | **박재정 – 계절의 끝** | 21일차 | 7.5 | +0.8 | 111.6만 | 1040.0만 | — |
+| 1 | **A2O LITE – NEON** | 7일차 | 4.0 | +4.0 | 1285.9만 | 1070.0만 | — |
+| 2 | **소연 – 퇴사할게여** | 43일차 | 2.0 | +1.0 | 17.4만 | 623 | — |
+| 3 | **창모 – 불러봐** | 20일차 | 3.0 | +0.5 | 14.1만 | 45.2만 | — |
+| 4 | **엔플라잉 – 잔불** | 13일차 | 4.0 | +1.6 | 37.2만 | 225.0만 | — |
+| 5 | **로이킴 – 크게 울어라** | 15일차 | 2.5 | +0.6 | 54.1만 | 1040.0만 | — |
 
 ---
 
-### 1. BIG Naughty – Vancouver 3
+### 1. A2O LITE – NEON
 
-- 점수 **7.14** · 진입 6일차 (최초 포착 2026-10-15)
-- 독립 진영 **4.0개** (어제 대비 +1.0, 원시 채널 4개)
-- 누적 조회 52.7만 (오늘 +5.5만)
-- 최대 채널 규모 1.7만 구독
-- 채널: OUTTAKE 아웃테이크, 더운겨울밤, 소리문장, 오드
-- 대표 영상: [Vancouver 3](https://youtu.be/pxkp_ra73fY)
+- 점수 **2.82** · 진입 7일차 (최초 포착 2026-10-15)
+- 독립 진영 **4.0개** (어제 대비 +4.0, 원시 채널 4개)
+- 누적 조회 1285.9만 (오늘 +1285.4만)
+- 최대 채널 규모 1070.0만 구독
+- 채널: ERRDAY DRIP (얼데이드립), Loey Zchan, M2, Mhz 므흐즈: MBC RADIO
+- 대표 영상: [NEON](https://youtu.be/93j1fDGi_-8)
 
-### 2. 엔플라잉 – 잔불
+### 2. 소연 – 퇴사할게여
 
-- 점수 **0.46** · 진입 12일차 (최초 포착 2026-10-09)
-- 독립 진영 **2.5개** (어제 대비 +1.7, 원시 채널 3개)
-- 누적 조회 29.7만 (오늘 +27.2만)
+- 점수 **1.2** · 진입 43일차 (최초 포착 2026-09-09)
+- 독립 진영 **2.0개** (어제 대비 +1.0, 원시 채널 2개)
+- 누적 조회 17.4만 (오늘 +9,388)
+- 최대 채널 규모 623 구독
+- 채널: 2000l, A4 노래 가사
+- 대표 영상: [퇴사할게여](https://youtu.be/Vp8Egj-gHeI)
+
+### 3. 창모 – 불러봐
+
+- 점수 **0.61** · 진입 20일차 (최초 포착 2026-10-02)
+- 독립 진영 **3.0개** (어제 대비 +0.5, 원시 채널 6개)
+- 누적 조회 14.1만 (오늘 +2,692)
+- 최대 채널 규모 45.2만 구독
+- 채널: Eskeptor, Shwaymin, 대파, 알파, 타프, 힙합팬타이탄_HiphopFanTitan
+- 대표 영상: [불러봐](https://youtu.be/2PFgfhu3WPA)
+
+### 4. 엔플라잉 – 잔불
+
+- 점수 **0.44** · 진입 13일차 (최초 포착 2026-10-09)
+- 독립 진영 **4.0개** (어제 대비 +1.6, 원시 채널 5개)
+- 누적 조회 37.2만 (오늘 +7.5만)
 - 최대 채널 규모 225.0만 구독
-- 채널: KBS 레전드 케이팝, dddm | 두두두뮤직, 웅키
+- 채널: KBS 레전드 케이팝, dddm | 두두두뮤직, genie original , 베어뮤직 BearMusic, 웅키
 - 대표 영상: [잔불](https://youtu.be/EOBvVZ6ScBU)
 
-### 3. 박재정 – 계절의 끝
+### 5. 로이킴 – 크게 울어라
 
-- 점수 **0.27** · 진입 21일차 (최초 포착 2026-09-30)
-- 독립 진영 **7.5개** (어제 대비 +0.8, 원시 채널 9개) · 원시 9개 중 양산채널 1개 제외
-- 누적 조회 111.6만 (오늘 +0)
+- 점수 **0.3** · 진입 15일차 (최초 포착 2026-10-07)
+- 독립 진영 **2.5개** (어제 대비 +0.6, 원시 채널 4개)
+- 누적 조회 54.1만 (오늘 +3.5만)
 - 최대 채널 규모 1040.0만 구독
-- 채널: 1theK Live - 원더케이 라이브, KBS Kpop, Muniverse 뮤니버스, SBS Radio 에라오, it's Live, parc💙보물창고
-- 대표 영상: [계절의 끝](https://youtu.be/MR0KHW5dapQ)
+- 채널: KBS Kpop, NN Music, 베어뮤직 BearMusic, 엠씨더막국수
+- 대표 영상: [크게 울어라](https://youtu.be/NZes58yP8jc)
 
 ---
 
@@ -43,14 +63,14 @@
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **남우현 – 나무 딩고뮤직 dingo Music** · 5일차 · 진영 0.5 · 조회 12.0만
-- **우사기 랩 따라부르기 무한 – 치이카와 귀여워 돌아버림** · 11일차 · 진영 1.0 · 조회 6.8만
-- **고양 위켄드 내한 셋리스트 – 트랜지션 플리 +** · 12일차 · 진영 1.0 · 조회 42.9만
-- **YENA – 보기 드문 여자** · 18일차 · 진영 1.0 · 조회 13.7만
-- **창모 – UGRS RIGHT HERE!** · 19일차 · 진영 6.0 · 조회 13.0만
-- **남진 – 지금까지 사는 동안** · 7일차 · 진영 2.0 · 조회 4.6만
-- **NMIXX Birthday Wish – ShadowByYoongi** · 87일차 · 진영 1.0 · 조회 49.6만
-- **창모 – 불러봐** · 19일차 · 진영 2.0 · 조회 13.9만
+- **BIG Naughty – Vancouver 3** · 7일차 · 진영 4.0 · 조회 57.9만
+- **YENA – 보기 드문 여자** · 19일차 · 진영 1.0 · 조회 14.2만
+- **고양 위켄드 내한 셋리스트 – 트랜지션 플리 +** · 13일차 · 진영 1.0 · 조회 43.4만
+- **남우현 – 나무 딩고뮤직 dingo Music** · 6일차 · 진영 0.5 · 조회 12.3만
+- **우사기 랩 따라부르기 무한 – 치이카와 귀여워 돌아버림** · 12일차 · 진영 1.0 · 조회 7.0만
+- **창모 – UGRS RIGHT HERE!** · 20일차 · 진영 5.5 · 조회 13.2만
+- **LNGSHOT Masterpiece – ShadowByYoongi** · 88일차 · 진영 1.0 · 조회 53.6만
+- **남진 – 지금까지 사는 동안** · 8일차 · 진영 2.0 · 조회 4.6만
 
 ---
 
@@ -58,21 +78,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **NEON – A2O LITE** · 0일차 · 조회 1128.0만 · (진영 1.0) · [영상](https://youtu.be/93j1fDGi_-8)
-- **NEON – A2O, A2O LITE** · 0일차 · 조회 39.0만 · (진영 0.5) · [영상](https://youtu.be/w4wLXdrl_rg)
-- **NEON – A2O LITE & 틀린 영어 고치기 🩵** · 0일차 · 조회 17.4만 · (진영 1.0) · [영상](https://youtu.be/qzdQTQGpdLw)
-- **사이버펑크 엣지러너 2 OST – High Forever** · 3일차 · 조회 42.2만 · (진영 1.0) · [영상](https://youtu.be/AKLPPqUHQpw)
-- **아이브 – Looks Can Kill** · 6일차 · 조회 3.8만 · (오늘 미확인) · [영상](https://youtu.be/eWEDcMHDdJY)
-- **NMIXX – 긴 소원** · 1일차 · 조회 2.6만 · (오늘 미확인) · [영상](https://youtu.be/gnRAq_q9VBo)
-- **로이킴 – Sparkle** · 39일차 · 조회 35.2만 · (진영 1.5) · [영상](https://youtu.be/rdGhahJ5oB8)
-- **PLAVE – Star Trace** · 8일차 · 조회 3.7만 · (오늘 미확인) · [영상](https://youtu.be/uxpe8wF2iMw)
-- **🖤망가질 거 알아도 상관없어 – 未練** · 15일차 · 조회 1.6만 · (오늘 미확인) · [영상](https://youtu.be/pdy9RIfaDeQ)
-- **𝐼𝒱𝐸 아이브 룩스캔킬 – IVE Looks Can Kill 1Hr** · 0일차 · 조회 2,218 · (오늘 미확인) · [영상](https://youtu.be/FR_0zswohf4)
-- **NCT DREAM – THE SUN** · 0일차 · 조회 889 · (오늘 미확인) · [영상](https://youtu.be/L-QQSQUMeuU)
-- **BESTie – Love Options** · 13일차 · 조회 1.2만 · (오늘 미확인) · [영상](https://youtu.be/mW-LQhBZC6U)
-- **K/DA – FIRESTARTER** · 0일차 · 조회 658 · (오늘 미확인) · [영상](https://youtu.be/QvA3vc0mHQw)
-- **BIG Naughty – Vancouver** · 0일차 · 조회 499 · (오늘 미확인) · [영상](https://youtu.be/e6YQjVRSPmQ)
-- **Chanty – 唯一輪** · 0일차 · 조회 261 · (오늘 미확인) · [영상](https://youtu.be/aHUvn-yXH1U)
+- **ALLDAY PROJECT – CRASH** · 23일차 · 조회 83.9만 · (진영 1.5) · [영상](https://youtu.be/RLIvEo14gGg)
+- **NEON – A2O LITE & 틀린 영어 고치기 🩵** · 1일차 · 조회 29.9만 · (진영 1.0) · [영상](https://youtu.be/qzdQTQGpdLw)
+- **사이버펑크 엣지러너 2 OST – High Forever** · 4일차 · 조회 52.5만 · (진영 1.0) · [영상](https://youtu.be/AKLPPqUHQpw)
+- **NEON – A2O, A2O LITE** · 1일차 · 조회 44.9만 · (진영 0.5) · [영상](https://youtu.be/w4wLXdrl_rg)
+- **신수현 – Us 딩고뮤직 dingo Music** · 0일차 · 조회 3.5만 · (오늘 미확인) · [영상](https://youtu.be/OWXGGoM-u2A)
+- **Crush – 삐그덕** · 0일차 · 조회 2.4만 · (오늘 미확인) · [영상](https://youtu.be/P9uWE81TXao)
+- **BIG Naughty – Vancouver 3 🖤 벤쿠버3 듣기** · 0일차 · 조회 2.2만 · (오늘 미확인) · [영상](https://youtu.be/folwWaZZTr4)
+- **K/DA – FIRESTARTER** · 1일차 · 조회 8,523 · (오늘 미확인) · [영상](https://youtu.be/QvA3vc0mHQw)
+- **퇴사할게여 – 소연** · 3일차 · 조회 20.1만 · (진영 1.5) · [영상](https://youtu.be/7aSQx_NpO7k)
+- **남녀 – 돌봄 시간 차이, 아직도?... 유니콘 아빠 체크리스트 살펴보니** · 0일차 · 조회 4,501 · (오늘 미확인) · [영상](https://youtu.be/CI6DMzJ7NRo)
+- **𝐼𝒱𝐸 아이브 룩스캔킬 – IVE Looks Can Kill 1Hr** · 1일차 · 조회 4,559 · (오늘 미확인) · [영상](https://youtu.be/FR_0zswohf4)
+- **PLAVE – Star Trace** · 9일차 · 조회 3.9만 · (오늘 미확인) · [영상](https://youtu.be/uxpe8wF2iMw)
+- **NCT DREAM – THE SUN** · 1일차 · 조회 2,672 · (오늘 미확인) · [영상](https://youtu.be/L-QQSQUMeuU)
+- **전영호 – Butter-Fly 디지몬 어드벤처** · 0일차 · 조회 1,527 · (오늘 미확인) · [영상](https://youtu.be/xkqoyjsyx7E)
+- **캘리그라피 – 노래 Go Hard 중에서 노래가사쓰기 예쁜글씨 calligraphy art handwriting** · 0일차 · 조회 1,260 · (오늘 미확인) · [영상](https://youtu.be/WMtFOUv3soU)
 
 ---
 
@@ -87,35 +107,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 77건
+2단 검증으로 추가 확보한 영상: 84건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 232 · 한글없음 169 · 파싱실패 87
+걸러낸 영상 — 정크 224 · 한글없음 175 · 파싱실패 92
 
 실제로 긁혀온 제목 표본 20개:
 
-- I'm not Swedish but Knack Knack 🇸🇪🇫🇷 Lyrics #toctoc #viralshorts #dancer #sweden
-- 7080 가슴을 울리는 20곡 (2시간 연속 듣기_가사 있음)| 추억의 올드가요 메들리
-- 꿈과 현실이 밀푀유처럼⭐️: ponytailmama - POPSTAR☆ [가사/발음/한글 자막/해석]
-- [2탄] NEON - A2O LITE 가사 해석 & 틀린 영어 고치기 🩵
-- 《젠레스》 영어 가사 번역 리뷰!!!🐦‍🔥피닉스 EP 「1% Battery Girl」 리액션🍓2026.10.20 화
-- 이 가사 때문에 하하가 빵 터졌다ㅋㅋㅋ #예능 #웃긴영상 #shorts
-- NCT DREAM (엔시티 드림) - 'THE SUN' Lyrics (가사) || Color Coded Lyrics (Han/Rom/Eng)
-- 완급조절 없는 랩 가사 실종 #shorts
-- runaway - aurora | lyrics | aesthetic | whatsapp Status | English songs | slowed |  #vairal
-- BIG Naughty - Vancouver [낭만]ㅣ가사/Lyrics
-- 피켓 문구 가사 된 사연 임영웅이 직접 털어놨다 #Shorts
-- 피켓 문구가 가사로 탄생 임영웅 팬들도 작사가 #Shorts
-- 가사 전달력이 말이 안 됨 #shorts
-- 빅뱅 BAE BAE 가사가 꼬이자 벌어진 일
-- [1탄] NEON - A2O LITE 가사 해석 & 틀린 영어 고치기 🩵
-- 남편은 꽃놀이, 아내는 빈방에서 늙었다 #규원가 #허난설헌 #가사문학 #고전시가 #수능국어 #문학쇼츠
-- Jeene Laga Hoon 🖇️🫀 | Aesthetic Lyrical Video #lyrics #trending #lovesong #viral #love #song #shorts
-- Ve Maahi 💖🧿| Aesthetic Lyrics Video #song #vemahi #lyrics
-- 가사 절 것 같을 때 그가 선택한 방법: 물 마시기
-- 가사 절 것 같을 때 그가 선택한 방법: 물 마시기
+- 살랑살랑 ♡ 나풀나풀 ~ #흥따라흥 feat.가사 자막 #전유진 #shorts
+- Name This Song #181 #lyrics
+- Did Future Say This Or Did I? #shorts #music #lyrics #future #rap
+- A2O LITE - NEON | 가사 글자그대로 #shorts
+- 황정숙7080전화 노래방  2026.10.21 가사 #전화노래방 #황정숙가수 #트로트메들리 #트로트여자가수  #트로트 #노래방애창곡 #노래커버 #노래애창곡 #노래방커버
+- 크러쉬 삐그덕 가사에 숨겨진 아이유 노래
+- 이제와서 못 붙잡겠어😢: 노벨브라이트 - 달맞이꽃(ツキミソウ) [가사/발음/한글 자막/해석]
+- 리센느 펄스 쇼츠 제목 조합...펄스 가사??🎵| shorts | RESCENE (리센느) | リセンヌ | 안원잘부 | 원이 | 리브 | 미나미 | 메이 | 제나 | 리마인
+- ‘체포하겠어’ 가사 의미
+- Jeene Laga Hoon ✨💞 || Slowed + Reverb || #shorts #love #vibe #lyrics #edit
+- Hadal Ahbek – Issam Alnajjar (Lyrics) 🖤 | Aesthetic Lyrics Edit | Velvet Haze #shorts
+- 캘리그라피 - 노래 'Go Hard (미야오)' 가사 중에서 #노래가사쓰기 #예쁜글씨 #calligraphy #art #handwriting
+- You Met KATSEYE #shorts #facts #lyrics #fyp
+- [가사 법률사건] - 술만이 문제라고 생각했던 내 남편의 비밀 / 송정빈 변호사
+- 사장님 VIP 카드로 케이크 몰래 샀다가 누명 쓴 가사도우미의 최후
+- 가사 이해하면 역대급으로 야함ㅋㅋㅋ
+- Roxette - Listen To Your Yeart Lyrics
+- Crush - 삐그덕 (Feat. 아이유) [가사/Lyrics]
+- LNGSHOT 'Masterpiece' Lyrics (롱샷 Masterpiece 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
+- 💀 MALA – 6ix9ine 🖤 | Lyrics Edit 🎧 | Aesthetic Vibes ⚡ | English Song #Shorts #fyp
 
 ---
 
