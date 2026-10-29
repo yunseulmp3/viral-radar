@@ -1,41 +1,31 @@
-# 바이럴 레이더 — 2026-10-28
+# 바이럴 레이더 — 2026-10-29
 
-수집 영상 607건 · 곡 후보 56곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 3곡
+수집 영상 598건 · 곡 후보 61곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 2곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **아일릿 – 체포하겠어** | 1일차 | 2.5 | +1.7 | 8.8만 | 62.2만 | — |
-| 2 | **Dakshood, 양홍원 – Plan B** | 2일차 | 2.0 | +0.0 | 29.7만 | 45.2만 | — |
-| 3 | **NEON – A2O LITE** | 7일차 | 3.0 | +0.6 | 1899.9만 | 2060.0만 | — |
+| 1 | **BIG Naughty – Vancouver 3** | 14일차 | 7.0 | +3.0 | 81.4만 | 1.7만 | — |
+| 2 | **에픽하이 , 다비치 – 미장센** | 15일차 | 3.0 | +0.8 | 17.7만 | 10.6만 | — |
 
 ---
 
-### 1. 아일릿 – 체포하겠어
+### 1. BIG Naughty – Vancouver 3
 
-- 점수 **9.82** · 진입 1일차 (최초 포착 2026-10-27)
-- 독립 진영 **2.5개** (어제 대비 +1.7, 원시 채널 3개)
-- 누적 조회 8.8만 (오늘 +6.3만)
-- 최대 채널 규모 62.2만 구독
-- 채널: A4 노래 가사, ERRDAY DRIP (얼데이드립), 웅키
-- 대표 영상: [체포하겠어](https://youtu.be/bSavDIXZPJg)
+- 점수 **2.55** · 진입 14일차 (최초 포착 2026-10-15)
+- 독립 진영 **7.0개** (어제 대비 +3.0, 원시 채널 7개)
+- 누적 조회 81.4만 (오늘 +2.1만)
+- 최대 채널 규모 1.7만 구독
+- 채널: OUTTAKE 아웃테이크, SOFA Magazine, muta, 더운겨울밤, 띵곡 수집가 - ThingSu, 소리문장
+- 대표 영상: [Vancouver 3](https://youtu.be/pxkp_ra73fY)
 
-### 2. Dakshood, 양홍원 – Plan B
+### 2. 에픽하이 , 다비치 – 미장센
 
-- 점수 **4.87** · 진입 2일차 (최초 포착 2026-10-26)
-- 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
-- 누적 조회 29.7만 (오늘 +1.2만)
-- 최대 채널 규모 45.2만 구독
-- 채널: 알파, 힙합팬타이탄_HiphopFanTitan
-- 대표 영상: [Plan B](https://youtu.be/Its-08PKhU8)
-
-### 3. NEON – A2O LITE
-
-- 점수 **1.29** · 진입 7일차 (최초 포착 2026-10-21)
-- 독립 진영 **3.0개** (어제 대비 +0.6, 원시 채널 5개)
-- 누적 조회 1899.9만 (오늘 +61.0만)
-- 최대 채널 규모 2060.0만 구독
-- 채널: KBS Kpop, KBS WORLD TV, M2, MBCkpop, SBSKPOP X INKIGAYO
-- 대표 영상: [A2O LITE](https://youtu.be/93j1fDGi_-8)
+- 점수 **0.71** · 진입 15일차 (최초 포착 2026-10-14)
+- 독립 진영 **3.0개** (어제 대비 +0.8, 원시 채널 4개)
+- 누적 조회 17.7만 (오늘 +7,794)
+- 최대 채널 규모 10.6만 구독
+- 채널: JH Playlist, NN Music, 로우, 베어뮤직 BearMusic
+- 대표 영상: [미장센](https://youtu.be/v_JQYYRx0zY)
 
 ---
 
@@ -43,14 +33,14 @@
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **Crush – 삐그덕** · 6일차 · 진영 2.5 · 조회 13.1만
-- **NEON – A2O LITE & 틀린 영어 고치기 🩵** · 7일차 · 진영 1.0 · 조회 56.6만
-- **NEON – A2O, A2O LITE** · 7일차 · 진영 0.5 · 조회 73.1만
-- **사이버펑크 엣지러너 2 OST – In Love With Myself** · 5일차 · 진영 1.0 · 조회 20.1만
-- **Big Naughty – Vancouver 3** · 13일차 · 진영 4.0 · 조회 79.3만
-- **ILLIT More – ShadowByYoongi** · 94일차 · 진영 1.0 · 조회 209.6만
-- **우사기 랩 따라부르기 무한 – 치이카와 귀여워 돌아버림** · 18일차 · 진영 1.0 · 조회 8.0만
-- **소연 – 퇴사할게여** · 49일차 · 진영 3.0 · 조회 6.8만
+- **Crush – 삐그덕** · 7일차 · 진영 1.0 · 조회 13.7만
+- **NEON – A2O, A2O LITE** · 8일차 · 진영 0.5 · 조회 77.8만
+- **NEON – A2O LITE & 틀린 영어 고치기 🩵** · 8일차 · 진영 1.0 · 조회 58.6만
+- **사이버펑크 엣지러너 2 OST – High Forever** · 11일차 · 진영 1.0 · 조회 93.4만
+- **사이버펑크 엣지러너 2 OST – In Love With Myself** · 6일차 · 진영 1.0 · 조회 21.7만
+- **NEON – A2O LITE** · 8일차 · 진영 3.0 · 조회 1951.3만
+- **우사기 랩 따라부르기 무한 – 치이카와 귀여워 돌아버림** · 19일차 · 진영 1.0 · 조회 8.1만
+- **XLOV Tooth Gem Chiwawa – ShadowByYoongi** · 95일차 · 진영 1.0 · 조회 225.0만
 
 ---
 
@@ -58,21 +48,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **Jayci yucca – Bad and Panic** · 0일차 · 조회 9,505 · (오늘 미확인) · [영상](https://youtu.be/UBZEZyJvE4Y)
-- **리센느 제나 – 빵빵** · 0일차 · 조회 1,298 · (오늘 미확인) · [영상](https://youtu.be/mgYJw5ulKIw)
-- **양홍원 – No Tatt** · 0일차 · 조회 1,153 · (오늘 미확인) · [영상](https://youtu.be/molyaOWF6jo)
-- **전건호 – 천번을 더** · 1일차 · 조회 1,327 · (오늘 미확인) · [영상](https://youtu.be/5LQpdAoDO4c)
-- **진진경 – 천하** · 1일차 · 조회 1,813 · (오늘 미확인) · [영상](https://youtu.be/kDORSPH8Ce0)
-- **유채훈 – Come Home to Me** · 0일차 · 조회 245 · (오늘 미확인) · [영상](https://youtu.be/7_z8oBD3eEQ)
-- **임지성 & 정지웅 – 거짓말** · 0일차 · 조회 186 · (오늘 미확인) · [영상](https://youtu.be/-Zt-mK5oUkg)
-- **오렌베이 ORENVEY – 사랑한 후에** · 0일차 · 조회 180 · (오늘 미확인) · [영상](https://youtu.be/QTUiiSlb_us)
-- **네 이름을 헤엄쳐 – Saebyuk 음악 사랑노래 이별노래 인디음악** · 0일차 · 조회 176 · (오늘 미확인) · [영상](https://youtu.be/PVq39bC1pfI)
-- **아이유 – Never Ending Story** · 1일차 · 조회 428 · (오늘 미확인) · [영상](https://youtu.be/l6wWUg4hErk)
-- **괜찮아, 다 잘될 거야 – 기분 좋아지는 긍정 시티팝** · 2일차 · 조회 233 · (오늘 미확인) · [영상](https://youtu.be/0Plf8Y1L5Bk)
-- **느린 불빛 – 감성 인디 음악** · 0일차 · 조회 84 · (오늘 미확인) · [영상](https://youtu.be/XzfgwCs-3tQ)
-- **임바다 – 그대와 영원히** · 0일차 · 조회 50 · (오늘 미확인) · [영상](https://youtu.be/nkS8V2eeask)
-- **잘 살고 있나요 – 있는 감성 인디 음악** · 1일차 · 조회 15 · (오늘 미확인) · [영상](https://youtu.be/LAvATqKjbE8)
-- **어른이 되면 – Acoustic Pop** · 2일차 · 조회 646 · (오늘 미확인) · [영상](https://youtu.be/ASiRTlMcqOI)
+- **Neon – A2O LITE 가사가 다 한국어라면? 아란뮤직** · 0일차 · 조회 19.3만 · (진영 1.0) · [영상](https://youtu.be/LEjA9MBYVvE)
+- **샤오쥔 – Hey, Somebody 딩고뮤직 dingo Music** · 0일차 · 조회 4.6만 · (진영 0.5) · [영상](https://youtu.be/wc6EMzyuPt0)
+- **BIGBANG – 사랑먼지** · 0일차 · 조회 9,696 · (오늘 미확인) · [영상](https://youtu.be/bnAKWwdUfkQ)
+- **Dakshood, 양홍원 – Plan B** · 3일차 · 조회 30.7만 · (진영 1.5) · [영상](https://youtu.be/Its-08PKhU8)
+- **Gist – 신림동** · 0일차 · 조회 8,741 · (오늘 미확인) · [영상](https://youtu.be/ARHVAtN4kfo)
+- **적재 – 틀려도되** · 0일차 · 조회 5,051 · (오늘 미확인) · [영상](https://youtu.be/yig9vxC5Iqg)
+- **98% – 족쇄** · 0일차 · 조회 4,763 · (오늘 미확인) · [영상](https://youtu.be/eV1WVkbp2bA)
+- **테이 – 여전히 아름다운지** · 0일차 · 조회 2,877 · (오늘 미확인) · [영상](https://youtu.be/N5unlZYe6FY)
+- **리센느 – with** · 0일차 · 조회 1,387 · (오늘 미확인) · [영상](https://youtu.be/aZU_mYIlWT0)
+- **Dire Straits – Why Worry 🌹 걱정하지 말아요** · 0일차 · 조회 1,284 · (오늘 미확인) · [영상](https://youtu.be/DxNLbYK5AP8)
+- **정예원 – 이런 게 사랑이라면** · 0일차 · 조회 610 · (오늘 미확인) · [영상](https://youtu.be/hOeBnlFZB4s)
+- **어떻게 사랑이 그래요 – 이승환** · 0일차 · 조회 408 · (오늘 미확인) · [영상](https://youtu.be/Byevgk-sC2s)
+- **Azavana – Morphine** · 0일차 · 조회 242 · (오늘 미확인) · [영상](https://youtu.be/K4Jt233cLzY)
+- **Sam Ock – chapter** · 0일차 · 조회 124 · (오늘 미확인) · [영상](https://youtu.be/qZeunGevC_8)
+- **양홍원 – No Tatt** · 1일차 · 조회 1,263 · (오늘 미확인) · [영상](https://youtu.be/molyaOWF6jo)
 
 ---
 
@@ -87,35 +77,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 77건
+2단 검증으로 추가 확보한 영상: 71건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 203 · 한글없음 199 · 파싱실패 88
+걸러낸 영상 — 정크 233 · 한글없음 177 · 파싱실패 71
 
 실제로 긁혀온 제목 표본 20개:
 
-- 녹음하다 가사 보고 바람난 거냐고 물은 베이비몬스터 로라 #베이비몬스터 #로라 #BABYMONSTER #shorts
-- 삡 소리 같은 메타 태그는, 가사 위쪽에 넣으세요
-- ?: 쓰러다 헤매져 가 원래 가사 아님?
-- 양홍원 - No Tatt [가사 / Lyrics]
-- IShowSpeed crashed out on Khantrast’s lyrics 😭 #speed #ishowspeed #khantrast
-- Satisfaction – Mick Jagger (1965) | Lyrics | Timeless Melody #lyricsvideo  #60smusic  #mickjagger
-- 가사 알고 들으면 속이 다 뻥 뚫리는 아델 레전드 라이브
-- How Steven Tyler Wrote Lyrics For The 'Pump' Album
-- 길들여지지 말라고 짜식들아⚾️: go!go!vanillas - 트릭스터(トリックスター) [가사/발음/한글 자막/해석]
-- Pata hai duniya bohut khubsurat hai 🙄🥀| black screen lyrics status| #sad #shayari #love
-- '틀려도되'는 가사까지 틀려줘야 제맛 🎶 #퍼스널레터 #적재 #틀려도되
+- NEPHEW JOSH: UNC FINISH THE LYRICS | STEPHEN A. SMTH
+- MC STAN IN LATENT SHOW #lyrics #rap #hiphop #trending #shorts #youtubeshorts #latest #viralvideo
+- 기안84가 가사 쓴 첫 노래 민들레 #shorts #기안84 #민들레
+- AFRICA #totoafrica #toto #80smusic  #lyrics #80s  #80music #letra
+- The absolute fun Jungkook had with the lyrics of Seven😭
+- pagal abhi sona nahi hai 🥺💔🥀😭 black screen lyrics status 🖤 #sadstatus #lyrics #viralshorts #broken
+- 진진경-천하(天下) [가사 번안:진진경]
+- 그 사람의 이름, 우리 둘의 추억이 가사가 되는 세상에 하나뿐인 노래 선물 #Shorts
+- [언포게터블 듀엣 2] 가사 이어 부르기 챌린지 (MC 손태진 편)
+- 도망가봤자 소용없소... 가사 미쳤다 매운맛7탄예고편 #갱년기힙합 #국악힙합 #조선힙합
+- 갑질하던 방송사에 노래 가사로 '품격있게 손절' 날린 아이돌 ㄷㄷ
+- XLOV 'Tooth Gem Chiwawa' Lyrics (엑스러브 투스젬치와와 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
+- ㄹㅇ천재인 거 같다는 RM 언어유희 가사들
+- Gist - 신림동 (Feat. 최성) [신림동]ㅣLyrics/가사
+- XLOV 'Hush' Lyrics (엑스러브 Hush 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
+- Theme from New York, New York - Frank Sinatra | 한국어 발음 가사 #Shorts
+- 삐그덕 (이별ver.💔)보사노바 늬낌아니까 (이별 가사로 바꿔서 부른 삐그덕) #삐그덕 #크러쉬 #아이유 #삐그덕커버 #삐그덕챌린지 #방구석안에콘서트홀
 - Dhire dhire samjha aa raha hai || Black screen lyrics status || #fyp #shorts #viral #explore
-- 녹음실에 후배 20명이 들이닥친 이유? (feat. 팬 사랑 가사 탄생 비화) #임영웅 #임영웅비하인드 #부디행복해질것 #임영웅후배 #영웅시대 #토닥토닥스토리 #위로영상
-- 맨발의 청춘 잘못된 가사 해석으로 이러는 건 아니지? #청춘 #가사 #가요
-- 🎵 MALA – 6ix9ine | Lyrics Edit | Aesthetic 🔥🖤💥
-- Murda Mook Claims Lloyd Banks Stole His Lyrics for “On Fire” 👀🔥
-- Sammi Meri Waar || Quratulain Balouch & Umair Jaswal || #music #lyrics
-- 제목대로 가사 | A2O LITE - 네온 #shorts
-- 크러쉬 ‘삐그덕 (seesaw)’ 가사 손글씨 | 다꾸 · Scrapbooking
-- 히사이시 조 〈Summer〉에 가사를 붙여봤습니다.
+- [언포게터블 듀엣 2] 가사 이어 부르기 챌린지 (MC 손태진 편)
+- 가사가 너무 예뻐서 자꾸 듣게 되는 노래🌼 #piano #피아노연주
 
 ---
 
