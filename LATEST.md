@@ -1,42 +1,41 @@
-# 바이럴 레이더 — 2026-11-03
+# 바이럴 레이더 — 2026-11-04
 
-수집 영상 547건 · 곡 후보 56곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 3곡
+수집 영상 552건 · 곡 후보 61곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 3곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **HOT DEBUT A2O LITE – NEON 엠카운트다운 EP.949** | 3일차 | 2.0 | +1.0 | 1636.5만 | 2260.0만 | — |
-| 2 | **에픽하이 , 다비치 – 미장센** | 20일차 | 4.0 | +0.8 | 20.7만 | 10.6만 | — |
-| 3 | **ALLDAY PROJECT – CRASH** | 35일차 | 3.0 | +1.0 | 88.9만 | 2260.0만 | ⚠ 진입 |
+| 1 | **HOT DEBUT A2O LITE – NEON 엠카운트다운 EP.949** | 4일차 | 2.0 | +0.0 | 1659.3만 | 2260.0만 | — |
+| 2 | **소연 – 퇴사할게여** | 56일차 | 3.0 | +1.0 | 9.4만 | 24.1만 | — |
+| 3 | **박재정 – 계절의 끝** | 35일차 | 4.0 | +1.0 | 8.4만 | 235.0만 | — |
 
 ---
 
 ### 1. HOT DEBUT A2O LITE – NEON 엠카운트다운 EP.949
 
-- 점수 **3.52** · 진입 3일차 (최초 포착 2026-10-31)
-- 독립 진영 **2.0개** (어제 대비 +1.0, 원시 채널 2개)
-- 누적 조회 1636.5만 (오늘 +25.0만)
+- 점수 **1.95** · 진입 4일차 (최초 포착 2026-10-31)
+- 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
+- 누적 조회 1659.3만 (오늘 +22.8만)
 - 최대 채널 규모 2260.0만 구독
 - 채널: Mnet K-POP, 케이팝만올리는채널
 - 대표 영상: [NEON 엠카운트다운 EP.949](https://youtu.be/XAU5AtvpnRM)
 
-### 2. 에픽하이 , 다비치 – 미장센
+### 2. 소연 – 퇴사할게여
 
-- 점수 **0.78** · 진입 20일차 (최초 포착 2026-10-14)
-- 독립 진영 **4.0개** (어제 대비 +0.8, 원시 채널 5개)
-- 누적 조회 20.7만 (오늘 +8,089)
-- 최대 채널 규모 10.6만 구독
-- 채널: Clean & Clean, JH Playlist, NN Music, 로우, 베어뮤직 BearMusic
-- 대표 영상: [미장센](https://youtu.be/v_JQYYRx0zY)
-
-### 3. ALLDAY PROJECT – CRASH
-
-- 점수 **0.11** · 진입 35일차 (최초 포착 2026-09-29)
+- 점수 **0.74** · 진입 56일차 (최초 포착 2026-09-09)
 - 독립 진영 **3.0개** (어제 대비 +1.0, 원시 채널 3개)
-- 누적 조회 88.9만 (오늘 +21.3만)
-- 최대 채널 규모 2260.0만 구독
-- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
-- 채널: MBCkpop, Mnet K-POP, ZNCREW [ZNDANCE - MOKDONG]
-- 대표 영상: [CRASH](https://youtu.be/GiqmwEaE5vY)
+- 누적 조회 9.4만 (오늘 +3,464)
+- 최대 채널 규모 24.1만 구독
+- 채널: 2000l, ERRDAY DRIP (얼데이드립), 승짱구TV
+- 대표 영상: [퇴사할게여](https://youtu.be/UFXpSVSmzf0)
+
+### 3. 박재정 – 계절의 끝
+
+- 점수 **0.31** · 진입 35일차 (최초 포착 2026-09-30)
+- 독립 진영 **4.0개** (어제 대비 +1.0, 원시 채널 4개)
+- 누적 조회 8.4만 (오늘 +920)
+- 최대 채널 규모 235.0만 구독
+- 채널: SBS Radio 에라오, it's Live, parc💙보물창고, 엠씨더막국수
+- 대표 영상: [계절의 끝](https://youtu.be/r4HO0NaxyG4)
 
 ---
 
@@ -44,14 +43,14 @@
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **Neon – A2O LITE 가사가 다 한국어라면? 아란뮤직** · 5일차 · 진영 1.0 · 조회 122.7만
-- **아일릿 – 체포하겠어** · 7일차 · 진영 1.5 · 조회 53.9만
-- **Dakshood, 양홍원 – Plan B** · 8일차 · 진영 2.0 · 조회 33.5만
-- **BIG Naughty – Vancouver 3** · 19일차 · 진영 5.5 · 조회 89.1만
-- **사이버펑크 엣지러너 2 OST – In Love With Myself** · 11일차 · 진영 1.0 · 조회 27.4만
-- **하치와레 – 혼잣말** · 17일차 · 진영 2.0 · 조회 21.2만
-- **샤오쥔 – Hey, Somebody 딩고뮤직 dingo Music** · 5일차 · 진영 0.5 · 조회 9.6만
-- **사이버펑크 엣지러너 2 OST – High Forever** · 16일차 · 진영 1.0 · 조회 103.4만
+- **RESCENE – 우리는 해** · 5일차 · 진영 1.0 · 조회 26.1만
+- **Neon – A2O LITE 가사가 다 한국어라면? 아란뮤직** · 6일차 · 진영 1.0 · 조회 135.1만
+- **아일릿 – 체포하겠어** · 8일차 · 진영 1.5 · 조회 61.1만
+- **에픽하이, 다비치 – 미장센 EPIK HIGH, DAVICHI** · 5일차 · 진영 0.5 · 조회 56.9만
+- **BIG Naughty – Vancouver 3** · 20일차 · 진영 4.5 · 조회 90.2만
+- **Dakshood, 양홍원 – Plan B** · 9일차 · 진영 2.0 · 조회 33.8만
+- **하치와레 – 혼잣말** · 18일차 · 진영 2.0 · 조회 22.2만
+- **사이버펑크 엣지러너 2 OST – High Forever** · 17일차 · 진영 1.0 · 조회 104.8만
 
 ---
 
@@ -59,21 +58,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **A2O LITE – NEON + Dance Break** · 3일차 · 조회 189.6만 · (진영 1.0) · [영상](https://youtu.be/8vt92gL4s0U)
-- **승리의 여신 – 니케 OST** · 2일차 · 조회 22.8만 · (진영 1.0) · [영상](https://youtu.be/ypqW27Bfusw)
-- **에픽하이, 다비치 – 미장센 EPIK HIGH, DAVICHI** · 4일차 · 조회 52.9만 · (진영 0.5) · [영상](https://youtu.be/oGyYodnmcsY)
-- **RESCENE – 우리는 해** · 4일차 · 조회 24.9만 · (진영 1.0) · [영상](https://youtu.be/1w3MVddRDkQ)
-- **TWS – 내 이름을 불러줘** · 0일차 · 조회 1.0만 · (오늘 미확인) · [영상](https://youtu.be/P17xUKH75q4)
-- **XAVII – Around** · 0일차 · 조회 4,597 · (오늘 미확인) · [영상](https://youtu.be/aTp-ZWeefsk)
-- **존박 – 맥도날드 랩** · 0일차 · 조회 4,205 · (오늘 미확인) · [영상](https://youtu.be/lmUTwUzPD7g)
-- **🎵 Woman in Love – Barbra Streisand 영어회화 노래로배우는영어 7080** · 0일차 · 조회 2,479 · (오늘 미확인) · [영상](https://youtu.be/ueT6JeV17i0)
-- **꿈꾸던 어른이 되었나요? – 머무르 머무르 ai** · 0일차 · 조회 1,968 · (오늘 미확인) · [영상](https://youtu.be/LTVe23EqZEA)
-- **MY – RAKL** · 0일차 · 조회 1,436 · (오늘 미확인) · [영상](https://youtu.be/GyB6qpsDX4U)
-- **리센느 – LOVE ATTACK** · 0일차 · 조회 1,252 · (오늘 미확인) · [영상](https://youtu.be/tHR7X_pd4Mc)
-- **ILLIT – YOU RE UNDER ARREST** · 0일차 · 조회 1,058 · (오늘 미확인) · [영상](https://youtu.be/kgbIyG6zkvA)
-- **The Poles – Lift** · 0일차 · 조회 788 · (오늘 미확인) · [영상](https://youtu.be/7qwHez6V5MA)
-- **🖤잘 다녀와, 흔적은 남겨둘게 – 悪癖** · 0일차 · 조회 550 · (오늘 미확인) · [영상](https://youtu.be/r_0bRLz-rTc)
-- **리센느 – Dragon** · 0일차 · 조회 345 · (오늘 미확인) · [영상](https://youtu.be/5rbG49Bhr84)
+- **NEON – A2O, A2O LITE** · 14일차 · 조회 108.0만 · (진영 1.5) · [영상](https://youtu.be/w4wLXdrl_rg)
+- **승리의 여신 – 니케 OST** · 3일차 · 조회 27.6만 · (진영 1.0) · [영상](https://youtu.be/ypqW27Bfusw)
+- **RESCENE – With** · 11일차 · 조회 3.2만 · (오늘 미확인) · [영상](https://youtu.be/tqFKapXww0U)
+- **올공 주진우 작사 – 작곡? AI 제작, 가사는 직접 써 지금 이 뉴스** · 0일차 · 조회 8,885 · (오늘 미확인) · [영상](https://youtu.be/_dQmqKLRsKs)
+- **머쉬베놈 – 이덕화** · 0일차 · 조회 8,373 · (오늘 미확인) · [영상](https://youtu.be/lfDuQGbkUXU)
+- **RESCENE – 백화요란** · 0일차 · 조회 5,951 · (오늘 미확인) · [영상](https://youtu.be/ZAbNfX-2bwM)
+- **RESCENE – PULSE** · 0일차 · 조회 3,326 · (오늘 미확인) · [영상](https://youtu.be/HQrVzWzvKiA)
+- **대동단결 – Gee** · 0일차 · 조회 2,329 · (오늘 미확인) · [영상](https://youtu.be/VDBAobAs3Xc)
+- **🖤잘 다녀와, 흔적은 남겨둘게 – 悪癖** · 1일차 · 조회 2,651 · (오늘 미확인) · [영상](https://youtu.be/r_0bRLz-rTc)
+- **허성현 – 발아** · 0일차 · 조회 1,363 · (오늘 미확인) · [영상](https://youtu.be/PLv61CrqC74)
+- **가사는 다정한데, 주인공이 마히토임 – 주술회전 AMV anime jujutsukaisen** · 0일차 · 조회 1,297 · (오늘 미확인) · [영상](https://youtu.be/sQQ9YvX8mmw)
+- **눈오는밤 다시 – 그시절 레트로 감성 발라드** · 0일차 · 조회 1,169 · (오늘 미확인) · [영상](https://youtu.be/nE7FNjKF5lo)
+- **BIG Naughty – Vancouver 3 🖤 벤쿠버3 듣기** · 13일차 · 조회 3.1만 · (오늘 미확인) · [영상](https://youtu.be/folwWaZZTr4)
+- **O.WHEN – 내가 웃고 있어요** · 1일차 · 조회 1,027 · (오늘 미확인) · [영상](https://youtu.be/W_QEKp-elqc)
+- **매드 클라운 – 백억** · 0일차 · 조회 510 · (오늘 미확인) · [영상](https://youtu.be/zM436g15EKM)
 
 ---
 
@@ -88,35 +87,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 64건
+2단 검증으로 추가 확보한 영상: 63건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 211 · 한글없음 170 · 파싱실패 70
+걸러낸 영상 — 정크 213 · 한글없음 151 · 파싱실패 79
 
 실제로 긁혀온 제목 표본 20개:
 
-- #lyrics
-- 웃던 유리도 가사 실종 #유리 #존박 #shorts
-- O.WHEN(오왠) - 내가 웃고 있어요(가사/Lyrics)
-- 바다를 모르는 나는🐍: 요루시카 - 뱀(へび) [가사/발음/한글 자막/해석]
-- 근데 노래도 가사 많은걸로 부르는.
-- [추억소환] 가사는 오열각인데 심장이 뛰는 그 시절 사랑했던 노래 💦  #쇼츠 #90년대 #가요 #플레이리스트
-- 🎸만남이 있으면 헤어짐도 있는 법 : LØREN - MOSQUITO  [가사/해석/번역/lyrics]
-- 가사가 너무 좋아 무한 반복하게 되는 굿샷  💕 김다현 #김다현 #굿샷 #shorts
-- YOUNG G.O.A.T | Cheema Y | Latest Punjabi songs | Aesthetic New Lyrics Video Editing Alight Motion |
-- TWS 'WE UP' Lyrics (투어스 WE UP 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
-- 꽃 100송이 받은 다혜, 자기 노래 가사가 장미 백 송이ㅋㅋ
-- TWS 'heavy' Lyrics (투어스 heavy 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
-- 가사 그대로 충격 그 자체ㄷㄷ 13살 센터 오아 단독 파트 몰아보기 A2O LITE
-- TWS (투어스) - 내 이름을 불러줘 [가사/Lyrics]
-- [CORRECT] TWS 'Call My Name' Lyrics (투어스 내 이름을 불러줘 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
-- Ride It - Jay Sean | lyrics | aesthetic | English songs | whatsapp status | sped up | slowed | edit
-- xikers 'DIENAMITE' Lyrics (싸이커스 DIENAMITE 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
-- Make Your Own KATSEYE Name! #shorts #love #lyrics #music #fyp
-- ✨💗 Buzz | Aastha Gill & Badshah | Aesthetic Lyrical Video #lyrics #trending #romanticsong #shorts
-- TREASURE 'SHOCK' Lyrics (트레저 SHOCK 가사) [Color Coded Han_Rom_Eng] | ShadowByYoongi
+- हनुमान चालीसा सम्पूर्ण |Hanuman Chalisa Lyrics Complete |Jai Hanuman Gyan Gun #hanumanchalisa
+- agar tum saath ho- (lyrics) viral songs lyrics || #shorts #hindisong #song #lyrics #music #trending
+- 우리가 아는 그 가사는 심수봉이 직접 썼다 | 심수봉 「백만송이 장미」#Shorts #백만송이장미 #심수봉 #라트비아 #추억의가요
+- 대학 축제에서 가사를 바꿔 부른 아일릿
+- With (Outro) - 리센느 노래제목으로가사
+- 당신이 있어 행복합니다 (B 버전) | 7080 감성 노래 · 가사와 함께
+- 잊을 수 없는 연인(가사) #김준규 #잊을수없는연인 #이미자노래 #억새 #가을풍경 #7080노래
+- 리센느 'With' 가사에 with는 2번, 가장 많이 부른 말은? #shorts
+- 영탁 임영웅 'GIMME! GIMME!' 라이브, «Kiss me» 가사 나오자 세 사람이 한 행동ㅋㅋ
+- ILLIT (아일릿) — (체포하겠어) You’re Under Arrest | Color Coded Lyrics
+- Tacata - tiagz | lyrics | aesthetic | whatsapp Status | English songs | slowed | #vairal
+- pata nahi kitna pyar ho gaya tumse 😩💔🥀😟 black screen lyrics status 🖤 #sadstatus #lyrics #broken #sad
+- Céline Dion - I'm Alive Lyrics #lyrics #lofilulla
+- Sammi Meri Waar - Asthetic Lyrics Video / Umair Jaswal &Quratulain Balouch #trending #shorts #lyrics
+- [리센느] 'With' Showcase 위드 쇼케이스 무대 (가사 자막) #RESCENE #리센느 #リセンヌ #With #lyrics
+- RESCENE (리센느) - 'WITH' Lyrics (가사) || Color Coded Lyrics (Han/Rom/Eng)
+- RESCENE(리센느) - 백화요란 (Inside Out) [싱크가사/Lyric Video]
+- 오 거룩한 밤 영어 가사 익히기 (가사 단어집)
+- RESCENE (리센느) - With [가사/Lyrics]
+- Buzz Song 🫶💗 | Lyrics Status | #shorts #lyrics #lovesong #aesthetic
 
 ---
 
