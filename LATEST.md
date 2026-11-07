@@ -1,51 +1,51 @@
-# 바이럴 레이더 — 2026-11-06
+# 바이럴 레이더 — 2026-11-07
 
-수집 영상 541건 · 곡 후보 57곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 4곡
+수집 영상 571건 · 곡 후보 49곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 4곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **하치와레 – 혼잣말** | 20일차 | 2.0 | +1.0 | 24.6만 | 2,150 | — |
-| 2 | **BIG Naughty – Vancouver 3** | 22일차 | 6.0 | +1.0 | 7,702 | 4,190 | — |
-| 3 | **NEON – A2O LITE** | 16일차 | 3.0 | +0.8 | 802.3만 | 2060.0만 | — |
-| 4 | **박재정 – 계절의 끝** | 37일차 | 2.0 | +1.0 | 5.9만 | 172.0만 | — |
+| 1 | **기리보이, C JAMM, 블랙넛 – AHOHYEH** | 2일차 | 2.5 | +1.7 | 5.5만 | 45.2만 | — |
+| 2 | **기리보이, C JAMM, 블랙넛 – triple** | 2일차 | 2.5 | +0.8 | 10.5만 | 45.2만 | — |
+| 3 | **엔플라잉 – 잔불** | 29일차 | 4.0 | +3.0 | 30.3만 | 13.6만 | — |
+| 4 | **소연 – 퇴사할게여** | 59일차 | 4.0 | +1.0 | 11.7만 | 24.3만 | — |
 
 ---
 
-### 1. 하치와레 – 혼잣말
+### 1. 기리보이, C JAMM, 블랙넛 – AHOHYEH
 
-- 점수 **1.24** · 진입 20일차 (최초 포착 2026-10-17)
-- 독립 진영 **2.0개** (어제 대비 +1.0, 원시 채널 2개)
-- 누적 조회 24.6만 (오늘 +1.8만)
-- 최대 채널 규모 2,150 구독
-- 채널: 내픽뮤직, 멜로디숲
-- 대표 영상: [혼잣말](https://youtu.be/uuAbOmrqfbY)
+- 점수 **8.88** · 진입 2일차 (최초 포착 2026-11-05)
+- 독립 진영 **2.5개** (어제 대비 +1.7, 원시 채널 3개)
+- 누적 조회 5.5만 (오늘 +5,716)
+- 최대 채널 규모 45.2만 구독
+- 채널: HipArchive, 아스코, 알파
+- 대표 영상: [AHOHYEH](https://youtu.be/LLyNxkPMcrU)
 
-### 2. BIG Naughty – Vancouver 3
+### 2. 기리보이, C JAMM, 블랙넛 – triple
 
-- 점수 **1.0** · 진입 22일차 (최초 포착 2026-10-15)
-- 독립 진영 **6.0개** (어제 대비 +1.0, 원시 채널 6개)
-- 누적 조회 7,702 (오늘 +0)
-- 최대 채널 규모 4,190 구독
-- 채널: M, muta, 띵곡 수집가 - ThingSu, 소리문장, 찐플리, 한국다람쥐
-- 대표 영상: [Vancouver 3](https://youtu.be/mdK2vjM26so)
+- 점수 **7.44** · 진입 2일차 (최초 포착 2026-11-05)
+- 독립 진영 **2.5개** (어제 대비 +0.8, 원시 채널 3개)
+- 누적 조회 10.5만 (오늘 +2.4만)
+- 최대 채널 규모 45.2만 구독
+- 채널: 게다, 알파, 음악 자막 채널
+- 대표 영상: [triple](https://youtu.be/mVnPniI8iZc)
 
-### 3. NEON – A2O LITE
+### 3. 엔플라잉 – 잔불
 
-- 점수 **0.36** · 진입 16일차 (최초 포착 2026-10-21)
-- 독립 진영 **3.0개** (어제 대비 +0.8, 원시 채널 4개)
-- 누적 조회 802.3만 (오늘 +46.5만)
-- 최대 채널 규모 2060.0만 구독
-- 채널: KBS Kpop, KBS WORLD TV, MBCkpop, SBSKPOP X INKIGAYO
-- 대표 영상: [A2O LITE](https://youtu.be/bcA0LNHAhLo)
+- 점수 **1.45** · 진입 29일차 (최초 포착 2026-10-09)
+- 독립 진영 **4.0개** (어제 대비 +3.0, 원시 채널 4개)
+- 누적 조회 30.3만 (오늘 +25.5만)
+- 최대 채널 규모 13.6만 구독
+- 채널: dddm | 두두두뮤직, genie original , 몽땃쥐, 채널
+- 대표 영상: [잔불](https://youtu.be/n6kAAVBOYDg)
 
-### 4. 박재정 – 계절의 끝
+### 4. 소연 – 퇴사할게여
 
-- 점수 **0.15** · 진입 37일차 (최초 포착 2026-09-30)
-- 독립 진영 **2.0개** (어제 대비 +1.0, 원시 채널 2개)
-- 누적 조회 5.9만 (오늘 +0)
-- 최대 채널 규모 172.0만 구독
-- 채널: SBS Radio 에라오, 재정합니다 ParcJaeJung
-- 대표 영상: [계절의 끝](https://youtu.be/r4HO0NaxyG4)
+- 점수 **0.85** · 진입 59일차 (최초 포착 2026-09-09)
+- 독립 진영 **4.0개** (어제 대비 +1.0, 원시 채널 4개)
+- 누적 조회 11.7만 (오늘 +1.5만)
+- 최대 채널 규모 24.3만 구독
+- 채널: ERRDAY DRIP (얼데이드립), 승짱구TV, 오드, 오드리 햇반
+- 대표 영상: [퇴사할게여](https://youtu.be/UFXpSVSmzf0)
 
 ---
 
@@ -53,14 +53,14 @@
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **승리의 여신 – 니케 OST** · 5일차 · 진영 1.0 · 조회 37.1만
-- **RESCENE – 우리는 해** · 7일차 · 진영 1.0 · 조회 28.0만
-- **Neon – A2O LITE 가사가 다 한국어라면? 아란뮤직** · 8일차 · 진영 0.5 · 조회 140.5만
-- **아일릿 – 체포하겠어** · 10일차 · 진영 2.0 · 조회 75.6만
-- **A2O LITE – NEON + Dance Break** · 6일차 · 진영 1.0 · 조회 205.3만
-- **사이버펑크 엣지러너 2 OST – High Forever** · 19일차 · 진영 1.0 · 조회 107.5만
-- **A20 SOUL SUPERSTAR – Kaesuri** · 18일차 · 진영 1.0 · 조회 17.3만
-- **사이버펑크 엣지러너 2 OST – In Love With Myself** · 14일차 · 진영 1.0 · 조회 29.5만
+- **승리의 여신 – 니케 OST** · 6일차 · 진영 1.0 · 조회 45.8만
+- **리센느 – with** · 9일차 · 진영 1.0 · 조회 51.2만
+- **RESCENE – 우리는 해** · 8일차 · 진영 1.0 · 조회 28.7만
+- **Neon – A2O LITE 가사가 다 한국어라면? 아란뮤직** · 9일차 · 진영 1.0 · 조회 149.4만
+- **사이버펑크 엣지러너 2 OST – High Forever** · 20일차 · 진영 1.0 · 조회 108.7만
+- **아일릿 – 체포하겠어** · 11일차 · 진영 1.5 · 조회 82.8만
+- **A20 SOUL SUPERSTAR – Kaesuri** · 19일차 · 진영 1.0 · 조회 18.0만
+- **사이버펑크 엣지러너 2 OST – In Love With Myself** · 15일차 · 진영 1.0 · 조회 30.1만
 
 ---
 
@@ -68,21 +68,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **리센느 – with** · 8일차 · 조회 43.3만 · (진영 1.0) · [영상](https://youtu.be/aZU_mYIlWT0)
-- **기리보이, C JAMM, 블랙넛 – triple** · 1일차 · 조회 8.1만 · (진영 1.0) · [영상](https://youtu.be/mVnPniI8iZc)
-- **기리보이, C JAMM, 블랙넛 – AHOHYEH** · 1일차 · 조회 5.0만 · (오늘 미확인) · [영상](https://youtu.be/LLyNxkPMcrU)
-- **기리보이, C JAMM, 블랙넛 – FIRE IN THE HOLE** · 1일차 · 조회 4.1만 · (오늘 미확인) · [영상](https://youtu.be/CnCoDRZ5070)
-- **기리보이, C JAMM – win** · 1일차 · 조회 2.3만 · (오늘 미확인) · [영상](https://youtu.be/ApJPp0kcVa8)
-- **DK – 반창꼬** · 0일차 · 조회 6,141 · (오늘 미확인) · [영상](https://youtu.be/L521JDIbAZg)
-- **진해성 – 하나에 뜻밖의 오해🤣 해명할수록 더 웃겨ㅋㅋ💙** · 0일차 · 조회 3,897 · (오늘 미확인) · [영상](https://youtu.be/q-GGo8kLcsI)
-- **죠지 – 좋아해 가사가 영어라면? 아란뮤직** · 1일차 · 조회 1.3만 · (오늘 미확인) · [영상](https://youtu.be/vFOhif_H84k)
-- **MATTHEW, Wuuslime – dropmeabass** · 0일차 · 조회 2,699 · (오늘 미확인) · [영상](https://youtu.be/aJrzLvOtCZ8)
-- **백화요란 – RESCENE** · 0일차 · 조회 2,332 · (오늘 미확인) · [영상](https://youtu.be/N1HKFiiUwE8)
-- **Y.M.C.A – Village People** · 0일차 · 조회 1,530 · (오늘 미확인) · [영상](https://youtu.be/JnMIOVziiVg)
-- **0siggy – SUPERSTAR K** · 0일차 · 조회 1,251 · (오늘 미확인) · [영상](https://youtu.be/6azRQLlMgtY)
-- **대한사람 대한으로 – 가슴 울리는 애국 노래** · 0일차 · 조회 1,236 · (오늘 미확인) · [영상](https://youtu.be/cADnaAwKpvY)
-- **언차일드 – 팅팅** · 0일차 · 조회 1,081 · (오늘 미확인) · [영상](https://youtu.be/JQz2rXkQLYk)
-- **BABY DON T CRY – REPLAY** · 0일차 · 조회 725 · (오늘 미확인) · [영상](https://youtu.be/bUeVfI33T5w)
+- **RESCENE – With** · 14일차 · 조회 16.0만 · (진영 1.5) · [영상](https://youtu.be/tqFKapXww0U)
+- **WISS – DND** · 0일차 · 조회 2.4만 · (오늘 미확인) · [영상](https://youtu.be/lS7RADXWNE4)
+- **ASH DA HERO – Anniversary 딩고뮤직 dingo Music** · 0일차 · 조회 8,970 · (오늘 미확인) · [영상](https://youtu.be/OancFD65cgk)
+- **RESCENE – 백화요란** · 3일차 · 조회 4,236 · (오늘 미확인) · [영상](https://youtu.be/N1HKFiiUwE8)
+- **All Seems the Same – PEARL ABYSS MUSIC** · 0일차 · 조회 1,580 · (오늘 미확인) · [영상](https://youtu.be/4aLT9LUNFAM)
+- **한로로 – 물음표** · 1일차 · 조회 1,152 · (오늘 미확인) · [영상](https://youtu.be/jA4XYoh7Gwg)
+- **언차일드 – 팅팅** · 1일차 · 조회 1,410 · (오늘 미확인) · [영상](https://youtu.be/ql3kUsKKrRk)
+- **이보람 – 좋아 좋아 좋아 니가 좋아** · 0일차 · 조회 203 · (오늘 미확인) · [영상](https://youtu.be/fQ4hOLUp37o)
+- **무엇이 당신을 행복하게 하나요? – Happiest** · 0일차 · 조회 153 · (오늘 미확인) · [영상](https://youtu.be/HyLedawdM58)
+- **⭐ Right Here Waiting – Richard Marx** · 0일차 · 조회 81 · (오늘 미확인) · [영상](https://youtu.be/xEhewHvvI1A)
+- **이영현 – 너무 보고싶어 🩷 그리운 사람 생각나는 밤 듣기 더리슨시즌6 SBS 이영현 너무보고싶어** · 0일차 · 조회 33 · (오늘 미확인) · [영상](https://youtu.be/zUPXakBJWTI)
+- **이키모노가카리 – 블루 버드** · 0일차 · 조회 15 · (오늘 미확인) · [영상](https://youtu.be/_6cpPUdqRVg)
+- **Keepro, SUZNN – 어쨌든 On & On** · 0일차 · 조회 11 · (오늘 미확인) · [영상](https://youtu.be/n30vjqk0dLk)
+- **소연 – Amigo** · 0일차 · 조회 11 · (오늘 미확인) · [영상](https://youtu.be/PqTRwfgEvaI)
+- **P1Harmony – element** · 0일차 · 조회 8 · (오늘 미확인) · [영상](https://youtu.be/GOWj2MGJLyA)
 
 ---
 
@@ -97,35 +97,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 46건
+2단 검증으로 추가 확보한 영상: 61건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 228 · 한글없음 136 · 파싱실패 76
+걸러낸 영상 — 정크 224 · 한글없음 174 · 파싱실패 81
 
 실제로 긁혀온 제목 표본 20개:
 
-- agar sone ke god mile_____🤌🥀|| black screen lyrics status|| #shorts #trending #blackscreenstatus
-- "이 가사는 20년 전에 썼어요" 정동원 노래 듣고 운 진성
-- 언차일드 (UNCHILD) - 팅팅 (TiNG TiNG) 노래제목으로가사
-- MATTHEW, Wuuslime (우슬라임) - dropmeabass (feat. Shyboii) [SLUMPED]ㅣLyrics/가사
-- 리센느 '우리는 해' 가사, 102어절 중 30번이 「우리」 #shorts
-- 리센느 서사를 “with” 가사에 대입시켜보기
-- 진해성 | 가사 하나에 뜻밖의 오해🤣 해명할수록 더 웃겨ㅋㅋ💙
-- 가사가 왜이래? 지마켓 광고 TOP6
-- 🖤 Indila – Tourner Dans Le Vide (Lyrics) 🇫🇷 | THE MOST BEAUTIFUL FRENCH SONG ✨| Aesthetic SMOOTH EFX
-- Lost In Love 🌾 - Humnava, Zain Zohaib | Aesthetic Lyrics
-- Kya Diwali Manayega Yaar Mera Diwali 😭🥀 black screen lyrics status 🖤 #sadshayari#viralshort#shorts
-- 소녀시대 'Gee' 가사를 전부 노래 제목으로 바꿨더니 ㅋㅋ 🎮 #shorts
-- 두 귀를 의심하게 만드는 세대별 가사 모음
-- 곰 세 마리 가사 떨어지자 애기 곰도 잘하고 #김지원 #shorts
-- Sammi Meri Waar (lyrics) Viral Songs Lyrics || #shorts #punjabisong #song #lyrics #music #trending
-- 승리의 여신: 니케 OST - Be the last light [가사/lyrics] 
-- 대한사람 대한으로 | 가슴 울리는 애국 노래 · 웅장한 오케스트라 [가사 영상]
-- 가사에 서사가 그대로 담겨있다는 리센느 신곡 #RESCENE
-- 2015~2019년 히트곡 가사만 듣고 맞히기 🔥 총 30문제
-- 기안84가 매미 가사를 쓰던 이유 ㅋㅋㅋ  #기안84 #연예인
+- #lyrics but why you gotta stare wit does eyes?? H3 c5eat3d 0n 3e
+- 광주 초등학생들이 부른 동요… 가사 알고 보니 충격 #대한민국 #한국 #정치 #이슈 #정치이슈 #논란 #뉴스 #자유 #속보 #윤석열 #서울 #대구 #부산 #경기도 #전라도 #강원도
+- NCT WISH I SPY 가사
+- 리센느 With 가사 심리학적 해석｜나를 부르던 목소리는 왜 우리를 부르게 됐을까?
+- [드럼악보] 첫눈처럼너에게가겠다(리메이크) - 김범수 노래 / 가사/ MR/ 악보/ 드럼
+- 천재인 줄 알았던 강문경이 무대 오르기 전 가사로 유독 집착하는 이유
+- Olivia Rodrigo - deja vu (Lyrics)
+- 발담그자 | 이사야 40:31 말씀찬양 (가사)
+- NEON 가사 들리는 대로 쓰깅‼️ #로블계
+- Say my name-David Guetta(Lyrics)|aesthetic #ytshorts #saymyname
+- ✨ Tum Se 🤍 | Varun Jain | Aesthetic Lyrics | Soullyrics1906
+- 한국어 가사로 전 세계가 하나 된 떼창 순간 TOP5
+- ISSAM ALNAJJAR(Hadal Ahbek) | Lyrics Edit | Speed Up | Aesthetic | Slowed | English Song | #trending
+- 우리가 여전히 서로 사랑하고 있었다면 어땠을까? / 가사 해석
+- 김하연TV 전화노래방 #레오나르 #가사지원 #악보 #노래신청 #문자접수
+- Snowman - Sia | aesthetic | lyrics I english songs | slowed I whatsapp status I speed up #edit
+- 명하 EP｜영어·한국어·일본어 가사 번역 #명일방주엔드필드 #엔드필드
+- 🌸🫀 Teri Meri Kahaani | Arijit Singh | Aesthetic Lyrical Video #lyrics #lovesongs #trending #shorts
+- Chalre Chalre Waal (Lyrics) | Female Version | Tu Sanwal Phul Kasturi | Trending Songs 2026#lyrics
+- [랩은설계다] 랩 가사쓸때 뭐일케 혓바닥이 길어..
 
 ---
 
