@@ -1,4 +1,599 @@
 {
+ "케이시|기어코": {
+  "artist": "케이시",
+  "title": "기어코",
+  "channels": [
+   "UC0BYRvc56Y1Wikp-R2y4jSw",
+   "UCgp1DN5kDI_fuC8KxxFWRoQ"
+  ],
+  "views": 3,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "홍이삭|그때우리": {
+  "artist": "홍이삭",
+  "title": "그때 우리",
+  "channels": [
+   "UC0BYRvc56Y1Wikp-R2y4jSw",
+   "UCgp1DN5kDI_fuC8KxxFWRoQ"
+  ],
+  "views": 1,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "할말이있는데": {
+  "artist": "Meenoi",
+  "title": "할말이 있는데",
+  "channels": [
+   "UC0BYRvc56Y1Wikp-R2y4jSw",
+   "UCgp1DN5kDI_fuC8KxxFWRoQ"
+  ],
+  "views": 10,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "paragliding": {
+  "artist": "행주",
+  "title": "Paragliding",
+  "channels": [
+   "UC0BYRvc56Y1Wikp-R2y4jSw",
+   "UCgp1DN5kDI_fuC8KxxFWRoQ"
+  ],
+  "views": 2,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "가사가갑자기19금이됨": {
+  "artist": "다듀의 고백 을 고치다가",
+  "title": "가사가 갑자기 19금이 됨",
+  "channels": [
+   "UCkAZUuFYPyZrook8rLwib_w"
+  ],
+  "views": 1050,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "나츠마츠리vtuber어비스나츠마츠리4기생어비스스텔라이브버튜버": {
+  "artist": "코가네 랑",
+  "title": "나츠마츠리 vtuber 어비스 나츠마츠리 4기생 어비스 스텔라이브 버튜버",
+  "channels": [
+   "UCaJmUgbqueEd6Tlqrr39Mbg"
+  ],
+  "views": 2452,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "angelbite": {
+  "artist": "TOMORROW X TOGETHER",
+  "title": "Angel Bite",
+  "channels": [
+   "UCWgYP_gdOuDqbplrg7JHL8w"
+  ],
+  "views": 1686,
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-20"
+ },
+ "meiko어나더보컬영상": {
+  "artist": "천성의 약함",
+  "title": "MEIKO 어나더 보컬 영상",
+  "channels": [
+   "UCTe9yeIdsLQ6CrxKKQy5EtA"
+  ],
+  "views": 2345,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "유희왕gx2기오프닝|99": {
+  "artist": "유희왕 GX 2기 오프닝",
+  "title": "99%",
+  "channels": [
+   "UChn-a28OG30Z1bB0x2hXnXw"
+  ],
+  "views": 4,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "생각을멈추다보면": {
+  "artist": "최유리",
+  "title": "생각을 멈추다 보면",
+  "channels": [
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 14796,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "베스티|연애의조건": {
+  "artist": "베스티",
+  "title": "연애의 조건",
+  "channels": [
+   "UCAmff0euQRf6RwVlbB8PLMw",
+   "UCoBcjaSab_CLwBOKe-8Fvjw",
+   "UCtCiO5t2voB14CmZKTkIzPQ"
+  ],
+  "views": 3811672,
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-20"
+ },
+ "rescene|with": {
+  "artist": "RESCENE",
+  "title": "With",
+  "channels": [
+   "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 2391397,
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-11-20"
+ },
+ "shadowbyyoongi": {
+  "artist": "Stray Kids SUIATSU",
+  "title": "ShadowByYoongi",
+  "channels": [
+   "UC6Dot0dgBH9odsD_XKhci_w"
+  ],
+  "views": 1343821,
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-11-20"
+ },
+ "에코즈|닿지못할말": {
+  "artist": "에코즈",
+  "title": "닿지 못할 말",
+  "channels": [
+   "UCPROddBO0nlO269ymvos2jQ"
+  ],
+  "views": 381257,
+  "first_seen": "2026-11-13",
+  "last_seen": "2026-11-20"
+ },
+ "승리의여신|니케ost": {
+  "artist": "승리의 여신",
+  "title": "니케 OST",
+  "channels": [
+   "UCg4DKokPAY3KGBRgsyqHIOQ"
+  ],
+  "views": 738141,
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-20"
+ },
+ "향기chaemin": {
+  "artist": "채민",
+  "title": "향기 chaemin",
+  "channels": [
+   "UCOzqEedpZ9_B8NwNW4-esVA"
+  ],
+  "views": 69,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "수고했어올해의나|영상": {
+  "artist": "수고했어, 올해의 나",
+  "title": "영상",
+  "channels": [
+   "UCccLPvvwYnSLgeF9mspNICw"
+  ],
+  "views": 45,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "mblognavercommannanayoung9082224468587872": {
+  "artist": "자작가사 작사 https",
+  "title": "m.blog.naver.com/mannanayoung_9082/224468587872",
+  "channels": [
+   "UCy3VSUa6mL8_O7NVd8gs87A"
+  ],
+  "views": 270,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "혼잣말video": {
+  "artist": "예정민",
+  "title": "혼잣말 Video",
+  "channels": [
+   "UCr6JLIwwYvCrCZEZp36omoQ"
+  ],
+  "views": 56,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "stays2": {
+  "artist": "SEOULDAL",
+  "title": "STAY S2",
+  "channels": [
+   "UCGuE0TrBNIZKfordUwAQe2w"
+  ],
+  "views": 6057,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "지하노역소ost": {
+  "artist": "희망은 있어",
+  "title": "지하노역소 OST",
+  "channels": [
+   "UCKNRbaI8TWi_4QBjPLI2lbg"
+  ],
+  "views": 0,
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-20"
+ },
+ "lacheyenne": {
+  "artist": "💵, 🔫, 🚓",
+  "title": "La Cheyenne",
+  "channels": [
+   "UCJwQFQGFHp3VoK9rerCnY-Q"
+  ],
+  "views": 7,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "수술전날밤딸이읽어준말씀": {
+  "artist": "두렵지 않네",
+  "title": "수술 전날 밤, 딸이 읽어 준 말씀",
+  "channels": [
+   "UCgYlC2RDKg2du3-8OTiwgOg"
+  ],
+  "views": 311,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "ornote": {
+  "artist": "🙅保留",
+  "title": "Ornote",
+  "channels": [
+   "UCST2aoNK-a89Kh4rSLNOSzg"
+  ],
+  "views": 12,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "김동률|기적l": {
+  "artist": "김동률",
+  "title": "기적 l",
+  "channels": [
+   "UCFYi06jyOHPcxjNmkH1ZoKw"
+  ],
+  "views": 115,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "독수리날아오른다|슈퍼노바": {
+  "artist": "독수리 날아오른다",
+  "title": "슈퍼노바",
+  "channels": [
+   "UCwOvNsT-VfEPizmVzOJBaOQ"
+  ],
+  "views": 0,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "moonwalk": {
+  "artist": "Panda Gomm, 양홍원",
+  "title": "MOONWALK",
+  "channels": [
+   "UC9_U_zuqc2D1ik4xhVzOHnw",
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCb49MGzguy-iTOpohA8njRQ",
+   "UCuf808-Zpmmz-heP8oJ-aFQ",
+   "UCxTViZZABsMZ7_3r7NslBfA"
+  ],
+  "views": 232528,
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-20"
+ },
+ "rescene|백화요란": {
+  "artist": "RESCENE",
+  "title": "백화요란",
+  "channels": [
+   "UCcJW5obUML3W4A7VTY-jv6w",
+   "UCoBcjaSab_CLwBOKe-8Fvjw",
+   "UCx_A3YBvy0l-YoJghMkcmmg"
+  ],
+  "views": 417662,
+  "first_seen": "2026-11-04",
+  "last_seen": "2026-11-20"
+ },
+ "살짝freestyle": {
+  "artist": "저스디스",
+  "title": "살짝 Freestyle",
+  "channels": [
+   "UC0BYRvc56Y1Wikp-R2y4jSw",
+   "UC6-hYaRxvyx94NwRYEZiNcQ",
+   "UC9_U_zuqc2D1ik4xhVzOHnw",
+   "UCF8wEh-DzIOf-vhZqVs2AWQ",
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCZaxtcrLDEOFeYlfa41p6Ww",
+   "UC_TZbcv_bKyhg_6EKjBw1cQ",
+   "UCdFriTWxcGsTyAi_dETzjVA",
+   "UCgp1DN5kDI_fuC8KxxFWRoQ",
+   "UCxTViZZABsMZ7_3r7NslBfA"
+  ],
+  "views": 263710,
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-20"
+ },
+ "triple": {
+  "artist": "기리보이, C JAMM, 블랙넛",
+  "title": "triple",
+  "channels": [
+   "UCF8wEh-DzIOf-vhZqVs2AWQ",
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCPxDBYnOIcmRG5qUZrCC_4g"
+  ],
+  "views": 192646,
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-20"
+ },
+ "맥도날드랩|존박곽진언": {
+  "artist": "맥도날드 랩",
+  "title": "존박 , 곽진언",
+  "channels": [
+   "UCDqaUIUSJP5EVMEI178Zfag",
+   "UCbgd_Fy66dqN3CPUYG3LIMQ"
+  ],
+  "views": 833806,
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-20"
+ },
+ "edenmate": {
+  "artist": "양홍원",
+  "title": "EDENMATE+",
+  "channels": [
+   "UC0BYRvc56Y1Wikp-R2y4jSw",
+   "UCGuE0TrBNIZKfordUwAQe2w",
+   "UCZaxtcrLDEOFeYlfa41p6Ww",
+   "UCgp1DN5kDI_fuC8KxxFWRoQ",
+   "UCsYYVbzTXVpJ-Ay3Cjr5ASg"
+  ],
+  "views": 124393,
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-20"
+ },
+ "모든수험생들에게점수가너의전부는아니니까": {
+  "artist": "🎧 넌! 오답이 아니야",
+  "title": "모든 수험생들에게, 점수가 너의 전부는 아니니까 🌙",
+  "channels": [
+   "UCwzeOBP6uTOzd6UEuySHXNA"
+  ],
+  "views": 21,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "리센느|백화요란": {
+  "artist": "리센느",
+  "title": "백화요란",
+  "channels": [
+   "UCN4megkME3meq8_f-vc8tBQ"
+  ],
+  "views": 24,
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-20"
+ },
+ "a2olite|neon": {
+  "artist": "A2O LITE",
+  "title": "NEON",
+  "channels": [
+   "UC0DNw2habZpRKGwVP1_T3EA"
+  ],
+  "views": 18,
+  "first_seen": "2026-10-15",
+  "last_seen": "2026-11-20"
+ },
+ "rokreserveforce": {
+  "artist": "강철의 심장",
+  "title": "ROK Reserve Force",
+  "channels": [
+   "UCx-BEe7u3-ZJWhk7ZUjaK-Q"
+  ],
+  "views": 13986,
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-20"
+ },
+ "dejavu": {
+  "artist": "리센느",
+  "title": "Deja Vu",
+  "channels": [
+   "UCN4megkME3meq8_f-vc8tBQ"
+  ],
+  "views": 747,
+  "first_seen": "2026-11-19",
+  "last_seen": "2026-11-20"
+ },
+ "꿈꾸던어른이되었나요": {
+  "artist": "머무르",
+  "title": "꿈꾸던 어른이 되었나요?",
+  "channels": [
+   "UCXSJ45-5pGlgm2JPj7UNRNw",
+   "UCsF6Ttu4aaIXyHIRFEfN-Zg",
+   "UCtiA6ZmHFB3p31ntizLVukQ"
+  ],
+  "views": 713562,
+  "first_seen": "2026-11-10",
+  "last_seen": "2026-11-20"
+ },
+ "소연|낭만보내기": {
+  "artist": "소연",
+  "title": "낭만 보내기",
+  "channels": [
+   "UC0DNw2habZpRKGwVP1_T3EA"
+  ],
+  "views": 10,
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-20"
+ },
+ "삐그덕livewith조이듣기가사있음": {
+  "artist": "크러쉬",
+  "title": "삐그덕 Live with 조이 듣기 가사있음",
+  "channels": [
+   "UCBtcQTWGOxty0F_fT8q5NTQ"
+  ],
+  "views": 174,
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-20"
+ },
+ "loveoptions": {
+  "artist": "BESTie",
+  "title": "Love Options",
+  "channels": [
+   "UC5BMQOsAB8hKUyHu9KI6yig",
+   "UCQLfhv_7w8aa7GDigjxOjVw",
+   "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "UClW1r06k_dnZbJNhIg2SXjw"
+  ],
+  "views": 22333147,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-11-20"
+ },
+ "삐그덕livewith조이": {
+  "artist": "이게 나한테는 공식 뮤비야!🥹🫶",
+  "title": "삐그덕 Live with 조이 ]",
+  "channels": [
+   "UCEU3spVQMmXrU0Nqhw00Gpg",
+   "UCyfyS8IGpeM3cB1gKsCR6OQ"
+  ],
+  "views": 6170385,
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-20"
+ },
+ "내이름을불러줘": {
+  "artist": "TWS",
+  "title": "내 이름을 불러줘",
+  "channels": [
+   "UCoBcjaSab_CLwBOKe-8Fvjw"
+  ],
+  "views": 71126,
+  "first_seen": "2026-11-03",
+  "last_seen": "2026-11-20"
+ },
+ "간지bro|고독하구만": {
+  "artist": "간지BRO",
+  "title": "고독하구만",
+  "channels": [
+   "UCxGpuOuVSi9fvEB5pR1b2sQ"
+  ],
+  "views": 59848,
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-20"
+ },
+ "tooclosetoleave": {
+  "artist": "사랑할 생각 없었는데",
+  "title": "Too Close to Leave",
+  "channels": [
+   "UCD0sQVtTIwVb4pNawk2UPFA"
+  ],
+  "views": 48,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "잠시멈춰있던날들에대한노래인디음악": {
+  "artist": "쉬었음",
+  "title": "잠시 멈춰 있던 날들에 대한 노래 인디음악",
+  "channels": [
+   "UCtG_V2_-gnJK9ENxnnAwZ6w"
+  ],
+  "views": 72,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "아무일도없던날": {
+  "artist": "그사이",
+  "title": "아무 일도 없던 날",
+  "channels": [
+   "UCHYnZTO3hsN6HLYzcEboGAw"
+  ],
+  "views": 8,
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ "a2olite": {
+  "artist": "NEON + Dance Break",
+  "title": "A2O LITE",
+  "channels": [
+   "UCeLPm9yH_a_QH8n6445G-Ow"
+  ],
+  "views": 2253670,
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-11-20"
+ },
+ "미장센epikhighdavichi": {
+  "artist": "에픽하이, 다비치",
+  "title": "미장센 EPIK HIGH, DAVICHI",
+  "channels": [
+   "UC-UfpxF5B-qQx-QlGVV3wNg"
+  ],
+  "views": 25,
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-11-20"
+ },
+ "rescene|우리는해": {
+  "artist": "RESCENE",
+  "title": "우리는 해",
+  "channels": [
+   "UC0DNw2habZpRKGwVP1_T3EA"
+  ],
+  "views": 100,
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-11-20"
+ },
+ "계절의끝딩고뮤직dingomusic": {
+  "artist": "박재정",
+  "title": "계절의 끝 딩고뮤직 dingo Music",
+  "channels": [
+   "UCdcEovnW_pYKnM5Q4Kj0DnA"
+  ],
+  "views": 13,
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-11-20"
+ },
+ "개그콘서트gagconcert": {
+  "artist": "이건 무슨 노래 가사야?",
+  "title": "개그콘서트 Gagconcert",
+  "channels": [
+   "UCzT7nHtzVqwiarTH8sqHaJA"
+  ],
+  "views": 205786,
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-11-20"
+ },
+ "together100일의거짓말ost": {
+  "artist": "김태래",
+  "title": "Together • 100일의 거짓말 OST",
+  "channels": [
+   "UCK7Ll9Kz6KCJM4QVkzd60KQ"
+  ],
+  "views": 199233,
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-20"
+ },
+ "소연|퇴사할게여": {
+  "artist": "소연",
+  "title": "퇴사할게여",
+  "channels": [
+   "UCvsd0WBCrhe0cbIK6hgci-w"
+  ],
+  "views": 60,
+  "first_seen": "2026-09-09",
+  "last_seen": "2026-11-20"
+ },
+ "또다른이별은없어딩고뮤직dingomusic": {
+  "artist": "안녕",
+  "title": "또 다른 이별은 없어 딩고뮤직 dingo Music",
+  "channels": [
+   "UCHBDxCkoAt9n0qSX-6krH6A"
+  ],
+  "views": 15,
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-11-20"
+ },
+ "fireinthehole": {
+  "artist": "기리보이, C JAMM, 블랙넛",
+  "title": "FIRE IN THE HOLE",
+  "channels": [
+   "UCGuE0TrBNIZKfordUwAQe2w"
+  ],
+  "views": 93496,
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-20"
+ },
  "윤종신|좋니": {
   "artist": "윤종신",
   "title": "좋니",
@@ -113,39 +708,6 @@
   "first_seen": "2026-11-19",
   "last_seen": "2026-11-19"
  },
- "베스티|연애의조건": {
-  "artist": "베스티",
-  "title": "연애의 조건",
-  "channels": [
-   "UCAmff0euQRf6RwVlbB8PLMw",
-   "UCoBcjaSab_CLwBOKe-8Fvjw",
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 3334518,
-  "first_seen": "2026-11-12",
-  "last_seen": "2026-11-19"
- },
- "rescene|with": {
-  "artist": "RESCENE",
-  "title": "With",
-  "channels": [
-   "UCe52oeb7Xv_KaJsEzcKXJJg",
-   "UCoBcjaSab_CLwBOKe-8Fvjw"
-  ],
-  "views": 2332959,
-  "first_seen": "2026-10-24",
-  "last_seen": "2026-11-19"
- },
- "shadowbyyoongi": {
-  "artist": "Stray Kids SUIATSU",
-  "title": "ShadowByYoongi",
-  "channels": [
-   "UC6Dot0dgBH9odsD_XKhci_w"
-  ],
-  "views": 1251774,
-  "first_seen": "2026-07-26",
-  "last_seen": "2026-11-19"
- },
  "littlestar": {
   "artist": "송민준",
   "title": "Little Star",
@@ -208,101 +770,6 @@
   "first_seen": "2026-11-19",
   "last_seen": "2026-11-19"
  },
- "에코즈|닿지못할말": {
-  "artist": "에코즈",
-  "title": "닿지 못할 말",
-  "channels": [
-   "UCPROddBO0nlO269ymvos2jQ"
-  ],
-  "views": 375407,
-  "first_seen": "2026-11-13",
-  "last_seen": "2026-11-19"
- },
- "승리의여신|니케ost": {
-  "artist": "승리의 여신",
-  "title": "니케 OST",
-  "channels": [
-   "UCg4DKokPAY3KGBRgsyqHIOQ"
-  ],
-  "views": 732430,
-  "first_seen": "2026-11-01",
-  "last_seen": "2026-11-19"
- },
- "미장센epikhighdavichi": {
-  "artist": "에픽하이, 다비치",
-  "title": "미장센 EPIK HIGH, DAVICHI",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 788162,
-  "first_seen": "2026-10-30",
-  "last_seen": "2026-11-19"
- },
- "rescene|우리는해": {
-  "artist": "RESCENE",
-  "title": "우리는 해",
-  "channels": [
-   "UCcQ9V6nEYVMSRWWOrvHQqLg"
-  ],
-  "views": 368565,
-  "first_seen": "2026-10-30",
-  "last_seen": "2026-11-19"
- },
- "moonwalk": {
-  "artist": "Panda Gomm, 양홍원",
-  "title": "MOONWALK",
-  "channels": [
-   "UC9_U_zuqc2D1ik4xhVzOHnw",
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCb49MGzguy-iTOpohA8njRQ",
-   "UCuf808-Zpmmz-heP8oJ-aFQ",
-   "UCxTViZZABsMZ7_3r7NslBfA"
-  ],
-  "views": 225156,
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-19"
- },
- "rescene|백화요란": {
-  "artist": "RESCENE",
-  "title": "백화요란",
-  "channels": [
-   "UCcJW5obUML3W4A7VTY-jv6w",
-   "UCoBcjaSab_CLwBOKe-8Fvjw"
-  ],
-  "views": 376390,
-  "first_seen": "2026-11-04",
-  "last_seen": "2026-11-19"
- },
- "살짝freestyle": {
-  "artist": "저스디스",
-  "title": "살짝 Freestyle",
-  "channels": [
-   "UC0BYRvc56Y1Wikp-R2y4jSw",
-   "UC6-hYaRxvyx94NwRYEZiNcQ",
-   "UC9_U_zuqc2D1ik4xhVzOHnw",
-   "UCF8wEh-DzIOf-vhZqVs2AWQ",
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCZaxtcrLDEOFeYlfa41p6Ww",
-   "UCdFriTWxcGsTyAi_dETzjVA",
-   "UCgp1DN5kDI_fuC8KxxFWRoQ",
-   "UCxTViZZABsMZ7_3r7NslBfA"
-  ],
-  "views": 254483,
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-19"
- },
- "triple": {
-  "artist": "기리보이, C JAMM, 블랙넛",
-  "title": "triple",
-  "channels": [
-   "UCF8wEh-DzIOf-vhZqVs2AWQ",
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCPxDBYnOIcmRG5qUZrCC_4g"
-  ],
-  "views": 189770,
-  "first_seen": "2026-11-05",
-  "last_seen": "2026-11-19"
- },
  "파스텔저녁|재생": {
   "artist": "파스텔 저녁",
   "title": "재생",
@@ -313,58 +780,6 @@
   "first_seen": "2026-11-19",
   "last_seen": "2026-11-19"
  },
- "dejavu": {
-  "artist": "리센느",
-  "title": "Deja Vu",
-  "channels": [
-   "UCN4megkME3meq8_f-vc8tBQ"
-  ],
-  "views": 638,
-  "first_seen": "2026-11-19",
-  "last_seen": "2026-11-19"
- },
- "rokreserveforce": {
-  "artist": "내 나라 내 가족",
-  "title": "ROK Reserve Force",
-  "channels": [
-   "UCx-BEe7u3-ZJWhk7ZUjaK-Q"
-  ],
-  "views": 34883,
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-19"
- },
- "소연|낭만보내기": {
-  "artist": "소연",
-  "title": "낭만 보내기",
-  "channels": [
-   "UC0DNw2habZpRKGwVP1_T3EA"
-  ],
-  "views": 7,
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-19"
- },
- "꿈꾸던어른이되었나요": {
-  "artist": "머무르",
-  "title": "꿈꾸던 어른이 되었나요?",
-  "channels": [
-   "UCXSJ45-5pGlgm2JPj7UNRNw",
-   "UCsF6Ttu4aaIXyHIRFEfN-Zg",
-   "UCtiA6ZmHFB3p31ntizLVukQ"
-  ],
-  "views": 533703,
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-19"
- },
- "삐그덕livewith조이듣기가사있음": {
-  "artist": "크러쉬",
-  "title": "삐그덕 Live with 조이 듣기 가사있음",
-  "channels": [
-   "UCBtcQTWGOxty0F_fT8q5NTQ"
-  ],
-  "views": 74,
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-19"
- },
  "소연|star": {
   "artist": "소연",
   "title": "STAR",
@@ -373,100 +788,6 @@
   ],
   "views": 12,
   "first_seen": "2026-11-17",
-  "last_seen": "2026-11-19"
- },
- "loveoptions": {
-  "artist": "BESTie",
-  "title": "Love Options",
-  "channels": [
-   "UC5BMQOsAB8hKUyHu9KI6yig",
-   "UCe52oeb7Xv_KaJsEzcKXJJg",
-   "UClW1r06k_dnZbJNhIg2SXjw"
-  ],
-  "views": 20902930,
-  "first_seen": "2026-10-08",
-  "last_seen": "2026-11-19"
- },
- "삐그덕livewith조이": {
-  "artist": "이게 나한테는 공식 뮤비야!🥹🫶",
-  "title": "삐그덕 Live with 조이 ]",
-  "channels": [
-   "UCEU3spVQMmXrU0Nqhw00Gpg",
-   "UCyfyS8IGpeM3cB1gKsCR6OQ"
-  ],
-  "views": 5901256,
-  "first_seen": "2026-11-17",
-  "last_seen": "2026-11-19"
- },
- "내이름을불러줘": {
-  "artist": "TWS",
-  "title": "내 이름을 불러줘",
-  "channels": [
-   "UCoBcjaSab_CLwBOKe-8Fvjw"
-  ],
-  "views": 68650,
-  "first_seen": "2026-11-03",
-  "last_seen": "2026-11-19"
- },
- "간지bro|고독하구만": {
-  "artist": "간지BRO",
-  "title": "고독하구만",
-  "channels": [
-   "UCxGpuOuVSi9fvEB5pR1b2sQ"
-  ],
-  "views": 57931,
-  "first_seen": "2026-11-01",
-  "last_seen": "2026-11-19"
- },
- "a2olite|neon": {
-  "artist": "A2O LITE",
-  "title": "NEON",
-  "channels": [
-   "UC5BMQOsAB8hKUyHu9KI6yig"
-  ],
-  "views": 416908,
-  "first_seen": "2026-10-15",
-  "last_seen": "2026-11-19"
- },
- "a2olite": {
-  "artist": "NEON + Dance Break",
-  "title": "A2O LITE",
-  "channels": [
-   "UCS_hnpJLQTvBkqALgapi_4g",
-   "UCeLPm9yH_a_QH8n6445G-Ow"
-  ],
-  "views": 5199411,
-  "first_seen": "2026-10-21",
-  "last_seen": "2026-11-19"
- },
- "개그콘서트gagconcert": {
-  "artist": "이건 무슨 노래 가사야?",
-  "title": "개그콘서트 Gagconcert",
-  "channels": [
-   "UCzT7nHtzVqwiarTH8sqHaJA"
-  ],
-  "views": 202259,
-  "first_seen": "2026-10-31",
-  "last_seen": "2026-11-19"
- },
- "together100일의거짓말ost": {
-  "artist": "김태래",
-  "title": "Together • 100일의 거짓말 OST",
-  "channels": [
-   "UCK7Ll9Kz6KCJM4QVkzd60KQ"
-  ],
-  "views": 191519,
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-19"
- },
- "fireinthehole": {
-  "artist": "기리보이, C JAMM, 블랙넛",
-  "title": "FIRE IN THE HOLE",
-  "channels": [
-   "UCGuE0TrBNIZKfordUwAQe2w"
-  ],
-  "views": 92304,
-  "first_seen": "2026-11-05",
   "last_seen": "2026-11-19"
  },
  "ahohyeh": {
@@ -530,17 +851,6 @@
   ],
   "views": 1268,
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-18"
- },
- "edenmate": {
-  "artist": "양홍원",
-  "title": "EDENMATE+",
-  "channels": [
-   "UCGuE0TrBNIZKfordUwAQe2w",
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 75775,
-  "first_seen": "2026-11-18",
   "last_seen": "2026-11-18"
  },
  "멜랑콜릭어비스스텔라이브싱크룸멜랑콜릭히요리": {
@@ -985,17 +1295,6 @@
   "first_seen": "2026-11-17",
   "last_seen": "2026-11-17"
  },
- "angelbite": {
-  "artist": "TXT",
-  "title": "Angel Bite",
-  "channels": [
-   "UC0BYRvc56Y1Wikp-R2y4jSw",
-   "UCgp1DN5kDI_fuC8KxxFWRoQ"
-  ],
-  "views": 1,
-  "first_seen": "2026-11-17",
-  "last_seen": "2026-11-17"
- },
  "mixwell|저스트뮤직": {
   "artist": "MIXWELL",
   "title": "저스트뮤직",
@@ -1064,16 +1363,6 @@
   ],
   "views": 4164,
   "first_seen": "2026-11-17",
-  "last_seen": "2026-11-17"
- },
- "지하노역소ost": {
-  "artist": "화면 너머 같은 박자",
-  "title": "지하노역소 OST",
-  "channels": [
-   "UCKNRbaI8TWi_4QBjPLI2lbg"
-  ],
-  "views": 0,
-  "first_seen": "2026-11-12",
   "last_seen": "2026-11-17"
  },
  "tararolypoly": {
@@ -1484,16 +1773,6 @@
    "UCMPY0EwfoH0OE7mv2_0zCFA"
   ],
   "views": 24875,
-  "first_seen": "2026-11-15",
-  "last_seen": "2026-11-15"
- },
- "맥도날드랩|존박곽진언": {
-  "artist": "맥도날드 랩",
-  "title": "존박 , 곽진언",
-  "channels": [
-   "UCbgd_Fy66dqN3CPUYG3LIMQ"
-  ],
-  "views": 4489,
   "first_seen": "2026-11-15",
   "last_seen": "2026-11-15"
  },
@@ -1927,16 +2206,6 @@
   ],
   "views": 4,
   "first_seen": "2026-10-16",
-  "last_seen": "2026-11-14"
- },
- "소연|퇴사할게여": {
-  "artist": "소연",
-  "title": "퇴사할게여",
-  "channels": [
-   "UCE7oF-xa-jZ8-V-bvunafFw"
-  ],
-  "views": 108127,
-  "first_seen": "2026-09-09",
   "last_seen": "2026-11-14"
  },
  "us딩고뮤직dingomusic": {
@@ -3290,16 +3559,6 @@
   "first_seen": "2026-11-08",
   "last_seen": "2026-11-09"
  },
- "또다른이별은없어딩고뮤직dingomusic": {
-  "artist": "안녕",
-  "title": "또 다른 이별은 없어 딩고뮤직 dingo Music",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 101335,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
- },
  "moonride": {
   "artist": "하츠투하츠",
   "title": "Moonride",
@@ -3954,16 +4213,6 @@
    "UCGH2JJdGboOMggcUoUEmXeg"
   ],
   "views": 5115,
-  "first_seen": "2026-11-05",
-  "last_seen": "2026-11-05"
- },
- "리센느|백화요란": {
-  "artist": "리센느",
-  "title": "백화요란",
-  "channels": [
-   "UCWgYP_gdOuDqbplrg7JHL8w"
-  ],
-  "views": 2799,
   "first_seen": "2026-11-05",
   "last_seen": "2026-11-05"
  },
@@ -6881,16 +7130,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
  },
- "계절의끝딩고뮤직dingomusic": {
-  "artist": "박재정",
-  "title": "계절의 끝 딩고뮤직 dingo Music",
-  "channels": [
-   "UCtCiO5t2voB14CmZKTkIzPQ"
-  ],
-  "views": 211203,
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-22"
- },
  "birthdaywish": {
   "artist": "NMIXX",
   "title": "Birthday Wish",
@@ -7130,166 +7369,5 @@
   "views": 525109,
   "first_seen": "2026-10-03",
   "last_seen": "2026-10-21"
- },
- "노래맞는데요slashhh슬래시": {
-  "artist": "엑디즈",
-  "title": "노래 맞는데요.. Slashhh! 슬래시",
-  "channels": [
-   "UCdzUV158x17wKw5sepbfJhA"
-  ],
-  "views": 737,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "together": {
-  "artist": "김태래",
-  "title": "Together",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 518,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "gohard|meovv": {
-  "artist": "GO HARD",
-  "title": "MEOVV",
-  "channels": [
-   "UCi5u2xTzKv4vQY3Fqse9MtA"
-  ],
-  "views": 1225,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "louisetucker": {
-  "artist": "⭐ Midnight Blue",
-  "title": "Louise Tucker",
-  "channels": [
-   "UCvU5wzJ5J31BN1ni-gnvSow"
-  ],
-  "views": 24,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "2000년대감성미디움템포차분한위로곡2000년대감성감성발라드": {
-  "artist": "저스트그립해",
-  "title": "2000년대 감성 , 미디움템포 차분한 위로곡 2000년대감성 감성발라드",
-  "channels": [
-   "UCB3hrTx-HAVVXxA0L2WbXOA"
-  ],
-  "views": 215,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "neon한국어": {
-  "artist": "A2O LITE",
-  "title": "NEON 한국어",
-  "channels": [
-   "UCIzPTqdh1M339pkAq69zrfA"
-  ],
-  "views": 661,
-  "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
- },
- "sunkiss": {
-  "artist": "TUIDE",
-  "title": "SUN KISS",
-  "channels": [
-   "UCoBcjaSab_CLwBOKe-8Fvjw"
-  ],
-  "views": 9459,
-  "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
- },
- "로꼬|타타": {
-  "artist": "로꼬",
-  "title": "타타",
-  "channels": [
-   "UCgp1DN5kDI_fuC8KxxFWRoQ"
-  ],
-  "views": 591,
-  "first_seen": "2026-10-17",
-  "last_seen": "2026-10-20"
- },
- "notpersonal": {
-  "artist": "조슈아",
-  "title": "Not personal",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 81,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "정한|컬러링": {
-  "artist": "정한",
-  "title": "컬러링",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 96,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "이승철|듣고있나요": {
-  "artist": "이승철",
-  "title": "듣고 있나요",
-  "channels": [
-   "UCfYbgUklmL0qJv9kks-cDug"
-  ],
-  "views": 1263,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "21학번|퇴근송": {
-  "artist": "21학번",
-  "title": "퇴근송",
-  "channels": [
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 350,
-  "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
- },
- "너를만나고세상이달라졌어": {
-  "artist": "휴이",
-  "title": "너를 만나고 세상이 달라졌어",
-  "channels": [
-   "UCZaxtcrLDEOFeYlfa41p6Ww"
-  ],
-  "views": 63,
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- "a2oa2olite|neon": {
-  "artist": "A2O, A2O LITE",
-  "title": "NEON",
-  "channels": [
-   "UCoBcjaSab_CLwBOKe-8Fvjw",
-   "UCylvD44Ks75w-jTw4ie3Crg"
-  ],
-  "views": 347492,
-  "first_seen": "2026-10-15",
-  "last_seen": "2026-10-20"
- },
- "kokoniaru재생": {
-  "artist": "디핵",
-  "title": "KOKO NI ARU / 재생",
-  "channels": [
-   "UCSCYXc1qw3kTTelZ7DJXaVA"
-  ],
-  "views": 29,
-  "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
- },
- "기다린게아닌것처럼|풀버전": {
-  "artist": "기다린게 아닌것 처럼",
-  "title": "⬇️풀버전",
-  "channels": [
-   "UCjNnFksGHA93dIxS7ubTTBg"
-  ],
-  "views": 295,
-  "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
  }
 }
