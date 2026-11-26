@@ -1,61 +1,61 @@
-# 바이럴 레이더 — 2026-11-25
+# 바이럴 레이더 — 2026-11-26
 
-수집 영상 606건 · 곡 후보 54곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 5곡
+수집 영상 614건 · 곡 후보 55곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 5곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **미나미 – 사랑해볼래, 나** | 6일차 | 6.5 | +2.9 | 8.0만 | 1.2만 | — |
-| 2 | **래원 – 먼치킨** | 6일차 | 3.5 | +1.2 | 9.6만 | 45.3만 | — |
-| 3 | **BIGBANG – 기립** | 4일차 | 5.5 | +0.0 | 344.6만 | 2280.0만 | — |
-| 4 | **이게 나한테는 공식 뮤비야!🥹🫶 – 삐그덕 Live with 조이 ]** | 8일차 | 3.0 | +1.0 | 719.7만 | 80.1만 | — |
-| 5 | **머무르 – 꿈꾸던 어른이 되었나요?** | 15일차 | 4.0 | +2.0 | 143.8만 | 8,340 | — |
+| 1 | **YENA _사쿠란보 – J-POP REMAKE Vol.5** | 0일차 | 2.0 | +2.0 | 414.1만 | 159.0만 | — |
+| 2 | **래원 – 먼치킨** | 7일차 | 4.5 | +0.8 | 10.3만 | 45.3만 | — |
+| 3 | **양홍원 – EDENMATE+** | 8일차 | 2.0 | +0.9 | 17.3만 | 45.3만 | — |
+| 4 | **머무르 – 꿈꾸던 어른이 되었나요?** | 16일차 | 5.0 | +1.0 | 158.6만 | 8,360 | — |
+| 5 | **베스티 – 연애의 조건** | 14일차 | 2.5 | +0.8 | 334.4만 | 557.0만 | — |
 
 ---
 
-### 1. 미나미 – 사랑해볼래, 나
+### 1. YENA _사쿠란보 – J-POP REMAKE Vol.5
 
-- 점수 **10.79** · 진입 6일차 (최초 포착 2026-11-19)
-- 독립 진영 **6.5개** (어제 대비 +2.9, 원시 채널 9개) · 원시 9개 중 양산채널 2개 제외
-- 누적 조회 8.0만 (오늘 +1,565)
-- 최대 채널 규모 1.2만 구독
-- 채널: JH Playlist, MY DRAMA OST, Songfor, 미남스키오브뮤직, 베어뮤직 BearMusic, 송알송알
-- 대표 영상: [사랑해볼래, 나](https://youtu.be/XaYEatR3a7g)
+- 점수 **4.98** · 진입 0일차 (최초 포착 2026-11-26)
+- 독립 진영 **2.0개** (어제 대비 +2.0, 원시 채널 2개)
+- 누적 조회 414.1만 (오늘 +414.1만)
+- 최대 채널 규모 159.0만 구독
+- 채널: kclips, 동네친구 강나미 [Kangnami]
+- 대표 영상: [J-POP REMAKE Vol.5](https://youtu.be/S5dTQf2y3iA)
 
 ### 2. 래원 – 먼치킨
 
-- 점수 **3.96** · 진입 6일차 (최초 포착 2026-11-19)
-- 독립 진영 **3.5개** (어제 대비 +1.2, 원시 채널 6개) · 원시 6개 중 양산채널 2개 제외
-- 누적 조회 9.6만 (오늘 +7,338)
+- 점수 **2.93** · 진입 7일차 (최초 포착 2026-11-19)
+- 독립 진영 **4.5개** (어제 대비 +0.8, 원시 채널 6개) · 원시 6개 중 양산채널 1개 제외
+- 누적 조회 10.3만 (오늘 +6,861)
 - 최대 채널 규모 45.3만 구독
-- 채널: 노래제목가사, 소리문장, 송알송알, 알파, 팝클, PopClicker, 힙합팬타이탄_HiphopFanTitan
+- 채널: 노래제목가사, 명반만올림, 소리문장, 알파, 팝클, PopClicker, 힙합팬타이탄_HiphopFanTitan
 - 대표 영상: [먼치킨](https://youtu.be/JI2_tWyhuqY)
 
-### 3. BIGBANG – 기립
+### 3. 양홍원 – EDENMATE+
 
-- 점수 **2.75** · 진입 4일차 (최초 포착 2026-11-21)
-- 독립 진영 **5.5개** (어제 대비 +0.0, 원시 채널 8개) · 원시 8개 중 양산채널 1개 제외
-- 누적 조회 344.6만 (오늘 +58.4만)
-- 최대 채널 규모 2280.0만 구독
-- 채널: 1 Høur, 1H Kpop, JH Playlist, Mnet K-POP, 弘大湯米, 알파
-- 대표 영상: [기립](https://youtu.be/FHl9ST9GaKE)
+- 점수 **1.87** · 진입 8일차 (최초 포착 2026-11-18)
+- 독립 진영 **2.0개** (어제 대비 +0.9, 원시 채널 7개) · 원시 7개 중 양산채널 2개 제외
+- 누적 조회 17.3만 (오늘 +4,172)
+- 최대 채널 규모 45.3만 구독
+- 채널: JH Playlist, ODDPICK | 오드픽, Songfor, tting-gog, 머니백초이, 송알송알
+- 대표 영상: [EDENMATE+](https://youtu.be/6YbAxtQi4Is)
 
-### 4. 이게 나한테는 공식 뮤비야!🥹🫶 – 삐그덕 Live with 조이 ]
+### 4. 머무르 – 꿈꾸던 어른이 되었나요?
 
-- 점수 **2.53** · 진입 8일차 (최초 포착 2026-11-17)
-- 독립 진영 **3.0개** (어제 대비 +1.0, 원시 채널 3개)
-- 누적 조회 719.7만 (오늘 +14.3만)
-- 최대 채널 규모 80.1만 구독
-- 채널: Crush, K-potify 케이포티파이, 바코드 플레이리스트
-- 대표 영상: [삐그덕 Live with 조이](https://youtu.be/v_71o1VU28o)
-
-### 5. 머무르 – 꿈꾸던 어른이 되었나요?
-
-- 점수 **2.07** · 진입 15일차 (최초 포착 2026-11-10)
-- 독립 진영 **4.0개** (어제 대비 +2.0, 원시 채널 4개)
-- 누적 조회 143.8만 (오늘 +63.5만)
-- 최대 채널 규모 8,340 구독
-- 채널: ChaeA 채아, Lyreeve, 오브 뮤직 - OVV MUSIC, 중앙보훈병원밴드 : THE NOLZA
+- 점수 **1.68** · 진입 16일차 (최초 포착 2026-11-10)
+- 독립 진영 **5.0개** (어제 대비 +1.0, 원시 채널 5개)
+- 누적 조회 158.6만 (오늘 +14.7만)
+- 최대 채널 규모 8,360 구독
+- 채널: ChaeA 채아, Lyreeve, 오브 뮤직 - OVV MUSIC, 중앙보훈병원밴드 : THE NOLZA, 채널
 - 대표 영상: [꿈꾸던 어른이 되었나요?](https://youtu.be/UlZrap4DubA)
+
+### 5. 베스티 – 연애의 조건
+
+- 점수 **0.15** · 진입 14일차 (최초 포착 2026-11-12)
+- 독립 진영 **2.5개** (어제 대비 +0.8, 원시 채널 3개)
+- 누적 조회 334.4만 (오늘 +0)
+- 최대 채널 규모 557.0만 구독
+- 채널: 弘大湯米, 딩고 뮤직 / dingo music, 웅키
+- 대표 영상: [연애의 조건](https://youtu.be/qE-KYFwMoOc)
 
 ---
 
@@ -63,14 +63,14 @@
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **양홍원 – EDENMATE+** · 7일차 · 진영 1.5 · 조회 16.9만
-- **맥도날드 랩 – 존박 , 곽진언** · 10일차 · 진영 3.0 · 조회 114.1만
-- **저스디스 – 살짝 Freestyle** · 14일차 · 진영 3.5 · 조회 30.0만
-- **승리의 여신 – 니케 OST** · 24일차 · 진영 1.0 · 조회 4.6만
-- **BIGBANG GiiiRIP – ShadowByYoongi** · 122일차 · 진영 1.0 · 조회 245.6만
-- **Panda Gomm, 양홍원 – MOONWALK** · 14일차 · 진영 3.0 · 조회 26.8만
-- **기리보이, C JAMM, 블랙넛 – AHOHYEH** · 20일차 · 진영 2.0 · 조회 8.4만
-- **기리보이, C JAMM, 블랙넛 – triple** · 20일차 · 진영 1.0 · 조회 20.6만
+- **BIGBANG – 기립** · 5일차 · 진영 3.5 · 조회 383.8만
+- **이게 나한테는 공식 뮤비야!🥹🫶 – 삐그덕 Live with 조이 ]** · 9일차 · 진영 3.0 · 조회 733.8만
+- **미나미 – 사랑해볼래, 나** · 7일차 · 진영 3.5 · 조회 7.9만
+- **맥도날드 랩 – 존박 , 곽진언** · 11일차 · 진영 3.0 · 조회 118.8만
+- **저스디스 – 살짝 Freestyle** · 15일차 · 진영 4.0 · 조회 30.6만
+- **BIGBANG GiiiRIP – ShadowByYoongi** · 123일차 · 진영 1.0 · 조회 256.2만
+- **Panda Gomm, 양홍원 – MOONWALK** · 15일차 · 진영 2.5 · 조회 27.4만
+- **RESCENE – 백화요란** · 22일차 · 진영 0.5 · 조회 35.7만
 
 ---
 
@@ -78,21 +78,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **Way Ched , 언텔 – 히스테리 )** · 0일차 · 조회 12.7만 · (진영 1.0) · [영상](https://youtu.be/pcsmOjSSeiY)
-- **임시완 – Like You** · 0일차 · 조회 1.1만 · (오늘 미확인) · [영상](https://youtu.be/pmMOYUm0sVA)
-- **신용재 – 안녕의 안녕** · 0일차 · 조회 5,552 · (오늘 미확인) · [영상](https://youtu.be/GrMk_vK8-E4)
-- **오늘만은 – 울지말고들어 가사노래 사랑노래 인디음악** · 0일차 · 조회 1,178 · (오늘 미확인) · [영상](https://youtu.be/RwmXKbTk2ag)
-- **리센느 – 백화요란** · 20일차 · 조회 927 · (오늘 미확인) · [영상](https://youtu.be/mvTRrr17wx0)
-- **BOBBY – moon 🌙** · 0일차 · 조회 76 · (오늘 미확인) · [영상](https://youtu.be/N27ZvdGaV-8)
-- **CL – ICONIC** · 4일차 · 조회 91 · (오늘 미확인) · [영상](https://youtu.be/B6Fm5ec8obk)
-- **크러쉬 – 삐그덕** · 0일차 · 조회 64 · (오늘 미확인) · [영상](https://youtu.be/2eCyEKhQuWI)
-- **리센느 – MEME** · 21일차 · 조회 96 · (오늘 미확인) · [영상](https://youtu.be/cuDPLekoTHk)
-- **정우석 – 나도 잘 모르겠어요** · 0일차 · 조회 34 · (오늘 미확인) · [영상](https://youtu.be/7suDd_bA-qs)
-- **언제부터 괜찮지 않았을까 인디음악 – 모던락 현실공감곡** · 0일차 · 조회 23 · (오늘 미확인) · [영상](https://youtu.be/c9nsPhXXTmU)
-- **BIGBANG – BLUE** · 0일차 · 조회 16 · (오늘 미확인) · [영상](https://youtu.be/7sJYl3-blxY)
-- **첫눈 오는 저녁 – Wa2D** · 1일차 · 조회 14 · (오늘 미확인) · [영상](https://youtu.be/NrLhrFco_jE)
-- **Overdose – Natori 노래 기타 코드 악보 타브 🎸** · 2일차 · 조회 1,252 · (오늘 미확인) · [영상](https://youtu.be/Wn8scuMrqsY)
-- **BIGBANG – BAD BOY** · 0일차 · 조회 12 · (오늘 미확인) · [영상](https://youtu.be/IPrpevsNE7k)
+- **NEON 1위 트로피의 쓰임새 – A2O LITE** · 36일차 · 조회 516.0만 · (진영 1.0) · [영상](https://youtu.be/ZF0L5xmaXcU)
+- **❤️‍🔥박진영X김유정의 가슴 아린 사랑 – 웬디** · 0일차 · 조회 16.3만 · (진영 1.0) · [영상](https://youtu.be/eHEugfUQ4Fg)
+- **조기퇴소다 – ROK Reserve Force** · 10일차 · 조회 6.9만 · (오늘 미확인) · [영상](https://youtu.be/p9vyutLgl4Q)
+- **전세연 – 이름 없는 계절 딩고뮤직 dingo Music** · 0일차 · 조회 4.4만 · (오늘 미확인) · [영상](https://youtu.be/G-dav-zqVrw)
+- **🛹 스케이트보드 풀버전 – 김하온 스타일 AI 로봇 보컬 🤖 재즈 힙합** · 0일차 · 조회 1.3만 · (오늘 미확인) · [영상](https://youtu.be/XrydkGdEPBU)
+- **Way Ched , 언텔 – 히스테리 )** · 1일차 · 조회 13.7만 · (진영 1.0) · [영상](https://youtu.be/pcsmOjSSeiY)
+- **양요섭 – 카페인** · 0일차 · 조회 4,653 · (오늘 미확인) · [영상](https://youtu.be/I85VyxrsMfI)
+- **혁오 – 아님의 무게** · 0일차 · 조회 1,773 · (오늘 미확인) · [영상](https://youtu.be/G-nFAKVZlJw)
+- **임현우 – 너도** · 0일차 · 조회 1,315 · (오늘 미확인) · [영상](https://youtu.be/_6OYULHOuEc)
+- **오늘만은 – 울지말고들어 가사노래 사랑노래 인디음악** · 1일차 · 조회 2,436 · (오늘 미확인) · [영상](https://youtu.be/RwmXKbTk2ag)
+- **윤하 – 필사적 필사** · 1일차 · 조회 1,166 · (오늘 미확인) · [영상](https://youtu.be/2sDE0ADmeKw)
+- **이해하면 더 슬픈 – 안녕의 안녕]** · 0일차 · 조회 1,147 · (오늘 미확인) · [영상](https://youtu.be/zWuvODlfC-E)
+- **izna – IWALY** · 0일차 · 조회 478 · (오늘 미확인) · [영상](https://youtu.be/UA3XGuuMsVg)
+- **KISS OF LIFE Greedy – Lyritix** · 2일차 · 조회 496 · (오늘 미확인) · [영상](https://youtu.be/6Yy1CY3Ai0w)
+- **리센느 – Dragon** · 23일차 · 조회 169 · (오늘 미확인) · [영상](https://youtu.be/IK2Y-nTIalo)
 
 ---
 
@@ -107,35 +107,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 78건
+2단 검증으로 추가 확보한 영상: 77건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 223 · 한글없음 196 · 파싱실패 51
+걸러낸 영상 — 정크 228 · 한글없음 204 · 파싱실패 57
 
 실제로 긁혀온 제목 표본 20개:
 
-- Ab kisi ke sath ki koi khwahish nhi rhi I blackscreen lyrics status I #shorts #lyrics #viral #fyp
-- 후렴 첫 가사에 정재형 울컥?! 차태현도 정인 아예 안 보여 좋았다 극찬한 이민우 열창과 김선음 박수 ㄷㄷ #우리들의발라드 #우리들의발라드시즌2 #SBS #우발2 #비비
-- 신용재 (2F) - 안녕의 안녕 [가사/Lyrics/English]
-- Kya Mila Waar Kar Ke 💔🥀 | black screen lyrics status | #sad #lovestatus #shayari #poetry #shorts
-- 윤하(YOUNHA) - 필사적 필사(전지적 독자 시점 OST) (가사/Lyrics)
-- 신용재 (2F) - 안녕의 안녕(가사/Lyrics)
-- 잠깐만! - MooThis | 가사 Lyrics | W, Story #03 | 버스 향해 전력 질주
-- 윤하(YOUNHA) - 필사적 필사(전지적 독자 시점 OST) [가사/Lyrics/English]
-- GDEE - Alice (Lyrics)
-- 변진섭 - 이 비 그치면 [가사/Lyrics/English]
-- Dard sahne Ki aadat hai mujhe Dard😭🥀 black screen lyrics status 🖤 #sadshayari#viralshort#shorts
-- BIGBANG (빅뱅) – BAD BOY | Lyrics · 가사
-- BIGBANG (빅뱅) – TONIGHT | Lyrics · 가사
-- BIGBANG (빅뱅) – BLUE | Lyrics · 가사
-- George Harrison’s Lyrics That Destroyed Lennon and McCartney
-- 박대희, 박진서 - 그대 떠난 뒤(우리들의 발라드 2 Story 8) [가사/Lyrics/English]
-- 가사 있는 노래가 공부를 방해하는 이유 | 1분 뇌과학
-- 계절이 서른 번 지나가는 동안 | 흰머리가 늘었어 (가사) #8090발라드 #shorts
-- 월급은 스쳐 지나가고 (Payday Passes By) - 슈퍼노바 | 가사 Lyrics | 월급날 직장인 공감송 · 디스코 팝
-- 가사 한 줄 썼더니 마블 엔딩에 내 이름이ㅋㅋ #강남언니 #스텔라장 #방탄소년단
+- Why Ringo Didn’t Change The Lyrics to ‘Baby It’s You’ 🤯 #thebeatles #ringostarr #musicfacts
+- 빅뱅 신곡 기립 가사 뜯어보니 소름?!
+- 무라사키 이마 - 마성의 여자 A(魔性の女A) [가사/발음/해석]
+- 방실이 - 서울탱고 (가사/Lyrics - 신나는 트롯 버전 / AI커버곡) K-POP AI COVER
+- KISS OF LIFE - Greedy [가사/Lyrics/English]
+- Aankhon Se Chu Lu Ke 🫶💗 Baahein Tarasti Hai | Lyrics Status | #shorts #lyrics #lovesong #aesthetic
+- KISS OF LIFE - Greedy(가사/Lyrics)
+- #사랑의자리 #노래가사 #정애리
+- 맞벌이 하면 가사노동은 남자가 하는 게 맞아요
+- 찬양을 부를수록 더 찔리는 이유 (가사처럼 못 사는 당신에게)
+- 새벽 달리기 (Dawn Run) - 슈퍼노바 | 가사 Lyrics | 러닝할 때 듣는 노래 · 운동 신스팝
+- 엄마도 여자였네 꽃 같은 여자 | 엄마도 여자였네 (가사) #인생트로트 #shorts
+- Mega step - 눈도장 찍어 #Shorts #크리스마스 #AI음악 #가사
+- [드럼악보] CLICHE - BOYNEXTDOOR / 노래방 / 가사 / 드럼악보
+- Can The Hunger Games cast finish these lyrics to a Mckenna Grace throwback!? 👀
+- 기범이가 질색하는 한국어 가사들과 수정 전 멜로디로 부르는 진기ㅋㅋㅋ | 텔미왓투두 후렴구 비하인드 #샤이니 #SHINee
+- “Believe Me" Teo Bok (Lyrics video) | X Factor 2026
+- 🖤 House of Memories (Super Reverb) – Panic! At The Disco | Lyrics | Black Screen #shorts
+- 공감 가사로 차트 1위 직장인 울린 노래
+- 육아맘들이 듣자마자 눈물 터졌다는 가사 1위... "나는 온몸으로 엄마가 되었는데" 🌙 #Shorts
 
 ---
 
