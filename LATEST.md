@@ -1,71 +1,62 @@
-# 바이럴 레이더 — 2026-11-27
+# 바이럴 레이더 — 2026-11-28
 
-수집 영상 615건 · 곡 후보 53곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 6곡
+수집 영상 606건 · 곡 후보 49곡 · 독립 진영 2개 이상 + 조회 800회 이상 → 5곡
 
 | # | 곡 | 진입 | 진영 | 어제比 | 조회수 | 최대구독 | Shazam |
 |---|-----|------|------|--------|--------|----------|--------|
-| 1 | **미나미 – 사랑해볼래, 나** | 8일차 | 5.5 | +2.8 | 8.1만 | 1.2만 | — |
-| 2 | **YENA _사쿠란보 – J-POP REMAKE Vol.5** | 1일차 | 2.0 | +0.0 | 432.2만 | 159.0만 | — |
-| 3 | **BIGBANG – 기립** | 6일차 | 5.0 | +1.4 | 434.7만 | 2280.0만 | — |
-| 4 | **래원 – 먼치킨** | 8일차 | 3.5 | +1.0 | 11.0만 | 45.3만 | — |
-| 5 | **머무르 – 꿈꾸던 어른이 되었나요?** | 17일차 | 5.0 | +1.0 | 83.4만 | 8,410 | — |
-| 6 | **베스티 – 연애의 조건** | 15일차 | 2.5 | +0.8 | 454.8만 | 557.0만 | — |
+| 1 | **미나미 – 사랑해볼래, 나** | 9일차 | 5.5 | +0.7 | 8.2만 | 1.2만 | — |
+| 2 | **YENA _사쿠란보 – J-POP REMAKE Vol.5** | 2일차 | 2.0 | +0.0 | 450.3만 | 159.0만 | — |
+| 3 | **래원 – 먼치킨** | 9일차 | 3.5 | +0.6 | 11.5만 | 45.3만 | — |
+| 4 | **베스티 – 연애의 조건** | 16일차 | 3.5 | +0.9 | 467.2만 | 558.0만 | — |
+| 5 | **RESCENE – With** | 35일차 | 2.0 | +1.0 | 485.1만 | 1170.0만 | ⚠ 진입 |
 
 ---
 
 ### 1. 미나미 – 사랑해볼래, 나
 
-- 점수 **6.12** · 진입 8일차 (최초 포착 2026-11-19)
-- 독립 진영 **5.5개** (어제 대비 +2.8, 원시 채널 8개) · 원시 8개 중 양산채널 2개 제외
-- 누적 조회 8.1만 (오늘 +1,777)
+- 점수 **2.84** · 진입 9일차 (최초 포착 2026-11-19)
+- 독립 진영 **5.5개** (어제 대비 +0.7, 원시 채널 8개) · 원시 8개 중 양산채널 2개 제외
+- 누적 조회 8.2만 (오늘 +974)
 - 최대 채널 규모 1.2만 구독
 - 채널: JH Playlist, MY DRAMA OST, Songfor, 미남스키오브뮤직, 베어뮤직 BearMusic, 송알송알
 - 대표 영상: [사랑해볼래, 나](https://youtu.be/XaYEatR3a7g)
 
 ### 2. YENA _사쿠란보 – J-POP REMAKE Vol.5
 
-- 점수 **2.47** · 진입 1일차 (최초 포착 2026-11-26)
+- 점수 **2.47** · 진입 2일차 (최초 포착 2026-11-26)
 - 독립 진영 **2.0개** (어제 대비 +0.0, 원시 채널 2개)
-- 누적 조회 432.2만 (오늘 +18.1만)
+- 누적 조회 450.3만 (오늘 +18.1만)
 - 최대 채널 규모 159.0만 구독
 - 채널: kclips, 동네친구 강나미 [Kangnami]
 - 대표 영상: [J-POP REMAKE Vol.5](https://youtu.be/S5dTQf2y3iA)
 
-### 3. BIGBANG – 기립
+### 3. 래원 – 먼치킨
 
-- 점수 **2.28** · 진입 6일차 (최초 포착 2026-11-21)
-- 독립 진영 **5.0개** (어제 대비 +1.4, 원시 채널 7개) · 원시 7개 중 양산채널 1개 제외
-- 누적 조회 434.7만 (오늘 +51.0만)
-- 최대 채널 규모 2280.0만 구독
-- 채널: 1H Kpop, ERRDAY DRIP (얼데이드립), JH Playlist, Mnet K-POP, 알파, 웅키
-- 대표 영상: [기립](https://youtu.be/FHl9ST9GaKE)
-
-### 4. 래원 – 먼치킨
-
-- 점수 **2.28** · 진입 8일차 (최초 포착 2026-11-19)
-- 독립 진영 **3.5개** (어제 대비 +1.0, 원시 채널 7개) · 원시 7개 중 양산채널 3개 제외
-- 누적 조회 11.0만 (오늘 +7,110)
+- 점수 **1.53** · 진입 9일차 (최초 포착 2026-11-19)
+- 독립 진영 **3.5개** (어제 대비 +0.6, 원시 채널 6개) · 원시 6개 중 양산채널 2개 제외
+- 누적 조회 11.5만 (오늘 +5,085)
 - 최대 채널 규모 45.3만 구독
-- 채널: Songfor, 노래제목가사, 소리문장, 송알송알, 알파, 팝클, PopClicker
+- 채널: 노래제목가사, 명반만올림, 소리문장, 송알송알, 알파, 힙합팬타이탄_HiphopFanTitan
 - 대표 영상: [먼치킨](https://youtu.be/JI2_tWyhuqY)
 
-### 5. 머무르 – 꿈꾸던 어른이 되었나요?
+### 4. 베스티 – 연애의 조건
 
-- 점수 **0.9** · 진입 17일차 (최초 포착 2026-11-10)
-- 독립 진영 **5.0개** (어제 대비 +1.0, 원시 채널 5개)
-- 누적 조회 83.4만 (오늘 +0)
-- 최대 채널 규모 8,410 구독
-- 채널: Lyreeve, 료베, 오브 뮤직 - OVV MUSIC, 중앙보훈병원밴드 : THE NOLZA, 채널
-- 대표 영상: [꿈꾸던 어른이 되었나요?](https://youtu.be/075FFZptiE4)
-
-### 6. 베스티 – 연애의 조건
-
-- 점수 **0.37** · 진입 15일차 (최초 포착 2026-11-12)
-- 독립 진영 **2.5개** (어제 대비 +0.8, 원시 채널 3개)
-- 누적 조회 454.8만 (오늘 +120.3만)
-- 최대 채널 규모 557.0만 구독
-- 채널: SBS Radio 에라오, 딩고 뮤직 / dingo music, 웅키
+- 점수 **0.37** · 진입 16일차 (최초 포착 2026-11-12)
+- 독립 진영 **3.5개** (어제 대비 +0.9, 원시 채널 4개)
+- 누적 조회 467.2만 (오늘 +12.4만)
+- 최대 채널 규모 558.0만 구독
+- 채널: SBS Radio 에라오, 딩고 뮤직 / dingo music, 오브 뮤직 - OVV MUSIC, 웅키
 - 대표 영상: [연애의 조건](https://youtu.be/qE-KYFwMoOc)
+
+### 5. RESCENE – With
+
+- 점수 **0.12** · 진입 35일차 (최초 포착 2026-10-24)
+- 독립 진영 **2.0개** (어제 대비 +1.0, 원시 채널 2개)
+- 누적 조회 485.1만 (오늘 +287.6만)
+- 최대 채널 규모 1170.0만 구독
+- ⚠ **Shazam 한국 200 진입 — 이미 대중까지 넘어감. 커버 타이밍 늦었을 수 있음**
+- 채널: Disney Korea, MBCkpop
+- 대표 영상: [With](https://youtu.be/SfC1yCQV_yw)
 
 ---
 
@@ -73,14 +64,14 @@
 
 _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
-- **이게 나한테는 공식 뮤비야!🥹🫶 – 삐그덕 Live with 조이 ]** · 10일차 · 진영 3.0 · 조회 748.1만
-- **양홍원 – EDENMATE+** · 9일차 · 진영 1.0 · 조회 17.7만
-- **NEON 1위 트로피의 쓰임새 – A2O LITE** · 37일차 · 진영 1.0 · 조회 526.3만
-- **맥도날드 랩 – 존박 , 곽진언** · 12일차 · 진영 3.0 · 조회 124.2만
-- **저스디스 – 살짝 Freestyle** · 16일차 · 진영 3.5 · 조회 31.1만
-- **BIGBANG GiiiRIP – ShadowByYoongi** · 124일차 · 진영 1.0 · 조회 268.1만
-- **Panda Gomm, 양홍원 – MOONWALK** · 16일차 · 진영 2.5 · 조회 28.1만
-- **RESCENE – 백화요란** · 23일차 · 진영 0.5 · 조회 38.2만
+- **BIGBANG – 기립** · 7일차 · 진영 4.0 · 조회 467.0만
+- **머무르 – 꿈꾸던 어른이 되었나요?** · 18일차 · 진영 3.0 · 조회 86.8만
+- **NEON 1위 트로피의 쓰임새 – A2O LITE** · 38일차 · 진영 1.0 · 조회 539.5만
+- **조기퇴소다 – ROK Reserve Force** · 12일차 · 진영 1.0 · 조회 7.7만
+- **이게 나한테는 공식 뮤비야!🥹🫶 – 삐그덕 Live with 조이 ]** · 11일차 · 진영 2.0 · 조회 762.9만
+- **양홍원 – EDENMATE+** · 10일차 · 진영 1.0 · 조회 17.9만
+- **맥도날드 랩 – 존박 , 곽진언** · 13일차 · 진영 3.0 · 조회 130.2만
+- **Panda Gomm, 양홍원 – MOONWALK** · 17일차 · 진영 3.0 · 조회 28.7만
 
 ---
 
@@ -88,21 +79,21 @@ _진영이 더 안 늘어. 참고용이고 노릴 구간은 지났어._
 
 _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 
-- **꿈꾸는 어른이 되었나요 – 리마스터 사운드** · 0일차 · 조회 9.0만 · (진영 1.0) · [영상](https://youtu.be/DqOXl66KNk8)
-- **🛹 스케이트보드 풀버전 – 김하온 스타일 AI 로봇 보컬 🤖 재즈 힙합** · 1일차 · 조회 3.0만 · (오늘 미확인) · [영상](https://youtu.be/XrydkGdEPBU)
-- **전세연 – 이름 없는 계절 딩고뮤직 dingo Music** · 1일차 · 조회 5.9만 · (진영 1.0) · [영상](https://youtu.be/G-dav-zqVrw)
-- **Way Ched , 언텔 – 히스테리 )** · 2일차 · 조회 14.6만 · (진영 1.5) · [영상](https://youtu.be/pcsmOjSSeiY)
-- **정수빈, 이원석 – Tu tu tu** · 0일차 · 조회 4,152 · (오늘 미확인) · [영상](https://youtu.be/Ew5oVA8w0F4)
-- **❤️‍🔥박진영X김유정의 가슴 아린 사랑 – 웬디** · 1일차 · 조회 16.7만 · (진영 1.0) · [영상](https://youtu.be/eHEugfUQ4Fg)
-- **오진구밴드 – 한 바퀴 더 인디밴드 펑크록 ai뮤직비디오** · 1일차 · 조회 1,244 · (오늘 미확인) · [영상](https://youtu.be/3zBNdCA3Cjo)
-- **캘리그라피 – 노래 사쿠란보 중에서 노래가사쓰기 예쁜글씨 calligraphy art handwriting** · 0일차 · 조회 477 · (오늘 미확인) · [영상](https://youtu.be/Txzb5IiUtL4)
-- **안녕 – 피아노** · 0일차 · 조회 316 · (오늘 미확인) · [영상](https://youtu.be/WoBu-J7hCOY)
-- **A2O LITE – Neon** · 43일차 · 조회 327 · (오늘 미확인) · [영상](https://youtu.be/YsBZjyDI1wQ)
-- **BIGBANG – 거짓말** · 0일차 · 조회 212 · (오늘 미확인) · [영상](https://youtu.be/v6I5sadmLhM)
-- **BIGBANG – 하루하루** · 0일차 · 조회 180 · (오늘 미확인) · [영상](https://youtu.be/yOzvXhz1yfs)
-- **제미나이 – Hola** · 0일차 · 조회 139 · (오늘 미확인) · [영상](https://youtu.be/ysrwD8nYlTI)
-- **리센느 – Dragon** · 24일차 · 조회 221 · (오늘 미확인) · [영상](https://youtu.be/IK2Y-nTIalo)
-- **슬픈 우리 사랑 – 이별** · 0일차 · 조회 27 · (오늘 미확인) · [영상](https://youtu.be/Ugna9I0uMXg)
+- **Why Do We Love – 최정철 Karaoke** · 0일차 · 조회 4.2만 · (진영 1.0) · [영상](https://youtu.be/gh-0AutnE-s)
+- **ASH ISLAND – GOOD MOURNING** · 0일차 · 조회 3.2만 · (오늘 미확인) · [영상](https://youtu.be/BO_dsrg05LA)
+- **전세연 – 이름 없는 계절 딩고뮤직 dingo Music** · 2일차 · 조회 7.6만 · (진영 1.0) · [영상](https://youtu.be/G-dav-zqVrw)
+- **🛹 스케이트보드 풀버전 – 김하온 스타일 AI 로봇 보컬 🤖 재즈 힙합** · 2일차 · 조회 4.2만 · (오늘 미확인) · [영상](https://youtu.be/XrydkGdEPBU)
+- **Way Ched , 언텔 – 히스테리 )** · 3일차 · 조회 15.4만 · (진영 1.5) · [영상](https://youtu.be/pcsmOjSSeiY)
+- **❤️‍🔥박진영X김유정의 가슴 아린 사랑 – 웬디** · 2일차 · 조회 17.2만 · (진영 1.0) · [영상](https://youtu.be/eHEugfUQ4Fg)
+- **DPR ARTIC, DPR IAN – witch** · 0일차 · 조회 2,539 · (오늘 미확인) · [영상](https://youtu.be/9GLy1vTBoJI)
+- **BIGBANG – 2026 MAMA Viral Song** · 0일차 · 조회 532 · (오늘 미확인) · [영상](https://youtu.be/JdaAajX4nGE)
+- **The First Snow – EXO christmas exo firstsnow** · 0일차 · 조회 373 · (오늘 미확인) · [영상](https://youtu.be/PlwjbM_OTXE)
+- **꿈꾸는 어른이 되었나요 – 리마스터 사운드** · 1일차 · 조회 9.0만 · (진영 1.0) · [영상](https://youtu.be/DqOXl66KNk8)
+- **성시경 – 태양계 l** · 0일차 · 조회 88 · (오늘 미확인) · [영상](https://youtu.be/j3N5GEpc1mY)
+- **🐈‍⬛🔥 롸우우 니거니거 – 2026 K-POP Girl Group Dance Pop** · 0일차 · 조회 24 · (오늘 미확인) · [영상](https://youtu.be/NWdiit9HlbI)
+- **경서 – HERE, HEART** · 0일차 · 조회 18 · (오늘 미확인) · [영상](https://youtu.be/zkH3YnG6LBk)
+- **폴킴 – My Only One** · 0일차 · 조회 15 · (오늘 미확인) · [영상](https://youtu.be/m55q-yvOc6g)
+- **Sinking Boat – JYHOPES** · 0일차 · 조회 9 · (오늘 미확인) · [영상](https://youtu.be/fQ85rFeYVFM)
 
 ---
 
@@ -117,35 +108,35 @@ _여기서 채널이 하나 더 붙으면 위 표로 올라온다._
 | `sped up 가사` | 100 |
 | `인디 노래 가사` | 100 |
 
-2단 검증으로 추가 확보한 영상: 76건
+2단 검증으로 추가 확보한 영상: 73건
 
 API 오류 — 할당량 초과 0건 · 기타 0건
 
 
-걸러낸 영상 — 정크 220 · 한글없음 213 · 파싱실패 56
+걸러낸 영상 — 정크 225 · 한글없음 216 · 파싱실패 52
 
 실제로 긁혀온 제목 표본 20개:
 
-- 신현준 트로트 - 천 년을 돌아 너에게 (다른 버전) | 가사
-- 존박 디스곡에 에픽하이 투컷 직접 전화… 가사 소스 준 건 타블로였다 #에픽하이 #투컷 #존박 #타블로 #EPIKHIGH #Shorts
-- 캘리그라피 - 노래 '사쿠란보 (최예나)' 가사 중에서 #노래가사쓰기 #예쁜글씨 #calligraphy #art #handwriting
-- #안녕 - 피아노(2026) ： 저 사람을 원하고 사모하다. [가사/Lyrics/English]
-- Bernie Taupin Says Nobody Writes Lyrics Like Mick Jagger. Mick's Answer? #shorts
-- 오존(O3ohn) - Nobody(가사/Lyrics)
-- 소확행워프 "Small Happiness" [가사/Lyrics] | 스무스 펑크 Smooth Volume 2 #shorts
-- Remember Me, Oh Lord | 10 Explosive Gospel Reggae Songs | New Video Lyrics | Lucky Dube x Bob Marley
-- HANUMAN CHALISA LYRICS 🙏💯 || FAST HANUMAN CHALISA 🙏 #hanuman #hanumanchalisa #trending #shorts
-- 에피톤 프로젝트(Epitone Project) - 겨울(가사/Lyrics)
-- [313] ⭐ We've Only Just Begun – Carpenters (1970) | 명곡 가사 익히기 | 결혼 축하 명곡 | 팝송 영어 한 문장
-- 머무르 - 있어도 그만 없어도 그만 [가사/Lyrics/English]
-- 오프닝부터 눈 가리고 나온 여섯 명, 안대 풀린 박자의 가사 | 아이브 MAMA
-- [제목]리디아(Lydia) - 잊으려 해봐도 안돼(가사/Lyrics)
-- 실리카겔 만파식적, 가사에 만파식적이 한 번도 없습니다
-- 노벨상 한강이 알아본 악뮤 이찬혁 가사ㄷㄷ
-- 미국에서는 왜 일본 노래 제목이 '스키야키'가 됐을까? 가사와 아무 상관 없는 음식 이름을 달고 일본어 노래로는 처음이자 유일하게 빌보드 1위에 오른 '위를 보고 걷자'
-- 슬픈 우리 사랑 | 이별·그리움 랩 발라드 자작곡 (가사 MV) — 비 내리는 밤, 아직 너를 부르는 이름
-- drake stealing lyrics from flight😭🙏
-- Alfaaz (Lyrics) - Hamza Malik & Zain Zohaib
+- 스노우볼 (Snow Globe) - HUNE | 가사 Lyrics
+- Hold me closer 이마 | SixTONES - Closer (가사/발음/한글 자막/번역)
+- Jeene Laga Hoon ❤️✨ Atif Aslam & Shreya Ghoshal | Romantic Lyrics Status #shorts #lyrics
+- Guzarishon Pe Gaur Kijiye 🥺❤️ | Guzarish | Satinder Sartaaj | #shorts #lyrics #lovesong #aesthetic
+- Dilruba Dilnasheen ❤️ | Rito Riba | Aesthetic Lyrics | #Shorts #Lyrics #Song #songlyrics #trending
+- ^^ 서희에게 가사플랭크 하기^^ #가사플랭크
+- 명절스트레스 "Holiday Stress" [가사/Lyrics] | 스무스 펑크 Smooth Volume 2 #shorts
+- 김재환 - Moving On(굿파트너2 OST Part.2)(가사/Lyrics)
+- 가사 실수한 카리나는 무대를 어떻게 이어갔을까? #카리나 #에스파 #shorts
+- 전철 - 해운대 연가 (가사/Lyrics - 신나는 트롯 버전 / AI커버곡) K-POP AI COVER
+- Kalyani (Remix Song) | Shreya Ghoshal | Aesthetic Lyrics | #viralsong #shortsfeed #trendingsong #new
+- 😔🥀Per woh na mila sirf ek ll black screen lyrics ll shayari status video #trending #viral #explore
+- [314] ⭐ I Have a Dream – 아바 (1979) | 명곡 가사 익히기 | 내 마음속엔 꿈이 있어 | 팝송 영어 한 문장
+- kid Milli, OKASHII , Matthew , Raf Sandou , Jeffrey White , MASON HOME - WBYL(가사/Lyrics)
+- #🇰🇷멸공👍#가사👍#shorts
+- K$AP RAMA , 외동아들 김승기 - 없어 [가사/Lyrics/English]
+- ASH ISLAND - GOOD MOURNING (Feat. BE'O) [가사/Lyrics/English]
+- 폴킴(Paul Kim) - My Only One(가사/Lyrics)
+- 주말엔 바다 (Weekend Sea) - 슈퍼노바 | 가사 Lyrics | 주말 여행 노래 · 트로피컬 하우스
+- 우산 하나 사이에 두고 걸었네 | 왜 하필 오늘 비가 (가사) #인생트로트 #shorts
 
 ---
 
